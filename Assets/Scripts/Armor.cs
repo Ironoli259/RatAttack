@@ -9,7 +9,7 @@ public class Armor : BaseWeapon
     void Start()
     {
         Player player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-        player.playerMaxHP += armorPoints * level;
+        player.playerMaxHP += armorPoints * level;        
     }
 
 }

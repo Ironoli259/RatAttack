@@ -1,0 +1,1751 @@
+fileFormatVersion: 2
+guid: be9d49e7df00f8347ad61e773121863c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 352
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9828b025822c3294682b8e0b38359ff9
+      internalID: -190489168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 352
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6946c7698a7aeb64881b8bb2d1f02a11
+      internalID: -2030914141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 352
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5028349, y: 0.47953615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf7f55ce7752a842b7ae0ba24d750b7
+      internalID: 1486960761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 352
+        width: 19
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5011067, y: 0.5201164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b468861b115a1764092cce7216874468
+      internalID: 96813887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 320
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c23277cc031de649bd21e5784c2d556
+      internalID: -635485150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 320
+        width: 16
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5214541, y: 0.4405893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59457d0549bbd242a364805fb898301
+      internalID: -1340792834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 320
+        width: 17
+        height: 28
+      alignment: 9
+      pivot: {x: 0.51009595, y: 0.4080549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5555ff476cd549a41a634b7593d58dec
+      internalID: -1297336133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 320
+        width: 16
+        height: 25
+      alignment: 9
+      pivot: {x: 0.53218126, y: 0.46567383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7eed23350ffc884fa81f0e521ac5c45
+      internalID: 1572543622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 320
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caeea9e44d9b01141b94225ec0e80d53
+      internalID: 1213688617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 320
+        width: 17
+        height: 26
+      alignment: 9
+      pivot: {x: 0.51009595, y: 0.47359526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520d461758e27234195631a5e44287d5
+      internalID: 1211435151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 320
+        width: 17
+        height: 28
+      alignment: 9
+      pivot: {x: 0.51009595, y: 0.41418457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c86a26210393b4ba011cea03f06933
+      internalID: 112348161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 320
+        width: 16
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4794043}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44736a21a1b54d643ba40f9537cd22a4
+      internalID: -167524334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 288
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c87149452636594b8812cc061b8385f
+      internalID: 1922305716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 288
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6d89fba73ae5e4bbafc6155a62cab0
+      internalID: -416830834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 288
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecc2b0133424b8478211c611b146f3c
+      internalID: 78957046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 288
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294a965e4148ed9418cd6cece03fe381
+      internalID: 521482293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 288
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533a784d8b7085a4f8724ed22dbc45ed
+      internalID: 382113632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 288
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e885b5eb00382dd41881155e0d96f9d3
+      internalID: -1463245213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 288
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3a202b871b4f74d9a68edc87866162
+      internalID: 475175462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 288
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e778b68c0530b674cbaf15d98e73fd39
+      internalID: 1895790322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 256
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b900ab141f8f444b8527adedee1134
+      internalID: -1154569243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 256
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fb142d450fb5d40a6b84e2e6072c7e
+      internalID: -373302609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 224
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1e7653427ce7141bb70fa28eab1f63
+      internalID: 22404986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 224
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90da0373c0fd9d489f05b719723b973
+      internalID: -1235570533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 224
+        width: 19
+        height: 26
+      alignment: 9
+      pivot: {x: 0.49566248, y: 0.46196336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c07a6e7b6eed84bb6599201db781ac
+      internalID: -1032288252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 224
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fae0375e02b1fe4eb47da9d621e0d25
+      internalID: -340055542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 192
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435f96b9cf19e554990a460df7f761d4
+      internalID: 277793682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 192
+        width: 19
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.45874023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113bc8f2dc4cbe54d8f287fa94c94572
+      internalID: 904058352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 192
+        width: 21
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5419457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea2539d1f5699c42b5a94a533ef7e93
+      internalID: -1401818743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 192
+        width: 21
+        height: 15
+      alignment: 9
+      pivot: {x: 0.49103254, y: 0.7887441}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8446e903dad17ec448f329c3d7430a38
+      internalID: -1022705284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 192
+        width: 21
+        height: 13
+      alignment: 9
+      pivot: {x: 0.47686696, y: 0.9135883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4822bc1bc8eb2409808b14285fcf56
+      internalID: 1222730574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 192
+        width: 21
+        height: 13
+      alignment: 9
+      pivot: {x: 0.4730973, y: 0.92103106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6a0f5a26564b34d9201fd6e7cc422c
+      internalID: -968842748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 160
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613720b4cdfa3c641bf1ddeb656e5efe
+      internalID: 1584386233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 160
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.5329826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05d1286b27fe3f42b82d4b1f4010686
+      internalID: 2068895668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 160
+        width: 17
+        height: 21
+      alignment: 9
+      pivot: {x: 0.4893296, y: 0.57774425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947f427bdb6d8104ea945123349b2cdc
+      internalID: -931414835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 160
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.51133776, y: 0.59977114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167f40bc9fb2e4341ae301d3002f0043
+      internalID: 1778601057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 160
+        width: 17
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5000009, y: 0.5863822}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fc430da26ae4d46935b444c6884f4a
+      internalID: -1415269824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 160
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.59977114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527cee49fed21f74b8fed6a04b8aca94
+      internalID: 1605997485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 160
+        width: 17
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5000009, y: 0.55182904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea918d0a2d19194eb4af8dbb8dcfed8
+      internalID: 445470946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 160
+        width: 20
+        height: 24
+      alignment: 9
+      pivot: {x: 0.50000155, y: 0.5075588}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ab7c239e0b3b64e81e23f3b7a309eb
+      internalID: 348614333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 128
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ad76f6bf392ba4882b72ed72d4a25a
+      internalID: -1919007270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f3a0b20343c1a42b91b187bbe922e2
+      internalID: -2131186480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 128
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadaaafeb8ea28b41ac5cba1f953ddce
+      internalID: 1938010698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 128
+        width: 24
+        height: 17
+      alignment: 9
+      pivot: {x: 0.51511735, y: 0.7240852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93dd2dc4a75c74d4889c803c580334fd
+      internalID: -941180454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 128
+        width: 23
+        height: 17
+      alignment: 9
+      pivot: {x: 0.50000066, y: 0.69207317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd801ce052826d749a5783cc6c89c2f4
+      internalID: -1803104083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 128
+        width: 17
+        height: 21
+      alignment: 9
+      pivot: {x: 0.4893296, y: 0.6122967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29f3477f0fe3134082ae67d612ef555
+      internalID: 640702496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 96
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec7fb0796207d94a9f29e29a9976ab9
+      internalID: 1068218884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 96
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5168461, y: 0.55819774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bddefce997e400439aebbe56fbe308e
+      internalID: -1578351628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 96
+        width: 17
+        height: 21
+      alignment: 9
+      pivot: {x: 0.49058533, y: 0.5685893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a7808ad0b7d284c821efa65d7e5a33
+      internalID: 963257605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 96
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.51000166, y: 0.60402757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cabac1b31705449bf81e6af7d61460
+      internalID: -91456117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 96
+        width: 17
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5094138, y: 0.5609683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8d0ed593cabf14e86a99f4e344c55c
+      internalID: -1320215137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 96
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.4899969, y: 0.5960251}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab624c76bf02de4297e733256825be3
+      internalID: 1289951168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 96
+        width: 17
+        height: 21
+      alignment: 9
+      pivot: {x: 0.49058533, y: 0.5914525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e677b898dd497449bb2b7539c4390e
+      internalID: 1944437585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 96
+        width: 20
+        height: 24
+      alignment: 9
+      pivot: {x: 0.49999923, y: 0.54001045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5188220eb8aca4c8716ef73fb07686
+      internalID: -1115607175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d67a0c3767e7b49a4461d0a2f4b444
+      internalID: -2011346890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dd036314c2e5d47bca77c79e1067b1
+      internalID: -1370429532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 64
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a1b2a616994794887ffd5716b5a8ed
+      internalID: 1111489492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 64
+        width: 24
+        height: 17
+      alignment: 9
+      pivot: {x: 0.49333128, y: 0.7541845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b476068b8d1b8784e94c0754fe61f519
+      internalID: -1829393826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 64
+        width: 23
+        height: 17
+      alignment: 9
+      pivot: {x: 0.49304134, y: 0.7447703}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5ac6b17e05cc6428e5dc668452b9eb
+      internalID: 683760001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 64
+        width: 17
+        height: 21
+      alignment: 9
+      pivot: {x: 0.49058443, y: 0.6371791}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a65a2e590e94ee4b8d516c51da3bdfd
+      internalID: 178086966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 32
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f6af25339f7414f8d759412bb24a16
+      internalID: 1856407183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 32
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.5405043}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ae5cf06b1591d42b4f4e8a9c7cb600
+      internalID: -1412951217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 32
+        width: 17
+        height: 21
+      alignment: 9
+      pivot: {x: 0.4912639, y: 0.54950494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9802af68265349e4da49e17dd98dc7cd
+      internalID: -228473389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 32
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.4907174, y: 0.5965344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39527f801b4e14743878044ba25ea627
+      internalID: -320354813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 32
+        width: 17
+        height: 21
+      alignment: 9
+      pivot: {x: 0.50873613, y: 0.556578}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbef506ba7fbbd54791b135862a14c54
+      internalID: 2103439731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 32
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.48143578, y: 0.5965344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f048d30a2958c459e6ce4773aefe64
+      internalID: -616175227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 32
+        width: 17
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5174713, y: 0.60608184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299e20aafdd1f074fa878d5eb0a1ff85
+      internalID: 1671729805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 32
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823af497c9727b34cbe40e3a5b73d5e8
+      internalID: 125387885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7a1cf170e698b4eac5bb0bad03b416
+      internalID: 133175606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a747ad81724e9764d984851a7d0132cb
+      internalID: 680785739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d703a8d9f6b1bf47aea7be431766a17
+      internalID: 2100505102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 0
+        width: 24
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5054677, y: 0.70845973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9875c994bcb89e040a5380ab442f3761
+      internalID: 38374922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 23
+        height: 17
+      alignment: 9
+      pivot: {x: 0.49429256, y: 0.700739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b13072dd75f869428fce25d12d1bf18
+      internalID: -1572190578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mad Professor Sprite Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 17
+        height: 21
+      alignment: 9
+      pivot: {x: 0.49227816, y: 0.60625255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f043c666623722545b4f3a1a0c17899e
+      internalID: 276168388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mad Professor Sprite Sheet_24: -1032288252
+      Mad Professor Sprite Sheet_41: -2131186480
+      Mad Professor Sprite Sheet_42: 1938010698
+      Mad Professor Sprite Sheet_54: -2011346890
+      Mad Professor Sprite Sheet_16: 382113632
+      Mad Professor Sprite Sheet_8: 1213688617
+      Mad Professor Sprite Sheet_63: -320354813
+      Mad Professor Sprite Sheet_43: -941180454
+      Mad Professor Sprite Sheet_19: 1895790322
+      Mad Professor Sprite Sheet_39: 348614333
+      Mad Professor Sprite Sheet_12: 1922305716
+      Mad Professor Sprite Sheet_55: -1370429532
+      Mad Professor Sprite Sheet_18: 475175462
+      Mad Professor Sprite Sheet_4: -635485150
+      Mad Professor Sprite Sheet_11: -167524334
+      Mad Professor Sprite Sheet_27: 904058352
+      Mad Professor Sprite Sheet_29: -1022705284
+      Mad Professor Sprite Sheet_2: 1486960761
+      Mad Professor Sprite Sheet_36: -1415269824
+      Mad Professor Sprite Sheet_37: 1605997485
+      Mad Professor Sprite Sheet_48: 963257605
+      Mad Professor Sprite Sheet_32: 1584386233
+      Mad Professor Sprite Sheet_50: -1320215137
+      Mad Professor Sprite Sheet_40: -1919007270
+      Mad Professor Sprite Sheet_64: 2103439731
+      Mad Professor Sprite Sheet_66: 1671729805
+      Mad Professor Sprite Sheet_6: -1297336133
+      Mad Professor Sprite Sheet_52: 1944437585
+      Mad Professor Sprite Sheet_65: -616175227
+      Mad Professor Sprite Sheet_53: -1115607175
+      Mad Professor Sprite Sheet_73: 276168388
+      Mad Professor Sprite Sheet_31: -968842748
+      Mad Professor Sprite Sheet_7: 1572543622
+      Mad Professor Sprite Sheet_14: 78957046
+      Mad Professor Sprite Sheet_44: -1803104083
+      Mad Professor Sprite Sheet_17: -1463245213
+      Mad Professor Sprite Sheet_38: 445470946
+      Mad Professor Sprite Sheet_22: 22404986
+      Mad Professor Sprite Sheet_59: 178086966
+      Mad Professor Sprite Sheet_34: -931414835
+      Mad Professor Sprite Sheet_10: 112348161
+      Mad Professor Sprite Sheet_25: -340055542
+      Mad Professor Sprite Sheet_13: -416830834
+      Mad Professor Sprite Sheet_33: 2068895668
+      Mad Professor Sprite Sheet_70: 2100505102
+      Mad Professor Sprite Sheet_0: -190489168
+      Mad Professor Sprite Sheet_30: 1222730574
+      Mad Professor Sprite Sheet_1: -2030914141
+      Mad Professor Sprite Sheet_56: 1111489492
+      Mad Professor Sprite Sheet_21: -373302609
+      Mad Professor Sprite Sheet_47: -1578351628
+      Mad Professor Sprite Sheet_72: -1572190578
+      Mad Professor Sprite Sheet_71: 38374922
+      Mad Professor Sprite Sheet_26: 277793682
+      Mad Professor Sprite Sheet_23: -1235570533
+      Mad Professor Sprite Sheet_46: 1068218884
+      Mad Professor Sprite Sheet_60: 1856407183
+      Mad Professor Sprite Sheet_69: 680785739
+      Mad Professor Sprite Sheet_61: -1412951217
+      Mad Professor Sprite Sheet_68: 133175606
+      Mad Professor Sprite Sheet_45: 640702496
+      Mad Professor Sprite Sheet_67: 125387885
+      Mad Professor Sprite Sheet_62: -228473389
+      Mad Professor Sprite Sheet_3: 96813887
+      Mad Professor Sprite Sheet_9: 1211435151
+      Mad Professor Sprite Sheet_51: 1289951168
+      Mad Professor Sprite Sheet_5: -1340792834
+      Mad Professor Sprite Sheet_57: -1829393826
+      Mad Professor Sprite Sheet_58: 683760001
+      Mad Professor Sprite Sheet_35: 1778601057
+      Mad Professor Sprite Sheet_15: 521482293
+      Mad Professor Sprite Sheet_20: -1154569243
+      Mad Professor Sprite Sheet_28: -1401818743
+      Mad Professor Sprite Sheet_49: -91456117
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
