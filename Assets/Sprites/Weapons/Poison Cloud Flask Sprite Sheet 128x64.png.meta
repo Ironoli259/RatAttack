@@ -1,0 +1,478 @@
+fileFormatVersion: 2
+guid: 63a61057d8abdd54692b30099c9346de
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Poison Cloud Flask Sprite Sheet 128x64_0
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 216
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d15ecabd5ac244893ad2330f975151
+      internalID: -391175164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud Flask Sprite Sheet 128x64_1
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 214
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56062970cfc3f5843a688e181f11a806
+      internalID: -1895867101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud Flask Sprite Sheet 128x64_3
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 213
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c46f479a50bc044aeb168f373f892e
+      internalID: 1149475453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud Flask Sprite Sheet 128x64_6
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 220
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec276ba1dfd68e49ad2f0c43ee18e43
+      internalID: 410242562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud Flask Sprite Sheet 128x64_20
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 142
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da554695b079ac47bdf7bc7afe5d3aa
+      internalID: 573940098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud Flask Sprite Sheet 128x64_29
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 143
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9934b1e2710b94b45af1f03b86faacde
+      internalID: 492132011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud Flask Sprite Sheet 128x64_41
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 148
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac84fc3baa8df74b93a916cdf3a360c
+      internalID: -893830993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud Flask Sprite Sheet 128x64_42
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 145
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca8eda76d4039b44bed28688011569a
+      internalID: -562275809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud Flask Sprite Sheet 128x64_53
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 81
+        width: 60
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c12c877db433034eabb930a69cfb419
+      internalID: 592326387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud Flask Sprite Sheet 128x64_59
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 80
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93acaaa13619e08499db033a641e1b95
+      internalID: -224735443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud Flask Sprite Sheet 128x64_65
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 79
+        width: 68
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b7c57868c08ba4bb3c6e8755ae4663
+      internalID: -1687609458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud Flask Sprite Sheet 128x64_66
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 81
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5e44f91e8d93c4187ac88243fbd2fa
+      internalID: 496516251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Cloud Flask Sprite Sheet 128x64_67
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 14
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c6ea562e12d8f409f4b2a0740cb46a
+      internalID: -818052641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Poison Cloud Flask Sprite Sheet 128x64_63: 2014571919
+      Poison Cloud Flask Sprite Sheet 128x64_47: -1852549856
+      Poison Cloud Flask Sprite Sheet 128x64_0: -391175164
+      Poison Cloud Flask Sprite Sheet 128x64_22: -1319724092
+      Poison Cloud Flask Sprite Sheet 128x64_57: -1122654226
+      Poison Cloud Flask Sprite Sheet 128x64_50: -1630276386
+      Poison Cloud Flask Sprite Sheet 128x64_21: -1944731303
+      Poison Cloud Flask Sprite Sheet 128x64_33: -1256084308
+      Poison Cloud Flask Sprite Sheet 128x64_76: 2134407420
+      Poison Cloud Flask Sprite Sheet 128x64_14: -537539220
+      Poison Cloud Flask Sprite Sheet 128x64_79: 954961891
+      Poison Cloud Flask Sprite Sheet 128x64_28: -609209311
+      Poison Cloud Flask Sprite Sheet 128x64_5: -1609849183
+      Poison Cloud Flask Sprite Sheet 128x64_1: -1895867101
+      Poison Cloud Flask Sprite Sheet 128x64_18: -269845540
+      Poison Cloud Flask Sprite Sheet 128x64_3: 1149475453
+      Poison Cloud Flask Sprite Sheet 128x64_42: -562275809
+      Poison Cloud Flask Sprite Sheet 128x64_73: -2047042361
+      Poison Cloud Flask Sprite Sheet 128x64_34: -1662180522
+      Poison Cloud Flask Sprite Sheet 128x64_75: 910226493
+      Poison Cloud Flask Sprite Sheet 128x64_49: -991336855
+      Poison Cloud Flask Sprite Sheet 128x64_78: -1742726653
+      Poison Cloud Flask Sprite Sheet 128x64_41: -893830993
+      Poison Cloud Flask Sprite Sheet 128x64_10: 1502904500
+      Poison Cloud Flask Sprite Sheet 128x64_23: 1805837045
+      Poison Cloud Flask Sprite Sheet 128x64_65: -1687609458
+      Poison Cloud Flask Sprite Sheet 128x64_45: -1344519650
+      Poison Cloud Flask Sprite Sheet 128x64_11: 1759836400
+      Poison Cloud Flask Sprite Sheet 128x64_7: 2009377662
+      Poison Cloud Flask Sprite Sheet 128x64_60: 1081638270
+      Poison Cloud Flask Sprite Sheet 128x64_2: -351179963
+      Poison Cloud Flask Sprite Sheet 128x64_12: -671515676
+      Poison Cloud Flask Sprite Sheet 128x64_43: 47109948
+      Poison Cloud Flask Sprite Sheet 128x64_16: -1895794008
+      Poison Cloud Flask Sprite Sheet 128x64_58: -21519843
+      Poison Cloud Flask Sprite Sheet 128x64_35: -476764271
+      Poison Cloud Flask Sprite Sheet 128x64_29: 492132011
+      Poison Cloud Flask Sprite Sheet 128x64_8: 1151039423
+      Poison Cloud Flask Sprite Sheet 128x64_53: 592326387
+      Poison Cloud Flask Sprite Sheet 128x64_38: 1526406326
+      Poison Cloud Flask Sprite Sheet 128x64_17: -1914234273
+      Poison Cloud Flask Sprite Sheet 128x64_72: -1748920726
+      Poison Cloud Flask Sprite Sheet 128x64_77: -2137065975
+      Poison Cloud Flask Sprite Sheet 128x64_69: 2045154157
+      Poison Cloud Flask Sprite Sheet 128x64_31: -948888569
+      Poison Cloud Flask Sprite Sheet 128x64_37: 695499944
+      Poison Cloud Flask Sprite Sheet 128x64_62: -1976786863
+      Poison Cloud Flask Sprite Sheet 128x64_20: 573940098
+      Poison Cloud Flask Sprite Sheet 128x64_27: -501940433
+      Poison Cloud Flask Sprite Sheet 128x64_52: -1863585740
+      Poison Cloud Flask Sprite Sheet 128x64_64: 691348789
+      Poison Cloud Flask Sprite Sheet 128x64_74: 1690498145
+      Poison Cloud Flask Sprite Sheet 128x64_36: -1797938058
+      Poison Cloud Flask Sprite Sheet 128x64_44: 815560238
+      Poison Cloud Flask Sprite Sheet 128x64_54: -762567578
+      Poison Cloud Flask Sprite Sheet 128x64_26: -766312455
+      Poison Cloud Flask Sprite Sheet 128x64_39: 896772473
+      Poison Cloud Flask Sprite Sheet 128x64_30: 1988258947
+      Poison Cloud Flask Sprite Sheet 128x64_56: 215696283
+      Poison Cloud Flask Sprite Sheet 128x64_51: 1920589504
+      Poison Cloud Flask Sprite Sheet 128x64_25: -945720
+      Poison Cloud Flask Sprite Sheet 128x64_9: 1360841339
+      Poison Cloud Flask Sprite Sheet 128x64_61: 439216670
+      Poison Cloud Flask Sprite Sheet 128x64_40: 2119741520
+      Poison Cloud Flask Sprite Sheet 128x64_68: -1848453049
+      Poison Cloud Flask Sprite Sheet 128x64_19: -1595505136
+      Poison Cloud Flask Sprite Sheet 128x64_24: -1694675371
+      Poison Cloud Flask Sprite Sheet 128x64_46: -21170747
+      Poison Cloud Flask Sprite Sheet 128x64_4: 1616713491
+      Poison Cloud Flask Sprite Sheet 128x64_59: -224735443
+      Poison Cloud Flask Sprite Sheet 128x64_70: 904525761
+      Poison Cloud Flask Sprite Sheet 128x64_32: 1872992582
+      Poison Cloud Flask Sprite Sheet 128x64_13: 906310431
+      Poison Cloud Flask Sprite Sheet 128x64_15: 518093540
+      Poison Cloud Flask Sprite Sheet 128x64_48: -1189436679
+      Poison Cloud Flask Sprite Sheet 128x64_55: 1068009829
+      Poison Cloud Flask Sprite Sheet 128x64_71: -1520324658
+      Poison Cloud Flask Sprite Sheet 128x64_80: 316789239
+      Poison Cloud Flask Sprite Sheet 128x64_81: -2105009947
+      Poison Cloud Flask Sprite Sheet 128x64_67: -818052641
+      Poison Cloud Flask Sprite Sheet 128x64_66: 496516251
+      Poison Cloud Flask Sprite Sheet 128x64_6: 410242562
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

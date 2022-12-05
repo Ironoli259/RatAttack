@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &7788812494105669740
+--- !u!1001 &3312889644253454550
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -13,11 +13,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6056532451781789968, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.4386888
+      value: -1.8479908
       objectReference: {fileID: 0}
     - target: {fileID: 6056532451781789968, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3842157
+      value: 1.4131374
       objectReference: {fileID: 0}
     - target: {fileID: 6056532451781789968, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
       propertyPath: m_LocalPosition.z
@@ -54,83 +54,53 @@ PrefabInstance:
     - target: {fileID: 6056532451781789969, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 7d76e47f63bf17b44b4785a6a09444f9, type: 2}
+      objectReference: {fileID: 9100000, guid: 626897d8a7b28e84aa2fcddcaa5080bb, type: 2}
+    - target: {fileID: 6056532451781789970, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
+      propertyPath: m_Size.x
+      value: 0.4494275
+      objectReference: {fileID: 0}
+    - target: {fileID: 6056532451781789970, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
+      propertyPath: m_Size.y
+      value: 0.29613853
+      objectReference: {fileID: 0}
+    - target: {fileID: 6056532451781789970, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.18601948
+      objectReference: {fileID: 0}
+    - target: {fileID: 6056532451781789970, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.25047982
+      objectReference: {fileID: 0}
     - target: {fileID: 6056532451781789970, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.59375
+      value: 0.90625
       objectReference: {fileID: 0}
     - target: {fileID: 6056532451781789970, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.75
+      value: 0.8125
       objectReference: {fileID: 0}
     - target: {fileID: 6056532451781789971, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -190489168, guid: be9d49e7df00f8347ad61e773121863c, type: 3}
+      objectReference: {fileID: -539472383, guid: c20143ff8b6be4741840a33bd805c30b, type: 3}
     - target: {fileID: 6056532451781789974, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
       propertyPath: m_Name
-      value: Professor
+      value: Paladin
       objectReference: {fileID: 0}
-    - target: {fileID: 6056532451781789975, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
-      propertyPath: weapons.Array.size
-      value: 3
+    - target: {fileID: 6056532451781789982, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6056532451781789975, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
-      propertyPath: weapons.Array.data[0]
-      value: 
-      objectReference: {fileID: 4042626762253886975}
-    - target: {fileID: 6056532451781789975, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
-      propertyPath: weapons.Array.data[1]
-      value: 
-      objectReference: {fileID: 4042626762369801064}
-    - target: {fileID: 6056532451781789975, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
-      propertyPath: weapons.Array.data[2]
-      value: 
-      objectReference: {fileID: 4042626762506518699}
-    - target: {fileID: 6056532451781789975, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
-      propertyPath: weapons.Array.data[3]
-      value: 
-      objectReference: {fileID: 4042626762506518699}
-    - target: {fileID: 6056532451781789975, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
-      propertyPath: weapons.Array.data[4]
-      value: 
-      objectReference: {fileID: 4042626762506518699}
+    - target: {fileID: 6056532451781789983, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6056532452987082131, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6056532451781789975, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
+    - {fileID: 6056532451781789983, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
+    - {fileID: 6056532451781789982, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
---- !u!114 &4042626762253886975 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6056532452987082131, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
-  m_PrefabInstance: {fileID: 7788812494105669740}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 879aa58169facaf4893763972a88b5a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &4042626762369801064 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6056532453403716356, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
-  m_PrefabInstance: {fileID: 7788812494105669740}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7ac940878f4bc243abb5c00e6870943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &4042626762506518699 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6056532453273284807, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
-  m_PrefabInstance: {fileID: 7788812494105669740}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e5989f7be78c114ab23e8cdea725a1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

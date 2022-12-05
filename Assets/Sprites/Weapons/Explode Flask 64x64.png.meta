@@ -1,0 +1,376 @@
+fileFormatVersion: 2
+guid: c195ebe4143bc1449a0d5025b65ace6d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Explode Flask 64x64_0
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 5
+        width: 58
+        height: 59
+      alignment: 9
+      pivot: {x: 0.44216707, y: 0.43840975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfc2ff1df523a64693f6698a7ba35c8
+      internalID: -1259254513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode Flask 64x64_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 8
+        width: 54
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5672929, y: 0.50582314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d0f957be27c5d4a8aa0283e1bd5a2b
+      internalID: -1123270218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode Flask 64x64_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4
+        width: 59
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5331638, y: 0.4950959}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a5ad87c8044ef4e9ade96a8ee76d13
+      internalID: 824850597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode Flask 64x64_9
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 3
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c655a916f710ae644a5c81c2cce20fef
+      internalID: -620056981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode Flask 64x64_10
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 5
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f60d8806bd94464c94a470aa765f073
+      internalID: -770145081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode Flask 64x64_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 22
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597432bf7b2bb9549aac98d3e46ae18e
+      internalID: -133360171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode Flask 64x64_16
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 19
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d331e55b1cebc114295e09962837cd27
+      internalID: 361015136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode Flask 64x64_19
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 6
+        width: 67
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c3ac3d6520e3f48ac3ceb60251b6de
+      internalID: -66330605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode Flask 64x64_21
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 28
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb57e3cb6cb4c88429e972cdd965c8d0
+      internalID: -1406055027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode Flask 64x64_24
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 5
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0078b5ca029974c9e5c3563a74ec95
+      internalID: 590693882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Explode Flask 64x64_21: -1406055027
+      Explode Flask 64x64_36: -1261570880
+      Explode Flask 64x64_23: -701098745
+      Explode Flask 64x64_41: 1446484422
+      Explode Flask 64x64_18: 447990167
+      Explode Flask 64x64_10: -770145081
+      Explode Flask 64x64_19: -66330605
+      Explode Flask 64x64_26: 187902125
+      Explode Flask 64x64_17: 1145423351
+      Explode Flask 64x64_12: -1915149463
+      Explode Flask 64x64_2: -1349214861
+      Explode Flask 64x64_13: -517097159
+      Explode Flask 64x64_38: 502853341
+      Explode Flask 64x64_34: 1441655720
+      Explode Flask 64x64_35: 771203965
+      Explode Flask 64x64_5: 1197527581
+      Explode Flask 64x64_39: -498108696
+      Explode Flask 64x64_24: 590693882
+      Explode Flask 64x64_32: -309516339
+      Explode Flask 64x64_29: -874984440
+      Explode Flask 64x64_8: 824850597
+      Explode Flask 64x64_25: -1893086355
+      Explode Flask 64x64_11: 597850379
+      Explode Flask 64x64_14: 188048480
+      Explode Flask 64x64_3: -1123270218
+      Explode Flask 64x64_22: -1128975161
+      Explode Flask 64x64_6: 1157513201
+      Explode Flask 64x64_4: 1541925587
+      Explode Flask 64x64_16: 361015136
+      Explode Flask 64x64_33: 867755976
+      Explode Flask 64x64_7: 429787179
+      Explode Flask 64x64_27: 963551005
+      Explode Flask 64x64_40: -977167008
+      Explode Flask 64x64_28: 1046930861
+      Explode Flask 64x64_9: -620056981
+      Explode Flask 64x64_42: -318754069
+      Explode Flask 64x64_30: 1139430539
+      Explode Flask 64x64_37: -2080635463
+      Explode Flask 64x64_0: -1259254513
+      Explode Flask 64x64_31: 844298329
+      Explode Flask 64x64_1: -591971038
+      Explode Flask 64x64_15: -133360171
+      Explode Flask 64x64_20: -2001947422
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

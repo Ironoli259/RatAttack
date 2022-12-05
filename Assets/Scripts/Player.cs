@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
 
     internal Action<int, int> OnExpGained;
 
-    void Start()
+    protected void Start()
     {
         this.weapons[0].LevelUp();
 
@@ -51,7 +51,7 @@ public class Player : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    protected void Update()
     {
         //Move
         float inputX = Input.GetAxis("Horizontal");

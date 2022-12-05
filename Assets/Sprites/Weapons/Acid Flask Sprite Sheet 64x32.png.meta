@@ -1,0 +1,490 @@
+fileFormatVersion: 2
+guid: f4b1dc2a84732874c8af6f4c351a585c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Acid Flask Sprite Sheet 64x32_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 38
+        width: 26
+        height: 22
+      alignment: 9
+      pivot: {x: 0.48279864, y: 0.22555803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6d629545384f3428ed9c1647026ee6
+      internalID: 1885857335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid Flask Sprite Sheet 64x32_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 38
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d537a7007e7f341af34541ef74df51
+      internalID: 1232026000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid Flask Sprite Sheet 64x32_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 34
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d96d662d27acd44caa4ba53d4377e73
+      internalID: -693193631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid Flask Sprite Sheet 64x32_7
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 33
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41889b37de33e0543b91c7af0b28c00d
+      internalID: -317658594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid Flask Sprite Sheet 64x32_8
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 32
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbd47dfe964c204c83f7d04d19701d3
+      internalID: 852728341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid Flask Sprite Sheet 64x32_9
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 32
+        width: 44
+        height: 20
+      alignment: 9
+      pivot: {x: 0.515247, y: 0.48881912}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d5740285f068f4bb4cdd23200b2f01
+      internalID: 642566578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid Flask Sprite Sheet 64x32_13
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 35
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b887184fa9a6ae34498794f424a77de7
+      internalID: 951826051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid Flask Sprite Sheet 64x32_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 37
+        width: 33
+        height: 23
+      alignment: 9
+      pivot: {x: 0.4728953, y: 0.38332897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4604c3bd7ef87794da0480b6a5233412
+      internalID: 291355496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid Flask Sprite Sheet 64x32_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 44
+        height: 20
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.5670862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4efa72a69d64c428c361473a70c040
+      internalID: 1313534201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid Flask Sprite Sheet 64x32_17
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 44
+        height: 20
+      alignment: 9
+      pivot: {x: 0.49491778, y: 0.6677152}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5763a28a75bd18144b3d8134de60aac2
+      internalID: -26218881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid Flask Sprite Sheet 64x32_20
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1
+        width: 42
+        height: 19
+      alignment: 9
+      pivot: {x: 0.48402697, y: 0.7471594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92ebd4de27b37347aa1d66c009e06f7
+      internalID: -1979128100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid Flask Sprite Sheet 64x32_23
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 3
+        width: 42
+        height: 16
+      alignment: 9
+      pivot: {x: 0.48935154, y: 0.72362006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb92fea1f5202c4094251d220ed9ef1
+      internalID: -818011847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid Flask Sprite Sheet 64x32_24
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 4
+        width: 40
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.78751147}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a4767de552aac4f9504bb8088a570e
+      internalID: -586871803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid Flask Sprite Sheet 64x32_26
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 5
+        width: 33
+        height: 11
+      alignment: 9
+      pivot: {x: 0.45934227, y: 0.82526624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6844a6ab5bc7f94d9994e5842110a81
+      internalID: 1535030204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid Flask Sprite Sheet 64x32_1
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 6
+        width: 21
+        height: 10
+      alignment: 9
+      pivot: {x: 0.4680539, y: 0.7683441}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e322c1d4e33757d42921ea7854c2c35d
+      internalID: -1179851801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid Flask Sprite Sheet 64x32_2
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 6
+        width: 11
+        height: 10
+      alignment: 9
+      pivot: {x: 0.17473532, y: 0.79070616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e42aae3e215e5942a1c1a5a5dfe81f7
+      internalID: -1473696684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Acid Flask Sprite Sheet 64x32_10: 1238340686
+      Acid Flask Sprite Sheet 64x32_26: 1535030204
+      Acid Flask Sprite Sheet 64x32_5: -1264489783
+      Acid Flask Sprite Sheet 64x32_9: 642566578
+      Acid Flask Sprite Sheet 64x32_6: -693193631
+      Acid Flask Sprite Sheet 64x32_1: -1179851801
+      Acid Flask Sprite Sheet 64x32_14: 116392139
+      Acid Flask Sprite Sheet 64x32_19: 682655388
+      Acid Flask Sprite Sheet 64x32_28: -849992484
+      Acid Flask Sprite Sheet 64x32_3: 1232026000
+      Acid Flask Sprite Sheet 64x32_18: -480827964
+      Acid Flask Sprite Sheet 64x32_29: -1845855655
+      Acid Flask Sprite Sheet 64x32_22: 1216199089
+      Acid Flask Sprite Sheet 64x32_12: 1552824198
+      Acid Flask Sprite Sheet 64x32_4: -1405252339
+      Acid Flask Sprite Sheet 64x32_16: 1313534201
+      Acid Flask Sprite Sheet 64x32_0: 1885857335
+      Acid Flask Sprite Sheet 64x32_15: 291355496
+      Acid Flask Sprite Sheet 64x32_25: -419308614
+      Acid Flask Sprite Sheet 64x32_27: -658125857
+      Acid Flask Sprite Sheet 64x32_7: -317658594
+      Acid Flask Sprite Sheet 64x32_23: -818011847
+      Acid Flask Sprite Sheet 64x32_30: 198078680
+      Acid Flask Sprite Sheet 64x32_21: 2085230740
+      Acid Flask Sprite Sheet 64x32_2: -1473696684
+      Acid Flask Sprite Sheet 64x32_11: 860534246
+      Acid Flask Sprite Sheet 64x32_8: 852728341
+      Acid Flask Sprite Sheet 64x32_13: 951826051
+      Acid Flask Sprite Sheet 64x32_20: -1979128100
+      Acid Flask Sprite Sheet 64x32_17: -26218881
+      Acid Flask Sprite Sheet 64x32_24: -586871803
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
