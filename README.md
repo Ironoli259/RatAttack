@@ -1,3 +1,3 @@
 # RatAttack
 
-by Olivier Grenier
+by Olivier Grenier :)
