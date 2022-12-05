@@ -1,0 +1,527 @@
+fileFormatVersion: 2
+guid: b65473f9c1e1f704f8183343e787f250
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ratfolk Rogue Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 128
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56be4aab49d29648ac9daebf8051dc4
+      internalID: 1999193346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Rogue Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 128
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42dc603477457d48bb430804601153c
+      internalID: 74674654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Rogue Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 128
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187aff22ed7e4654f948a87e1d7f97cc
+      internalID: 393568345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Rogue Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 128
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a9781a7daaf15409c45c80d236f72e
+      internalID: 457351522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Rogue Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a6442f6ecc2eb40af38307c08c1831
+      internalID: -387628216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Rogue Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 96
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05624c45cb44ced41b9db26570e46a41
+      internalID: 1517598510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Rogue Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 96
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc76f240058092540b3a1eb154061f0b
+      internalID: 1583764089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Rogue Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 96
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ae11f12bb9a294ca53d6b2981afd47
+      internalID: -1697691475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Rogue Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 96
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c659f4d5713e6f4a91ccdb467ce7b4c
+      internalID: 614302169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Rogue Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 96
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7d8dc2b6c488f49be32b9234617f70
+      internalID: -701988008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Rogue Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 64
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087d4c1e3d7c5d644a6d1575ebd0d60f
+      internalID: -703715127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Rogue Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 64
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2284fac933072458d93d22a0867fb0
+      internalID: -1689545558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Rogue Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da470d674c3ac5a4aa585d073836f101
+      internalID: 193227556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Rogue Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 64
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8adfc315b58b948a4c0488e9cf25cf
+      internalID: 1071197345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Rogue Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 64
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11223fec6bd3cb04ab72165ce8446f27
+      internalID: -161497889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Rogue Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 64
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90702e228d0fc4147bdaa1b88eb7f884
+      internalID: 815868046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Rogue Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 64
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d127a0f0c345c4fa3072d0d427b088
+      internalID: 686721097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Rogue Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 64
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d36800761eb1442b9eee180a161d2a
+      internalID: -1340435243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ratfolk Rogue Sprite Sheet_16: 686721097
+      Ratfolk Rogue Sprite Sheet_5: 1517598510
+      Ratfolk Rogue Sprite Sheet_2: 393568345
+      Ratfolk Rogue Sprite Sheet_19: -784589231
+      Ratfolk Rogue Sprite Sheet_13: 1071197345
+      Ratfolk Rogue Sprite Sheet_12: 193227556
+      Ratfolk Rogue Sprite Sheet_1: 74674654
+      Ratfolk Rogue Sprite Sheet_3: 457351522
+      Ratfolk Rogue Sprite Sheet_22: -1907905145
+      Ratfolk Rogue Sprite Sheet_0: 1999193346
+      Ratfolk Rogue Sprite Sheet_10: -703715127
+      Ratfolk Rogue Sprite Sheet_23: 518672419
+      Ratfolk Rogue Sprite Sheet_4: -387628216
+      Ratfolk Rogue Sprite Sheet_11: -1689545558
+      Ratfolk Rogue Sprite Sheet_24: -767690184
+      Ratfolk Rogue Sprite Sheet_7: -1697691475
+      Ratfolk Rogue Sprite Sheet_15: 815868046
+      Ratfolk Rogue Sprite Sheet_18: 1189470316
+      Ratfolk Rogue Sprite Sheet_9: -701988008
+      Ratfolk Rogue Sprite Sheet_14: -161497889
+      Ratfolk Rogue Sprite Sheet_20: -836368161
+      Ratfolk Rogue Sprite Sheet_8: 614302169
+      Ratfolk Rogue Sprite Sheet_21: -1832841807
+      Ratfolk Rogue Sprite Sheet_6: 1583764089
+      Ratfolk Rogue Sprite Sheet_17: -1340435243
+      Ratfolk Rogue Sprite Sheet_25: 1213032989
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

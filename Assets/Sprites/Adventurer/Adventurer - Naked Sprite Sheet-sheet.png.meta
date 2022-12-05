@@ -1,0 +1,1135 @@
+fileFormatVersion: 2
+guid: e6c55309fee6acd46868a379bac4e282
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 193
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c7138d175b820419797ffe30deaa6d
+      internalID: -167285573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 193
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3cb59a6345db445b478e8a885a32d7
+      internalID: -327037157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 193
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecf7258d36069241ab6b4903a2e25d5
+      internalID: -79773817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 193
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e079b49d36973b941917e83c2422ea77
+      internalID: 1443122562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 193
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41e93c6ccd22c04695656206736c3ca
+      internalID: 924137213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 193
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63a276ea00b22845b81a0a584cd0072
+      internalID: 438766568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 193
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67e4d711153fd14f8b85708917b1ac6
+      internalID: -116988712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 193
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13f26c25defca34abfb8c6f18be694c
+      internalID: -423166040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 193
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ced458e02700644b2640b3800fc2e2
+      internalID: 736564280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 193
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9421da74d979d4baefb411b7f9d00f
+      internalID: -1009530197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 193
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb4c70b6d8b2b74aab899470505b222
+      internalID: 121577217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 193
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1af089f0c2e854686a2739bf256aa9
+      internalID: -1952755728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 161
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a778f47b6d960d4680ee4dd29902973
+      internalID: -2038005721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 161
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf46ac91ceed09b40a7e9197394392f9
+      internalID: -416145480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 161
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc70971dbd3192047959c8a61c9eb841
+      internalID: 1463355874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 161
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de93662a4f20f1f4294019cb8611aebd
+      internalID: -403979737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 161
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81a6af13c69fc54c88bdf0fd68260fd
+      internalID: -1124960480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 161
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99e7f7d52ac31844a869039029d7104
+      internalID: -1271425720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 161
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9aefc3b88f1dc44caeb5e5f7d931560
+      internalID: 260237809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 161
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3878eb91f80eab4498826b956e62512a
+      internalID: 1654969707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 128
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0510fed6409306040a2c8eda65fc0b4f
+      internalID: -619730942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 129
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cede372112c3e744f8170983ab0c034a
+      internalID: -65247228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 129
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35868d63a15ebdc49a6b9f2fb0c6fa6d
+      internalID: 19959403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 129
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c77ba36c1f221c4588475713eb530a5
+      internalID: 2015941326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 97
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf9592207988ed478932fbb375f329a
+      internalID: -1907355991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 97
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929c12e359435c34db5fe0950ac9da19
+      internalID: 1827064505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 97
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5f1e8c322928e49814e072f88060ed
+      internalID: 1095068903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 97
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c870a68ad0362449d6908d3b72b1a0
+      internalID: -573484147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 65
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b562982fcca4749af4392078645460
+      internalID: -137846193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 65
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5e2e01cbc9c1e4f96be51b71a6c97c
+      internalID: -381416384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 65
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111bc2311d3f72448bb46d6eaf869be5
+      internalID: -439810898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_31
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 65
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d99f759118c46b4f9a89b7abbb8473b
+      internalID: -928523685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 64
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3d5009d28ec6449a35779e9300c498
+      internalID: 504749428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 64
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711b0074831550d4e84a2de983806a83
+      internalID: 477882269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 64
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f8c27e37c65be478539dce7a31523c
+      internalID: 1794291214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 33
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e267374159ecb44959c7155e66528c
+      internalID: -1917327146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 33
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb123877628f0ce438d26ba9a2e52f80
+      internalID: -715705593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 33
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fc672f790161d4a9cdebb6f7cba9b0
+      internalID: 697751998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_38
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 33
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27da5727ddd5834fb124e8dbdaa5d40
+      internalID: -24242387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_39
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 33
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79658142f17a71409c5f478dc543023
+      internalID: 853754995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_40
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1381c30cf78d40d41b037f9796354922
+      internalID: 1930455494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_41
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b564ca31c830c04792d0a06c999807a
+      internalID: -817262942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_42
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e149f73c529bc1544a5e23b1d42cdadc
+      internalID: 364408266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_43
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f66664fa509d7447ad27ed683303212
+      internalID: 1727841678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_44
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a1627a24204fb46adb013b9bdbeca2
+      internalID: -1852858642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventurer - Naked Sprite Sheet-sheet_45
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec048997247e3546ac30b89ce645428
+      internalID: -500724562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Adventurer - Naked Sprite Sheet-sheet_2: -79773817
+      Adventurer - Naked Sprite Sheet-sheet_36: -715705593
+      Adventurer - Naked Sprite Sheet-sheet_43: 1727841678
+      Adventurer - Naked Sprite Sheet-sheet_20: -619730942
+      Adventurer - Naked Sprite Sheet-sheet_34: 1794291214
+      Adventurer - Naked Sprite Sheet-sheet_35: -1917327146
+      Adventurer - Naked Sprite Sheet-sheet_13: -416145480
+      Adventurer - Naked Sprite Sheet-sheet_31: -928523685
+      Adventurer - Naked Sprite Sheet-sheet_12: -2038005721
+      Adventurer - Naked Sprite Sheet-sheet_33: 477882269
+      Adventurer - Naked Sprite Sheet-sheet_37: 697751998
+      Adventurer - Naked Sprite Sheet-sheet_16: -1124960480
+      Adventurer - Naked Sprite Sheet-sheet_40: 1930455494
+      Adventurer - Naked Sprite Sheet-sheet_24: -1907355991
+      Adventurer - Naked Sprite Sheet-sheet_3: 1443122562
+      Adventurer - Naked Sprite Sheet-sheet_39: 853754995
+      Adventurer - Naked Sprite Sheet-sheet_42: 364408266
+      Adventurer - Naked Sprite Sheet-sheet_23: 2015941326
+      Adventurer - Naked Sprite Sheet-sheet_29: -381416384
+      Adventurer - Naked Sprite Sheet-sheet_8: 736564280
+      Adventurer - Naked Sprite Sheet-sheet_1: -327037157
+      Adventurer - Naked Sprite Sheet-sheet_9: -1009530197
+      Adventurer - Naked Sprite Sheet-sheet_45: -500724562
+      Adventurer - Naked Sprite Sheet-sheet_15: -403979737
+      Adventurer - Naked Sprite Sheet-sheet_27: -573484147
+      Adventurer - Naked Sprite Sheet-sheet_30: -439810898
+      Adventurer - Naked Sprite Sheet-sheet_6: -116988712
+      Adventurer - Naked Sprite Sheet-sheet_38: -24242387
+      Adventurer - Naked Sprite Sheet-sheet_4: 924137213
+      Adventurer - Naked Sprite Sheet-sheet_0: -167285573
+      Adventurer - Naked Sprite Sheet-sheet_7: -423166040
+      Adventurer - Naked Sprite Sheet-sheet_11: -1952755728
+      Adventurer - Naked Sprite Sheet-sheet_21: -65247228
+      Adventurer - Naked Sprite Sheet-sheet_28: -137846193
+      Adventurer - Naked Sprite Sheet-sheet_19: 1654969707
+      Adventurer - Naked Sprite Sheet-sheet_10: 121577217
+      Adventurer - Naked Sprite Sheet-sheet_17: -1271425720
+      Adventurer - Naked Sprite Sheet-sheet_44: -1852858642
+      Adventurer - Naked Sprite Sheet-sheet_14: 1463355874
+      Adventurer - Naked Sprite Sheet-sheet_25: 1827064505
+      Adventurer - Naked Sprite Sheet-sheet_41: -817262942
+      Adventurer - Naked Sprite Sheet-sheet_18: 260237809
+      Adventurer - Naked Sprite Sheet-sheet_5: 438766568
+      Adventurer - Naked Sprite Sheet-sheet_22: 19959403
+      Adventurer - Naked Sprite Sheet-sheet_26: 1095068903
+      Adventurer - Naked Sprite Sheet-sheet_32: 504749428
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

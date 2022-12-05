@@ -1,0 +1,831 @@
+fileFormatVersion: 2
+guid: 28ecdf12779cfbc419cc5576324f1f29
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 323
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ddca5c6f90b2a46943762fba54df76
+      internalID: 1545029955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 323
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262d109edc73cc449af626da9bbbb9e7
+      internalID: -125972029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 324
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805c89763b5a40c4eb8b1791eb51d9e6
+      internalID: -707252333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 324
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d0f1f2087aae0449c28e92ce3a46d1
+      internalID: -86161325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 259
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bc67dd6e5f6b74b85ba752cdfab4bd
+      internalID: -1350450301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 259
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc577ece1fa90b4598a1f0d6c052e04
+      internalID: -1272334285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 260
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e95a5d0412d2d4eb96618c36e2ee6f
+      internalID: -1674190148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 260
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ae0576333bf6049bbbe990daed762b
+      internalID: -1796266775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 195
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedb2c01f224ce5439d4f0c84907a26b
+      internalID: 1878136554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 195
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e545103d4e8db40b4b4f57ff8054fe
+      internalID: -62051892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 196
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649cd8110af8183448e762fce6ba480a
+      internalID: 893806532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 196
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d462d1ae78bd941b4cdef023c81cea
+      internalID: 1714875743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 195
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402245a0829f3834f87ec4e318131852
+      internalID: 2144983686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 195
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e463e0281c62e34991de1f8a1f86105
+      internalID: 856503320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 197
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a2057ae37046b40a46a7c5c798e0d1
+      internalID: -1814060759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 196
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0532ad9c19506459dfb62c989209b1
+      internalID: 510082242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 131
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768cba990002b284db2ad19b1035cfd0
+      internalID: 1832263515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 131
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081a073d43816a746a0c3f68268b6851
+      internalID: -190484488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 132
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcd7c5c7375c9643b6c60dc21f26588
+      internalID: -569963836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 132
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a28ed21a7d328469ac0d95904b84c4
+      internalID: 1527258670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 131
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc840aa75afea34aafff7af1bc67f11
+      internalID: 1532034092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 131
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4041e94e1bc00646ab97338745b406b
+      internalID: 1360084372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 132
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1a34f6485addf48abcbc0b26784949
+      internalID: -1708311117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 132
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135d910258b6d5a4d976441f7c34e9f0
+      internalID: -803517562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 3
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4cc50f55f3bf94ba3a56566587f105
+      internalID: -1283310222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cf462e4bddc79439065b68178ac4f0
+      internalID: 2001042747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 0
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53534f3fc91e30046ab74e613baf3fd5
+      internalID: -1284853488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcc8591100793f499ed7f8ceca9482a
+      internalID: 2013197840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dabe7f63e9c003489e81236d54cb688
+      internalID: -1008061129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31dc68b7da79114b9bccf15fdd7bc3f
+      internalID: 1983046705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d0a46b45963114485b526f70387fbc
+      internalID: -1249924793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wendigo Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764a64b870189a447a078ab612fbcc66
+      internalID: 547947662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Wendigo Sprite Sheet_8: 1878136554
+      Wendigo Sprite Sheet_21: 1360084372
+      Wendigo Sprite Sheet_27: -1071568285
+      Wendigo Sprite Sheet_20: 1532034092
+      Wendigo Sprite Sheet_3: -86161325
+      Wendigo Sprite Sheet_10: 893806532
+      Wendigo Sprite Sheet_22: -1708311117
+      Wendigo Sprite Sheet_13: 856503320
+      Wendigo Sprite Sheet_15: 510082242
+      Wendigo Sprite Sheet_29: 2001042747
+      Wendigo Sprite Sheet_23: -803517562
+      Wendigo Sprite Sheet_9: -62051892
+      Wendigo Sprite Sheet_28: -1283310222
+      Wendigo Sprite Sheet_12: 2144983686
+      Wendigo Sprite Sheet_26: 26656337
+      Wendigo Sprite Sheet_11: 1714875743
+      Wendigo Sprite Sheet_2: -707252333
+      Wendigo Sprite Sheet_31: 2013197840
+      Wendigo Sprite Sheet_34: -1249924793
+      Wendigo Sprite Sheet_35: 547947662
+      Wendigo Sprite Sheet_30: -1284853488
+      Wendigo Sprite Sheet_0: 1545029955
+      Wendigo Sprite Sheet_17: -190484488
+      Wendigo Sprite Sheet_6: -1674190148
+      Wendigo Sprite Sheet_32: -1008061129
+      Wendigo Sprite Sheet_19: 1527258670
+      Wendigo Sprite Sheet_4: -1350450301
+      Wendigo Sprite Sheet_25: 2020018672
+      Wendigo Sprite Sheet_5: -1272334285
+      Wendigo Sprite Sheet_1: -125972029
+      Wendigo Sprite Sheet_24: -916669532
+      Wendigo Sprite Sheet_18: -569963836
+      Wendigo Sprite Sheet_16: 1832263515
+      Wendigo Sprite Sheet_33: 1983046705
+      Wendigo Sprite Sheet_7: -1796266775
+      Wendigo Sprite Sheet_14: -1814060759
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,541 @@
+fileFormatVersion: 2
+guid: b1ac4418bdc7a6047bbc6cfd7c375075
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ratfolk Farmer Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 192
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba1206a0f3e1474a8f7c8121752774a
+      internalID: 1361435958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Farmer Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 192
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a877597883de947bdecb97659832f5
+      internalID: 1463214932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Farmer Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 192
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322f06f5c523a5a4495c18bbd7fe30bc
+      internalID: 722083122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Farmer Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 192
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9286e669cb888ea4fb7493c610747f36
+      internalID: -1482717917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Farmer Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 160
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a517e3421ffd3746b02c43a8a5766e6
+      internalID: -1653637229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Farmer Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 161
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5456bf7455018224a8588d4a545c780c
+      internalID: 1461054259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Farmer Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 162
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113a885f96c390c4885a7e842ceb74a0
+      internalID: -777928962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Farmer Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 161
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68a2471891122c4bb35fec1fb68e306
+      internalID: -1335486902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Farmer Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 160
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc89e473d4c5bce4080ce6f49925a1a9
+      internalID: 892774759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Farmer Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 162
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9e15b4a1a117a45a644c94078dbbf0
+      internalID: 1060212150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Farmer Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 164
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f980b290d190ca43a61dba55dc587ef
+      internalID: 1174410148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Farmer Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 162
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c154d3daa26334aa749384f62210f9
+      internalID: -78268333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Farmer Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 128
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1d5952d84d5ae4eab16721454542ff
+      internalID: 297468903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Farmer Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 128
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914b5897137d2624998daa532061bbf0
+      internalID: 815472987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Farmer Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7943a0e052c4c204f89a87754a7ccacd
+      internalID: -469032511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Farmer Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 128
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e391afd7ab7b97d4598d5b3f7b87f6b9
+      internalID: 1734777362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Farmer Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 128
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213334c3df981e84f832a20be4ab41bc
+      internalID: 803765914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Farmer Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 128
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0efe92912f05c409d5cb59bf9b198c
+      internalID: 85701643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ratfolk Farmer Spritesheet_13: 815472987
+      Ratfolk Farmer Spritesheet_25: -576308033
+      Ratfolk Farmer Spritesheet_18: 906879703
+      Ratfolk Farmer Spritesheet_22: -803102352
+      Ratfolk Farmer Spritesheet_30: -1835701006
+      Ratfolk Farmer Spritesheet_3: -1482717917
+      Ratfolk Farmer Spritesheet_8: 892774759
+      Ratfolk Farmer Spritesheet_37: 174642010
+      Ratfolk Farmer Spritesheet_31: 411194282
+      Ratfolk Farmer Spritesheet_24: 389710097
+      Ratfolk Farmer Spritesheet_12: 297468903
+      Ratfolk Farmer Spritesheet_1: 1463214932
+      Ratfolk Farmer Spritesheet_2: 722083122
+      Ratfolk Farmer Spritesheet_38: 1239485241
+      Ratfolk Farmer Spritesheet_33: 111806221
+      Ratfolk Farmer Spritesheet_7: -1335486902
+      Ratfolk Farmer Spritesheet_14: -469032511
+      Ratfolk Farmer Spritesheet_35: -2094867412
+      Ratfolk Farmer Spritesheet_39: -1036286713
+      Ratfolk Farmer Spritesheet_5: 1461054259
+      Ratfolk Farmer Spritesheet_36: -234793992
+      Ratfolk Farmer Spritesheet_28: -225659033
+      Ratfolk Farmer Spritesheet_19: -1798520842
+      Ratfolk Farmer Spritesheet_0: 1361435958
+      Ratfolk Farmer Spritesheet_17: 85701643
+      Ratfolk Farmer Spritesheet_23: 136694958
+      Ratfolk Farmer Spritesheet_21: -1240659938
+      Ratfolk Farmer Spritesheet_27: -1489795008
+      Ratfolk Farmer Spritesheet_6: -777928962
+      Ratfolk Farmer Spritesheet_10: 1174410148
+      Ratfolk Farmer Spritesheet_34: 1697034543
+      Ratfolk Farmer Spritesheet_26: 1397376660
+      Ratfolk Farmer Spritesheet_16: 803765914
+      Ratfolk Farmer Spritesheet_29: -1792592183
+      Ratfolk Farmer Spritesheet_11: -78268333
+      Ratfolk Farmer Spritesheet_20: -1685857994
+      Ratfolk Farmer Spritesheet_15: 1734777362
+      Ratfolk Farmer Spritesheet_32: -1250072631
+      Ratfolk Farmer Spritesheet_9: 1060212150
+      Ratfolk Farmer Spritesheet_4: -1653637229
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

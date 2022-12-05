@@ -1,0 +1,620 @@
+fileFormatVersion: 2
+guid: 600a752ba4c39e0478f071e046639a01
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 197
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125933cd502ab8b4891b78923c9146ad
+      internalID: 417268115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 197
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1ac6bc75ab53f41909622186ca828d
+      internalID: -1138359806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 197
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0be086f3f78e79439de699a6ff04cc8
+      internalID: 1562753275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 197
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec3299da7f3e604e9d72bf4101d3ec3
+      internalID: -2136957132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 197
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7780ba22549e5594da59a6b1cd119780
+      internalID: -1322528445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 197
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef4ca1c6a90be74790bc8599ddd8915
+      internalID: -1650896044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 133
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c02ddea27a053344b9a3abebf3c0c97
+      internalID: -102686263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 69
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40271fa27f5fd8c45879bf3618fdc48a
+      internalID: 1256147451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 68
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2fb08c04112934898a89ae1180ee2c
+      internalID: -1006313696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_9
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 66
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae2758861e9fe4498f144834e9b7077
+      internalID: -1299173966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_10
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 68
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15b96d41e6f103458a07bc7d2e3aa89
+      internalID: 158824238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_11
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 72
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154597dbbe7cf274f9516bf3e29a876d
+      internalID: -1284089277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c1c13ea65e8404eb4bf363f76d052a
+      internalID: 941353227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_13
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 4
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7764a0eb0ebc040849fe7c3cd6e6ab
+      internalID: -569020247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_14
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 2
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7e0bbf4b09eed4c801eb3a91e0fdbd
+      internalID: -285943796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_15
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 5
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20731615e9a7cb74482da1d8ccf13794
+      internalID: 1714920380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_25
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 8
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f9c7a09d3c65945a880c89a572aa7f
+      internalID: -2051573963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3e3639d01c31f4aba8a914f201be6b
+      internalID: -2022197118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_44
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 61
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66e9c1a53952ab40959b395023af7df
+      internalID: -1372247274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_49
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 4
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3cac576e908eb45bd9f47ad4fdde8c
+      internalID: -1510780471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spectral Shield Sprite Sheets_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3178d023ffc4049449cae8aae7a8f5bb
+      internalID: 518281266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Spectral Shield Sprite Sheets_28: -1431580463
+      Spectral Shield Sprite Sheets_23: -2134013510
+      Spectral Shield Sprite Sheets_15: 1714920380
+      Spectral Shield Sprite Sheets_20: 2141219924
+      Spectral Shield Sprite Sheets_26: 868495189
+      Spectral Shield Sprite Sheets_41: 2082232378
+      Spectral Shield Sprite Sheets_17: -1086121486
+      Spectral Shield Sprite Sheets_44: -1372247274
+      Spectral Shield Sprite Sheets_14: -285943796
+      Spectral Shield Sprite Sheets_21: -960152575
+      Spectral Shield Sprite Sheets_55: 518281266
+      Spectral Shield Sprite Sheets_39: 1207340000
+      Spectral Shield Sprite Sheets_40: 993014886
+      Spectral Shield Sprite Sheets_2: 1562753275
+      Spectral Shield Sprite Sheets_5: -1650896044
+      Spectral Shield Sprite Sheets_8: -1006313696
+      Spectral Shield Sprite Sheets_24: -946372437
+      Spectral Shield Sprite Sheets_3: -2136957132
+      Spectral Shield Sprite Sheets_1: -1138359806
+      Spectral Shield Sprite Sheets_52: -1889669268
+      Spectral Shield Sprite Sheets_37: -1471790409
+      Spectral Shield Sprite Sheets_45: 1281815213
+      Spectral Shield Sprite Sheets_22: -127926390
+      Spectral Shield Sprite Sheets_38: -95054439
+      Spectral Shield Sprite Sheets_12: 941353227
+      Spectral Shield Sprite Sheets_11: -1284089277
+      Spectral Shield Sprite Sheets_31: -1169839820
+      Spectral Shield Sprite Sheets_27: 1727307790
+      Spectral Shield Sprite Sheets_50: -632367027
+      Spectral Shield Sprite Sheets_29: -2022197118
+      Spectral Shield Sprite Sheets_7: 1256147451
+      Spectral Shield Sprite Sheets_4: -1322528445
+      Spectral Shield Sprite Sheets_16: -614116925
+      Spectral Shield Sprite Sheets_9: -1299173966
+      Spectral Shield Sprite Sheets_30: -1980632227
+      Spectral Shield Sprite Sheets_48: -256210119
+      Spectral Shield Sprite Sheets_10: 158824238
+      Spectral Shield Sprite Sheets_0: 417268115
+      Spectral Shield Sprite Sheets_25: -2051573963
+      Spectral Shield Sprite Sheets_36: -972972677
+      Spectral Shield Sprite Sheets_49: -1510780471
+      Spectral Shield Sprite Sheets_18: 191787981
+      Spectral Shield Sprite Sheets_34: 115892263
+      Spectral Shield Sprite Sheets_13: -569020247
+      Spectral Shield Sprite Sheets_53: 1379661609
+      Spectral Shield Sprite Sheets_47: 377548980
+      Spectral Shield Sprite Sheets_32: 1018026415
+      Spectral Shield Sprite Sheets_46: 937774320
+      Spectral Shield Sprite Sheets_19: 1009297946
+      Spectral Shield Sprite Sheets_51: -90044236
+      Spectral Shield Sprite Sheets_54: 557514962
+      Spectral Shield Sprite Sheets_42: 518759542
+      Spectral Shield Sprite Sheets_6: -102686263
+      Spectral Shield Sprite Sheets_35: 1524547030
+      Spectral Shield Sprite Sheets_43: -1233359168
+      Spectral Shield Sprite Sheets_33: -2121969718
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

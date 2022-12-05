@@ -1,0 +1,699 @@
+fileFormatVersion: 2
+guid: 239d46a5744c7004b938bf6ffa958461
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 128
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2253fe8847397cc499b653b3fb70e793
+      internalID: -2070391012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 128
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d5106ed26348a43bb0f83e821ff872
+      internalID: 1106129238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 128
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664f4ac82636c13429d4ed6fe5917a3d
+      internalID: -2145271128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 128
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda67d357c9a5ad4f933cd002a2c2e06
+      internalID: 2128216978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 128
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1acedf03d1dffb4bb57c0b790de77a5
+      internalID: 429705527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 128
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15f840d239dd814988936873fae2274
+      internalID: -1400334736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 128
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3851cababf0ff740a7c77a7468960e2
+      internalID: 1351624629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 128
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e26dcb5aa2c499498ab93fcd7a76afc
+      internalID: -305860585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 96
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cae2892bff7b4449fa68e1a73a801a
+      internalID: -1538740240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 96
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0966cd52876c4934098e80b81543df41
+      internalID: -1815136023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 96
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee91950872c10a444b2570bee73861d7
+      internalID: -1812093109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 96
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a8b349044478f4e827604f84223795
+      internalID: 1121339861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 96
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75070fc122de1494fbd422c92ed31561
+      internalID: -1809820832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 64
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edee40b9591367c49bd93a30568f3d73
+      internalID: -927641773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 64
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2220a15327e56841a63b0411c4548af
+      internalID: 1766864893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289086c9e800c894e89492b5fb39cdb4
+      internalID: -857054787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 64
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431a4bcc4554e2745a0b84af38e06c82
+      internalID: 324812178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 64
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce46c23bf37c4184c87d81614491b711
+      internalID: -1262534101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 64
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfde49912a7ceb4aa471d77cc6c623e
+      internalID: 397298712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 64
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575e0516d9f9ca543a81577d55a46e16
+      internalID: -864596218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 64
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d270a8c7fe63fd42a8442d36b0db18b
+      internalID: 1993944042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe179e46ef522742b9ed69bb495282b
+      internalID: 2079934683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b9af748a766414dae66ecad2cfe8da
+      internalID: -1479593577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8531cbdcd4dc66a4abacdfb3f255bdcb
+      internalID: -860839776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3b56285e9873d4d8448857d7a41924
+      internalID: -18971714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Zombie Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d88729f5235d146989cd2281930162
+      internalID: -832525671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ratfolk Zombie Sprite Sheet_7: -305860585
+      Ratfolk Zombie Sprite Sheet_20: 1993944042
+      Ratfolk Zombie Sprite Sheet_23: -1798459089
+      Ratfolk Zombie Sprite Sheet_13: -927641773
+      Ratfolk Zombie Sprite Sheet_11: 1121339861
+      Ratfolk Zombie Sprite Sheet_29: -832525671
+      Ratfolk Zombie Sprite Sheet_4: 429705527
+      Ratfolk Zombie Sprite Sheet_8: -1538740240
+      Ratfolk Zombie Sprite Sheet_9: -1815136023
+      Ratfolk Zombie Sprite Sheet_24: -1326694281
+      Ratfolk Zombie Sprite Sheet_2: -2145271128
+      Ratfolk Zombie Sprite Sheet_17: -1262534101
+      Ratfolk Zombie Sprite Sheet_21: 940046537
+      Ratfolk Zombie Sprite Sheet_22: -886758813
+      Ratfolk Zombie Sprite Sheet_15: -857054787
+      Ratfolk Zombie Sprite Sheet_26: -1479593577
+      Ratfolk Zombie Sprite Sheet_12: -1809820832
+      Ratfolk Zombie Sprite Sheet_1: 1106129238
+      Ratfolk Zombie Sprite Sheet_19: -864596218
+      Ratfolk Zombie Sprite Sheet_0: -2070391012
+      Ratfolk Zombie Sprite Sheet_10: -1812093109
+      Ratfolk Zombie Sprite Sheet_25: 2079934683
+      Ratfolk Zombie Sprite Sheet_14: 1766864893
+      Ratfolk Zombie Sprite Sheet_27: -860839776
+      Ratfolk Zombie Sprite Sheet_6: 1351624629
+      Ratfolk Zombie Sprite Sheet_3: 2128216978
+      Ratfolk Zombie Sprite Sheet_18: 397298712
+      Ratfolk Zombie Sprite Sheet_28: -18971714
+      Ratfolk Zombie Sprite Sheet_16: 324812178
+      Ratfolk Zombie Sprite Sheet_5: -1400334736
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

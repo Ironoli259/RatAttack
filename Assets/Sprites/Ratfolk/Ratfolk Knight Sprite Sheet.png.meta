@@ -1,0 +1,553 @@
+fileFormatVersion: 2
+guid: 8dc9cd132862aa4488d8c6e1a7692028
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ratfolk Knight Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 160
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47b699266ef90d4fbe36c029fe1b0d5
+      internalID: 1954911638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Knight Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 160
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a789b90c97a381744bfa0755c06a8ed0
+      internalID: 180247347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Knight Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 160
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7969fcc1203b424ba7b873c2f7d68f5
+      internalID: 221529032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Knight Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 160
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f7aaeebb52adc4fb20ef96bd205291
+      internalID: -693627705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Knight Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 128
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504e0ca56dda4ed4c86c5ac3ed8d3c3d
+      internalID: 1002074021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Knight Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 128
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38092cabd59b934cbfc36fbb8cd74b2
+      internalID: 1750127141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Knight Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 128
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141bec859f9a6c44f8b05538315c419a
+      internalID: -251798340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Knight Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 128
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95500c9a6d5926f4c8b3400773c4aeec
+      internalID: 1935938504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Knight Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 128
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0cc11039e71e14e9123fa76ba40182
+      internalID: -1130615614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Knight Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 128
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4165ccd092d65d640997dffeeefdad03
+      internalID: 1261623787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Knight Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 128
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b9fdd6216b46644a009181fb5332a2
+      internalID: -1570115127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Knight Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 128
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1b108b04e30044db4e012eedec4e5a
+      internalID: -1131991319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Knight Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 64
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce305f806366e04785f5c82d4c050bb
+      internalID: -698399527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Knight Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 64
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4524c8d598b6f154fb66393c1c57441d
+      internalID: -1524076897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Knight Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 64
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6940ffb413ccb345ac8eaa312fea38d
+      internalID: -562661577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Knight Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 64
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16dae5a0302fb748a114dc42748f3b8
+      internalID: -1463592579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Knight Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 64
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdff8d35f5b7b30418925fccadf1c3ba
+      internalID: -1569619037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Knight Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 64
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81d3a28b6c8a0f408145ec62b98cfdb
+      internalID: 858707799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Knight Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 64
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ddac30ae8ee5e4aaf7d6bbc767a1f5
+      internalID: 1120053322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ratfolk Knight Sprite Sheet_4: 1002074021
+      Ratfolk Knight Sprite Sheet_19: -1463592579
+      Ratfolk Knight Sprite Sheet_5: 1750127141
+      Ratfolk Knight Sprite Sheet_30: -1337068227
+      Ratfolk Knight Sprite Sheet_21: 858707799
+      Ratfolk Knight Sprite Sheet_6: -251798340
+      Ratfolk Knight Sprite Sheet_18: -562661577
+      Ratfolk Knight Sprite Sheet_13: -793902782
+      Ratfolk Knight Sprite Sheet_10: -1570115127
+      Ratfolk Knight Sprite Sheet_8: -1130615614
+      Ratfolk Knight Sprite Sheet_25: -952795166
+      Ratfolk Knight Sprite Sheet_0: 1954911638
+      Ratfolk Knight Sprite Sheet_2: 221529032
+      Ratfolk Knight Sprite Sheet_3: -693627705
+      Ratfolk Knight Sprite Sheet_14: 200070863
+      Ratfolk Knight Sprite Sheet_16: -698399527
+      Ratfolk Knight Sprite Sheet_29: 1421731447
+      Ratfolk Knight Sprite Sheet_9: 1261623787
+      Ratfolk Knight Sprite Sheet_24: 1695182171
+      Ratfolk Knight Sprite Sheet_26: -756767135
+      Ratfolk Knight Sprite Sheet_27: -1352431096
+      Ratfolk Knight Sprite Sheet_1: 180247347
+      Ratfolk Knight Sprite Sheet_20: -1569619037
+      Ratfolk Knight Sprite Sheet_22: 1120053322
+      Ratfolk Knight Sprite Sheet_17: -1524076897
+      Ratfolk Knight Sprite Sheet_23: -724482957
+      Ratfolk Knight Sprite Sheet_7: 1935938504
+      Ratfolk Knight Sprite Sheet_28: 628167579
+      Ratfolk Knight Sprite Sheet_15: 1356228251
+      Ratfolk Knight Sprite Sheet_12: 1276177998
+      Ratfolk Knight Sprite Sheet_11: -1131991319
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
