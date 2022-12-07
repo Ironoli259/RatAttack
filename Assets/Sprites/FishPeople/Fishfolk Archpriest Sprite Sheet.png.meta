@@ -1,0 +1,843 @@
+fileFormatVersion: 2
+guid: 6cbdfb229d06b164cbeb94ce49fdc34b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 160
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a9c4068f5c5b549b9f2c1e5293815c
+      internalID: 1307410992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 160
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4f8771174fd694baf9eb820c0cff40
+      internalID: -201615398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 160
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86d473383598f345bcd05fecff6e5fc
+      internalID: -2138458277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 160
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cda2219de6b024db122d730725e95b
+      internalID: -888881790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 128
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758000495d4fdb3419165b1aad745333
+      internalID: -2060643055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 128
+        width: 21
+        height: 23
+      alignment: 9
+      pivot: {x: 0.49535698, y: 0.4788049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928fd1c682ce76f4192a3a4c8d00b189
+      internalID: 1808539696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 128
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8918976411d9e458ac0e97eda10711
+      internalID: -568982357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 128
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc77845ac4eb0d24780c10faeb93b91f
+      internalID: 1108020880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 96
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4df6fa773417dc4885f55d28877cf9e
+      internalID: 1427791742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 96
+        width: 19
+        height: 23
+      alignment: 9
+      pivot: {x: 0.52417153, y: 0.48003253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f09c134fdb55242955b5c5822cc803
+      internalID: 829234692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 96
+        width: 19
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5286536, y: 0.46435547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724aea116435c2e4ebdd094a98daf9bf
+      internalID: -400762382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 96
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.532747, y: 0.44089448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c20bec83c78b444b671ada2e4d3923
+      internalID: 246187519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 96
+        width: 25
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5120459, y: 0.45608553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82cc1856bb1cab4388859bbf3e7e323
+      internalID: 1204113553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 96
+        width: 25
+        height: 25
+      alignment: 9
+      pivot: {x: 0.4367639, y: 0.43977448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e227a7bbe3f9b7b449aa016c29148488
+      internalID: 1111453630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 96
+        width: 24
+        height: 25
+      alignment: 9
+      pivot: {x: 0.4170672, y: 0.43848023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bded986ae7948ca46aeac1d3a65040c8
+      internalID: 957074213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 64
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55939a2f87622f240a5117c2e24da4bb
+      internalID: 1603746207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 64
+        width: 28
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5307699, y: 0.57348967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716eb6c10e890884aa4c5b775d21bcd9
+      internalID: 392724212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 64
+        width: 44
+        height: 24
+      alignment: 9
+      pivot: {x: 0.52237946, y: 0.5888958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2209c9110c0b34c80412ef71b50cb4
+      internalID: 626963158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 64
+        width: 46
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5228222, y: 0.5807548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdf0d89c8b3ed045a3d79424f94a8d1
+      internalID: -568252546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 64
+        width: 46
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5215388, y: 0.58631897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9952fe576452a46b34ef7f5ce41355
+      internalID: 1502710307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 64
+        width: 46
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5274134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae287d1d3630794abddbe6526fa37ef
+      internalID: 1642919337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 64
+        width: 46
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5195923, y: 0.45562172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635978540526d084c92cac782f2b71c3
+      internalID: 147463664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 64
+        width: 32
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5281639, y: 0.4212218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ceabdd0a701f841ab9e70bc5d18c2b
+      internalID: 759200979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 64
+        width: 48
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5221901, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2186d42e728dc6b41bb8a6f4417f07c6
+      internalID: 1206625388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 32
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d061a801cf3b6748971769ac5c815d0
+      internalID: 986152308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 32
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5133635, y: 0.49615306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b959d0e10a7087498a6828e12bae4c9
+      internalID: 1099674351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 32
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c50967a58507a4183eb9a2f8308995
+      internalID: -786554205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 32
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410c1a2640d5fcd4d8a7da221819c603
+      internalID: -1110463704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646f37b1ea0e5574bb3cdf9e11cad6f7
+      internalID: -218663474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5243205, y: 0.49999997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40252609db8788c4d9e8699bd5e15195
+      internalID: 593670037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0
+        width: 26
+        height: 15
+      alignment: 9
+      pivot: {x: 0.46890083, y: 0.723339}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5456053da4118cc4aa66022b37c4a5c2
+      internalID: -1502462382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Archpriest Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 0
+        width: 31
+        height: 13
+      alignment: 9
+      pivot: {x: 0.4441051, y: 0.8287882}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2c7aba76b03bc47acb97f19003dff9
+      internalID: -65372424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fishfolk Archpriest Sprite Sheet_0: 1307410992
+      Fishfolk Archpriest Sprite Sheet_41: 1099674351
+      Fishfolk Archpriest Sprite Sheet_32: -2109039324
+      Fishfolk Archpriest Sprite Sheet_6: -568982357
+      Fishfolk Archpriest Sprite Sheet_11: 246187519
+      Fishfolk Archpriest Sprite Sheet_19: -568252546
+      Fishfolk Archpriest Sprite Sheet_31: 147463664
+      Fishfolk Archpriest Sprite Sheet_14: 957074213
+      Fishfolk Archpriest Sprite Sheet_34: -1450082308
+      Fishfolk Archpriest Sprite Sheet_2: -2138458277
+      Fishfolk Archpriest Sprite Sheet_36: 524864050
+      Fishfolk Archpriest Sprite Sheet_3: -888881790
+      Fishfolk Archpriest Sprite Sheet_30: 353617323
+      Fishfolk Archpriest Sprite Sheet_10: -400762382
+      Fishfolk Archpriest Sprite Sheet_45: 593670037
+      Fishfolk Archpriest Sprite Sheet_7: 1108020880
+      Fishfolk Archpriest Sprite Sheet_46: -1502462382
+      Fishfolk Archpriest Sprite Sheet_37: 1206625388
+      Fishfolk Archpriest Sprite Sheet_27: 1899072431
+      Fishfolk Archpriest Sprite Sheet_8: 1427791742
+      Fishfolk Archpriest Sprite Sheet_4: -2060643055
+      Fishfolk Archpriest Sprite Sheet_17: 626963158
+      Fishfolk Archpriest Sprite Sheet_43: -1110463704
+      Fishfolk Archpriest Sprite Sheet_20: -1843457653
+      Fishfolk Archpriest Sprite Sheet_21: -1585237346
+      Fishfolk Archpriest Sprite Sheet_12: 1204113553
+      Fishfolk Archpriest Sprite Sheet_33: 1366190679
+      Fishfolk Archpriest Sprite Sheet_15: 1603746207
+      Fishfolk Archpriest Sprite Sheet_9: 829234692
+      Fishfolk Archpriest Sprite Sheet_24: 1240952351
+      Fishfolk Archpriest Sprite Sheet_16: 392724212
+      Fishfolk Archpriest Sprite Sheet_28: 1721045370
+      Fishfolk Archpriest Sprite Sheet_38: -1490520492
+      Fishfolk Archpriest Sprite Sheet_13: 1111453630
+      Fishfolk Archpriest Sprite Sheet_5: 1808539696
+      Fishfolk Archpriest Sprite Sheet_18: -1290156844
+      Fishfolk Archpriest Sprite Sheet_25: 300174406
+      Fishfolk Archpriest Sprite Sheet_23: 1578214003
+      Fishfolk Archpriest Sprite Sheet_40: 986152308
+      Fishfolk Archpriest Sprite Sheet_1: -201615398
+      Fishfolk Archpriest Sprite Sheet_47: -65372424
+      Fishfolk Archpriest Sprite Sheet_26: 1642919337
+      Fishfolk Archpriest Sprite Sheet_22: 1502710307
+      Fishfolk Archpriest Sprite Sheet_35: 759200979
+      Fishfolk Archpriest Sprite Sheet_42: -786554205
+      Fishfolk Archpriest Sprite Sheet_29: -420570617
+      Fishfolk Archpriest Sprite Sheet_39: -102581846
+      Fishfolk Archpriest Sprite Sheet_44: -218663474
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

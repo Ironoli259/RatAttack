@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RangeEnemy : Enemy
 {
-    [SerializeField] int attackRange = 3;
+    
     [SerializeField] GameObject projectilePrefab;
 
     private bool isInRange;

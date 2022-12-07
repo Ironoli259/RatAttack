@@ -1,0 +1,717 @@
+fileFormatVersion: 2
+guid: 1994b82be382b6d4cace2662ce900175
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 128
+        width: 18
+        height: 20
+      alignment: 9
+      pivot: {x: 0.52650094, y: 0.4244705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760ce36a8a73a514481e2b890cc3ce0b
+      internalID: -1756950505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 128
+        width: 21
+        height: 20
+      alignment: 9
+      pivot: {x: 0.49999854, y: 0.43242186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57753fe8a5634449b456611ce0a3b96
+      internalID: -330922225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 128
+        width: 18
+        height: 19
+      alignment: 9
+      pivot: {x: 0.51801807, y: 0.454479}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21497788d4ce12d4d8b7e56e334c8296
+      internalID: 1757656269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 128
+        width: 18
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5240233, y: 0.41351166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f220dedd015b5ee419ae1173de2b100c
+      internalID: -1365650589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 96
+        width: 18
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5220841, y: 0.43242112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401e9d30387a69a4db3f71e99b0a4c3d
+      internalID: -1290481081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 98
+        width: 15
+        height: 19
+      alignment: 9
+      pivot: {x: 0.500001, y: 0.34965193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03c1ab3748b99248b057e67b3570c11
+      internalID: 43521630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 99
+        width: 14
+        height: 19
+      alignment: 9
+      pivot: {x: 0.54372513, y: 0.29595625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e649d6e232b384f8aaa420f8a1af08
+      internalID: 1951365230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 98
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.47574806, y: 0.31891212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9242e8358bad5042a7441a5b5fd7ec2
+      internalID: -1907951701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 96
+        width: 18
+        height: 19
+      alignment: 9
+      pivot: {x: 0.52874416, y: 0.4557495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b54aceb35f7a34094941ee41207f28
+      internalID: 649278113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 98
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5291046, y: 0.32537955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c9b26318c36d64291d501e6c311135
+      internalID: 1342534466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 99
+        width: 21
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.29014266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947d7324036cf7a42a1b43f579ba2ef6
+      internalID: -860763632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 98
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5215988, y: 0.36406976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d40630d24e240e499986ae83952b7df
+      internalID: 873470204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 64
+        width: 18
+        height: 20
+      alignment: 9
+      pivot: {x: 0.52365303, y: 0.41839638}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6516db8df0cfa0a48b4ede7aabd30c52
+      internalID: -1218471461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 64
+        width: 27
+        height: 25
+      alignment: 9
+      pivot: {x: 0.796979, y: 0.37511078}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fde63a2828e8644683b4432dd5d9ab9
+      internalID: -1935644271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 64
+        width: 32
+        height: 17
+      alignment: 9
+      pivot: {x: 0.33267546, y: 0.5690465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b468e4b614f668a4b89dcba6f871e1f2
+      internalID: -865194474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 64
+        width: 39
+        height: 19
+      alignment: 9
+      pivot: {x: 0.301615, y: 0.4999996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6748b3849d735f45aba2e627566fc23
+      internalID: 1368574587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 64
+        width: 25
+        height: 20
+      alignment: 9
+      pivot: {x: 0.3828174, y: 0.48122025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1271ccba0e68f498b0f3aeaaf7025e
+      internalID: 358102915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 64
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.589201, y: 0.4248829}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a23262063477e418876f283d806eb5
+      internalID: 819536327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 64
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.48497468, y: 0.4248829}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e90fc8173c725468aa2737c215ccef
+      internalID: -935613411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 32
+        width: 18
+        height: 20
+      alignment: 9
+      pivot: {x: 0.53174824, y: 0.42856598}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dd0bdb1b6fda74eba9161e6651c679
+      internalID: 154111543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 32
+        width: 22
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5216467, y: 0.45488438}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbe001a5d7acf34295d95c3968c2247
+      internalID: -1871447113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 32
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.4999984, y: 0.4461471}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e36fcdeadb50b0478c44f0d3ac47ab0
+      internalID: -256845154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 32
+        width: 18
+        height: 20
+      alignment: 9
+      pivot: {x: 0.52842206, y: 0.42325974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e576c6fc898c7042aad8c69e77ad562
+      internalID: -907144520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 18
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5276029, y: 0.42857724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b545c9494fdc24cae809e3fd5bfc6e
+      internalID: -1101385927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 0
+        width: 22
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5207197, y: 0.45201808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c80381399bd27f4da8a6a39dc36fdbd
+      internalID: 531050972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 22
+        height: 17
+      alignment: 9
+      pivot: {x: 0.41971242, y: 0.50335187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3d4b7ebe29f274382f24640efffc56
+      internalID: -205595321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Whip Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 0
+        width: 26
+        height: 13
+      alignment: 9
+      pivot: {x: 0.4013836, y: 0.7103832}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd65779ce00e8e4d8d86fac18f34adc
+      internalID: 1870057876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fishfolk Whip Sprite Sheet_13: -1935644271
+      Fishfolk Whip Sprite Sheet_11: 873470204
+      Fishfolk Whip Sprite Sheet_20: -1871447113
+      Fishfolk Whip Sprite Sheet_18: -935613411
+      Fishfolk Whip Sprite Sheet_22: -907144520
+      Fishfolk Whip Sprite Sheet_9: 1342534466
+      Fishfolk Whip Sprite Sheet_1: -330922225
+      Fishfolk Whip Sprite Sheet_3: -1365650589
+      Fishfolk Whip Sprite Sheet_7: -1907951701
+      Fishfolk Whip Sprite Sheet_6: 1951365230
+      Fishfolk Whip Sprite Sheet_15: 1368574587
+      Fishfolk Whip Sprite Sheet_17: 819536327
+      Fishfolk Whip Sprite Sheet_21: -256845154
+      Fishfolk Whip Sprite Sheet_16: 358102915
+      Fishfolk Whip Sprite Sheet_24: 531050972
+      Fishfolk Whip Sprite Sheet_14: -865194474
+      Fishfolk Whip Sprite Sheet_2: 1757656269
+      Fishfolk Whip Sprite Sheet_12: -1218471461
+      Fishfolk Whip Sprite Sheet_0: -1756950505
+      Fishfolk Whip Sprite Sheet_5: 43521630
+      Fishfolk Whip Sprite Sheet_4: -1290481081
+      Fishfolk Whip Sprite Sheet_10: -860763632
+      Fishfolk Whip Sprite Sheet_8: 649278113
+      Fishfolk Whip Sprite Sheet_25: -205595321
+      Fishfolk Whip Sprite Sheet_23: -1101385927
+      Fishfolk Whip Sprite Sheet_26: 1870057876
+      Fishfolk Whip Sprite Sheet_19: 154111543
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

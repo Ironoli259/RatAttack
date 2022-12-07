@@ -1,0 +1,805 @@
+fileFormatVersion: 2
+guid: 3fdb2d280ae0f6e428b43eb553fab059
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 33
+        height: 37
+      alignment: 9
+      pivot: {x: 0.51730555, y: 0.16558178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5304aed738c66840849d772c3b3c04a
+      internalID: -1004632958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 33
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5403796, y: 0.15935396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5897ef88d115e7044a34fa99340a286a
+      internalID: 1795537707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 256
+        width: 33
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5381969, y: 0.15312676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acd9e28b8d8b0e418f3ee9a6f270ff9
+      internalID: -1185719311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 256
+        width: 33
+        height: 37
+      alignment: 9
+      pivot: {x: 0.511537, y: 0.1552924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31843e2f8efbd9244aa27b8d46805823
+      internalID: 1162897199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 33
+        height: 37
+      alignment: 9
+      pivot: {x: 0.511537, y: 0.1655822}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fac4bfc8bff6b49a62c7672c55a19f
+      internalID: 595936554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 192
+        width: 38
+        height: 37
+      alignment: 9
+      pivot: {x: 0.449905, y: 0.13985753}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae95b17f1a720984494bb17b6ee818df
+      internalID: -972669007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 192
+        width: 42
+        height: 37
+      alignment: 9
+      pivot: {x: 0.43654668, y: 0.1552924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18eedd8dd74a15c41b168f1105c0c330
+      internalID: -1125733411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 192
+        width: 42
+        height: 37
+      alignment: 9
+      pivot: {x: 0.4320141, y: 0.1501473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3040538e1eb39494788639c122fd6a28
+      internalID: 770708439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 192
+        width: 38
+        height: 37
+      alignment: 9
+      pivot: {x: 0.4599248, y: 0.1552924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a9d3fafed07e645b25837243e03294
+      internalID: 1845554480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 192
+        width: 34
+        height: 37
+      alignment: 9
+      pivot: {x: 0.49440092, y: 0.13471243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b97dbc33651b74c807a70d19493771
+      internalID: 1646158352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 192
+        width: 32
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5356922, y: 0.14500262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baffc2cddc55c1d40b60f2a1af569de6
+      internalID: -1443541064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 192
+        width: 32
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5416422, y: 0.13471285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c623cba5df7a59c43ac7751c145d6141
+      internalID: -591492457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 33
+        height: 37
+      alignment: 9
+      pivot: {x: 0.52884257, y: 0.14500262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cac638f125ebb448b9cdb037cdb3634
+      internalID: 408561867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 41
+        height: 37
+      alignment: 9
+      pivot: {x: 0.4024982, y: 0.1501473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f141e56d0d75bdd468789051f9501cf4
+      internalID: 885187442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 38
+        height: 37
+      alignment: 9
+      pivot: {x: 0.4549147, y: 0.13471285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb0450ae63673f48b9a998f43fb51ff
+      internalID: 1577742342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 35
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12956774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52e5e5b96fe43c49b971d138d282f13
+      internalID: -171120950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 128
+        width: 47
+        height: 37
+      alignment: 9
+      pivot: {x: 0.36229235, y: 0.1501473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a5f2e23439da043a3c116a9c2387c2
+      internalID: 749050339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 128
+        width: 48
+        height: 37
+      alignment: 9
+      pivot: {x: 0.3611959, y: 0.13471285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ea6c7b12ed7d344bcb61a8fda5a94e
+      internalID: -964581588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 128
+        width: 36
+        height: 37
+      alignment: 9
+      pivot: {x: 0.4788488, y: 0.12956774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93e532d402427e4997f1313b30f74b8
+      internalID: 1464542118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 33
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5230741, y: 0.12956814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9baaf64377ba274287de7587ffb66d8
+      internalID: -1260866313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 33
+        height: 36
+      alignment: 9
+      pivot: {x: 0.50576854, y: 0.14042896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1f2e637e40ee649a83d9132d6bcf56
+      internalID: 1590574263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 33
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5115375, y: 0.14103328}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64521db170c52cf4ab9870e7a1d3c614
+      internalID: 1161700377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 33
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5057688, y: 0.14042896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711a65f95aed13b4d91606c9b37fded6
+      internalID: 379786132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 33
+        height: 37
+      alignment: 9
+      pivot: {x: 0.51730555, y: 0.13471264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e7166eb8731cb478afd547581cc3bc
+      internalID: 1826114360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 33
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0.145717}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571c6ad0ae662794b8efe1ce89361308
+      internalID: 1955043676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 33
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5115375, y: 0.14103353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0a6a7cbc3048944a76b83915f07d86
+      internalID: -489050685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.44489568, y: 0.1416734}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6df5da9188eef1478df43a3f0df9418
+      internalID: 1665883209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 49
+        height: 31
+      alignment: 9
+      pivot: {x: 0.364028, y: 0.17454411}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e283f03509e6a40bd91f33555440d1
+      internalID: 1185778811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 0
+        width: 52
+        height: 25
+      alignment: 9
+      pivot: {x: 0.4158026, y: 0.25633797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6364320afea50408ada931fcd2f73b
+      internalID: -619341935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 0
+        width: 52
+        height: 20
+      alignment: 9
+      pivot: {x: 0.44142798, y: 0.30963916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0ce1ab1fceb9d4692bf33d8acc0528
+      internalID: 983686190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naga Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 0
+        width: 52
+        height: 20
+      alignment: 9
+      pivot: {x: 0.44142738, y: 0.281085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4434f6a2fce39f479abe448ef184fcf
+      internalID: 792621768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Naga Sprite Sheet_0: -1004632958
+      Naga Sprite Sheet_2: -1185719311
+      Naga Sprite Sheet_23: 1826114360
+      Naga Sprite Sheet_1: 1795537707
+      Naga Sprite Sheet_18: 1464542118
+      Naga Sprite Sheet_26: 1665883209
+      Naga Sprite Sheet_8: 1845554480
+      Naga Sprite Sheet_14: 1577742342
+      Naga Sprite Sheet_7: 770708439
+      Naga Sprite Sheet_24: 1955043676
+      Naga Sprite Sheet_10: -1443541064
+      Naga Sprite Sheet_21: 1161700377
+      Naga Sprite Sheet_30: 792621768
+      Naga Sprite Sheet_5: -972669007
+      Naga Sprite Sheet_25: -489050685
+      Naga Sprite Sheet_22: 379786132
+      Naga Sprite Sheet_4: 595936554
+      Naga Sprite Sheet_19: -1260866313
+      Naga Sprite Sheet_9: 1646158352
+      Naga Sprite Sheet_3: 1162897199
+      Naga Sprite Sheet_15: -171120950
+      Naga Sprite Sheet_17: -964581588
+      Naga Sprite Sheet_28: -619341935
+      Naga Sprite Sheet_20: 1590574263
+      Naga Sprite Sheet_13: 885187442
+      Naga Sprite Sheet_6: -1125733411
+      Naga Sprite Sheet_11: -591492457
+      Naga Sprite Sheet_12: 408561867
+      Naga Sprite Sheet_27: 1185778811
+      Naga Sprite Sheet_29: 983686190
+      Naga Sprite Sheet_16: 749050339
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

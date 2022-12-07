@@ -2,22 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+enum AI_State { IDLE, CHASING, ATTACK };
+
 public class Enemy : MonoBehaviour
 {
     [SerializeField] protected float speed = 1f;
     [SerializeField] protected int enemyHP = 2;
     [SerializeField] protected int enemyMaxHP;
     [SerializeField] protected int damage;
+    [SerializeField] protected int attackRange;
+    [SerializeField] float attackWaitTimer = 1;
 
     [SerializeField] Drops[] dropList;
 
     protected AudioSource source;
     protected GameObject player;
-    protected float distanceFromPlayer;
     protected Vector3 direction;
+    protected float distanceFromPlayer;
 
     protected SpriteRenderer spriteRenderer;
+    AI_State AIState = AI_State.IDLE;
     protected Animator animator;
+    float waitTimer;
 
     protected virtual void Start()
     {
@@ -26,19 +32,42 @@ public class Enemy : MonoBehaviour
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         source = GetComponent<AudioSource>();
+        waitTimer = attackWaitTimer;
     }
 
     protected virtual void Update()
-    {
-        Vector3 destination = player.transform.position;
-        Vector3 source = gameObject.transform.position;
+    {        
+        this.direction = player.transform.position - transform.position;
 
-        this.direction = destination - source;
-
-        this.distanceFromPlayer = Mathf.Sqrt(direction.x * direction.x + direction.y * direction.y);
-
-        //Change direction         
-        transform.localScale = new Vector3(direction.x < 0 ? -1 : 1, 1, 1);
+        switch (AIState)
+        {
+            case AI_State.IDLE:
+                this.waitTimer -= Time.deltaTime;
+                if(waitTimer <=0)
+                    this.AIState = AI_State.CHASING;
+                break;
+            case AI_State.CHASING:
+                this.distanceFromPlayer = Vector3.Distance(transform.position, player.transform.position);
+                if(distanceFromPlayer > attackRange)
+                {
+                    animator.SetBool("IsRunning", true);
+                    this.transform.localScale = new Vector3(direction.x < 0 ? -1 : 1, 1, 1);
+                    Move();
+                }
+                else
+                {
+                    animator.SetBool("IsRunning", false);
+                    this.AIState = AI_State.ATTACK;
+                }
+                break;
+            case AI_State.ATTACK:
+                this.animator.SetTrigger("Attack");
+                this.AIState = AI_State.IDLE;
+                this.waitTimer = attackWaitTimer;
+                break;
+            default:
+                break;
+        }
     }
 
     protected void Move()
@@ -63,7 +92,7 @@ public class Enemy : MonoBehaviour
     {
         Instantiate(dropList[0], this.transform.position, Quaternion.identity);
         int spawnChance = Random.Range(0, 200);
-        
+
         if (spawnChance < 55)
             Instantiate(dropList[1], this.transform.position, Quaternion.identity);
         else if (spawnChance < 65)
@@ -80,7 +109,7 @@ public class Enemy : MonoBehaviour
             Instantiate(dropList[7], this.transform.position, Quaternion.identity);
         else if (spawnChance < 100)
             Instantiate(dropList[8], this.transform.position, Quaternion.identity);
-        else if (spawnChance < 105)        
+        else if (spawnChance < 105)
             Instantiate(dropList[9], this.transform.position, Quaternion.identity);
     }
 }

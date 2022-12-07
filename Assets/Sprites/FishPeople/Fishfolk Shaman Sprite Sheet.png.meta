@@ -1,0 +1,1253 @@
+fileFormatVersion: 2
+guid: dafd30861fb88aa40bfa4ed6e5997d75
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 256
+        width: 19
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.4719406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96599431c93de549b9a1d000cd94509
+      internalID: 1240431226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 256
+        width: 19
+        height: 20
+      alignment: 9
+      pivot: {x: 0.49578074, y: 0.4759491}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3826fb278476734ba93f09f7204164b
+      internalID: 1025705269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 256
+        width: 19
+        height: 21
+      alignment: 9
+      pivot: {x: 0.50421983, y: 0.45037115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a75ddc7eceb00946abaf441ffc0ae77
+      internalID: 125006107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 256
+        width: 19
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5000004, y: 0.4719406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815dd5d35d71cff4d97c2ab8ba44162e
+      internalID: 626047663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 224
+        width: 19
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.47594985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d72e8d47cc6d347a45844fbf418ba6
+      internalID: -687340746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 226
+        width: 17
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5000005, y: 0.37573624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd07d490936ff844382ae7ae6113744c
+      internalID: 1581103227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 227
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5350752, y: 0.3276329}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ccbdf43d9aece4aa8dda144922018e
+      internalID: 1311979516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 226
+        width: 17
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5033408, y: 0.38356933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac0a98d8b2d54946961b3c9438bb5e4
+      internalID: -302825277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 224
+        width: 19
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46876222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1b175e794878c4aaf926e8a6cd0505
+      internalID: -1027891496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 226
+        width: 21
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5054009, y: 0.3695755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdb920b4b04e4242bd4a37b46431994
+      internalID: 1460523684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 226
+        width: 24
+        height: 21
+      alignment: 9
+      pivot: {x: 0.52362823, y: 0.35688418}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5963b8b552d7853479b4140afa5fadfb
+      internalID: 1151140792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 225
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0.49999928, y: 0.40437898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60932755a08e0ac40b9725cef1be857e
+      internalID: -200618261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 192
+        width: 19
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5079638, y: 0.469738}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6ed64199e54a349aacbd1c10d8eea6
+      internalID: 1956477545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 192
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0.49515733, y: 0.45641363}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695fc1d5acb302a42a702c28d9a90666
+      internalID: 1150957875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 192
+        width: 22
+        height: 22
+      alignment: 9
+      pivot: {x: 0.51386815, y: 0.43528125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4973f00c23724e542816db41d3186979
+      internalID: -2136344911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 192
+        width: 21
+        height: 22
+      alignment: 9
+      pivot: {x: 0.49757856, y: 0.43065852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06adf8d20f564484eadba220fe82b60c
+      internalID: 1248966025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 192
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44802347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fccc8a95dceb547bf00b4276f758c9
+      internalID: -1705339055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 192
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5258514, y: 0.47702026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe07e94facae954bb620700584c51f2
+      internalID: -1734325992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 160
+        width: 19
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.47721022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8440bea30413b564a91358d078dfd34b
+      internalID: 2044338861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 160
+        width: 18
+        height: 17
+      alignment: 9
+      pivot: {x: 0.536175, y: 0.5497939}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0871a537483d4d64ab0e101925d45515
+      internalID: 84521316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 160
+        width: 18
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5325576, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e50063e1d8f6bc4eab9486b1aa82a31
+      internalID: 1753743015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 160
+        width: 19
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5000004, y: 0.47069854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95b389ab74307041b97a423de2488da
+      internalID: -1026696372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 128
+        width: 19
+        height: 20
+      alignment: 9
+      pivot: {x: 0.50385314, y: 0.46705705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce5a7c50d9c60f4f9073c5dadebe0c5
+      internalID: -1100595382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 128
+        width: 18
+        height: 17
+      alignment: 9
+      pivot: {x: 0.4755978, y: 0.5645949}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8516fc296e4954d8b994dcab92b89f
+      internalID: 90787809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 128
+        width: 22
+        height: 13
+      alignment: 9
+      pivot: {x: 0.41015485, y: 0.72525376}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f4cf0033190dd47851e68f6751b2a9
+      internalID: -180575781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 128
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.374938, y: 0.8726931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326a51ff529902d4289e7ad2b54bade2
+      internalID: 1243450179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 128
+        width: 24
+        height: 12
+      alignment: 9
+      pivot: {x: 0.36339316, y: 0.7922732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e072235edc7de47af9522b62ee2d17
+      internalID: 1977042567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 128
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.2998549, y: 0.8327082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6b9fc5c2fa9db4d938f0807ba3cc02
+      internalID: 347442906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 96
+        width: 13
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5618087, y: 0.30358583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218771919d651b64698158d587c3e71c
+      internalID: -520639371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 96
+        width: 15
+        height: 13
+      alignment: 9
+      pivot: {x: 0.49999973, y: 0.10167635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991e2e4048a29904189da770cb70d675
+      internalID: 239784416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 96
+        width: 15
+        height: 17
+      alignment: 9
+      pivot: {x: 0.493749, y: 0.09535352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d34f8d0b30c6ff40a3f59dab98b7e5f
+      internalID: -1993819988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 96
+        width: 13
+        height: 19
+      alignment: 9
+      pivot: {x: 0.48047227, y: 0.08582587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd0818ed87cad944968fdb424ad3cc3
+      internalID: -201988526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 96
+        width: 15
+        height: 17
+      alignment: 9
+      pivot: {x: 0.49435833, y: 0.08189616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5701178529f2c9b4eaf70eb0cb6954a2
+      internalID: 146033065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 96
+        width: 15
+        height: 17
+      alignment: 9
+      pivot: {x: 0.48871663, y: 0.08687367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd387045bb699534d83b2ac1c3c3a82d
+      internalID: 651561751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 96
+        width: 18
+        height: 17
+      alignment: 9
+      pivot: {x: 0.4130461, y: 0.0916941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5eab5d218969594abfa7258e6764dd9
+      internalID: 2066389049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 96
+        width: 16
+        height: 17
+      alignment: 9
+      pivot: {x: 0.4664135, y: 0.08905837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacae92b45095d94b85443f949778a93
+      internalID: 473030345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 96
+        width: 15
+        height: 17
+      alignment: 9
+      pivot: {x: 0.4910441, y: 0.085107245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f216c54d4d5a82649b0ec2cb272a0471
+      internalID: -362980808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 64
+        width: 15
+        height: 17
+      alignment: 9
+      pivot: {x: 0.49561527, y: 0.08990658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97872a2df80a6c14487ab5a9c4f4c8eb
+      internalID: 110230306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 64
+        width: 15
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 0.082169026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45135394d89a5d4190925c443fa99b1
+      internalID: 1808064667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 16
+        height: 17
+      alignment: 9
+      pivot: {x: 0.4630046, y: 0.08990658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b269489ebbbcb1d41a3631d8ed1c06fc
+      internalID: 1294174527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 64
+        width: 17
+        height: 17
+      alignment: 9
+      pivot: {x: 0.43423012, y: 0.08990658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408c8c7c329a3b643a0adff3034cbe5e
+      internalID: 918066776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a2feebdcd624041be83fe39e9f604c
+      internalID: -2142211866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 32
+        width: 15
+        height: 17
+      alignment: 9
+      pivot: {x: 0.49999988, y: 0.08324118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d531a0b4774ce2e4e9f61dcd1551e841
+      internalID: 1112310809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 32
+        width: 17
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09662199}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486968e02556da24480d609a5fde5a7e
+      internalID: -1097784873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 32
+        width: 13
+        height: 18
+      alignment: 9
+      pivot: {x: 0.4888018, y: 0.07943535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eed55706b4a5b24db76048a132bfe59
+      internalID: 898858671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 32
+        width: 15
+        height: 17
+      alignment: 9
+      pivot: {x: 0.4963267, y: 0.08845004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb391a6b4dcfa6c4cb04d3ae6897023b
+      internalID: 1075504093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.47589952, y: 0.063400246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2500dcbc9cfeacb48b3398cef6968d31
+      internalID: -1485167012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 31
+        height: 26
+      alignment: 9
+      pivot: {x: 0.46206516, y: 0.05813802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab4995eace53654c89b57ad5df02566
+      internalID: 586055513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 27
+      alignment: 9
+      pivot: {x: 0.48303914, y: 0.054462895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78533a63f27f0864e819fffdc256c29f
+      internalID: 1239658574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 0
+        width: 14
+        height: 10
+      alignment: 9
+      pivot: {x: 0.3177719, y: 0.15983705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd07471fea998449a8a54f65a8a6458
+      internalID: -1953453949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishfolk Shaman Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5373821, y: 0.16106316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453a7da69ee5ec849a1a9f96d7e97c86
+      internalID: -1093277923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fishfolk Shaman Sprite Sheet_38: 1808064667
+      Fishfolk Shaman Sprite Sheet_5: 1581103227
+      Fishfolk Shaman Sprite Sheet_6: 1311979516
+      Fishfolk Shaman Sprite Sheet_47: 898858671
+      Fishfolk Shaman Sprite Sheet_20: 1753743015
+      Fishfolk Shaman Sprite Sheet_50: 1075504093
+      Fishfolk Shaman Sprite Sheet_23: 90787809
+      Fishfolk Shaman Sprite Sheet_2: 125006107
+      Fishfolk Shaman Sprite Sheet_27: 347442906
+      Fishfolk Shaman Sprite Sheet_29: 239784416
+      Fishfolk Shaman Sprite Sheet_46: -415248509
+      Fishfolk Shaman Sprite Sheet_52: -1485167012
+      Fishfolk Shaman Sprite Sheet_40: 918066776
+      Fishfolk Shaman Sprite Sheet_3: 626047663
+      Fishfolk Shaman Sprite Sheet_22: -1100595382
+      Fishfolk Shaman Sprite Sheet_41: -2142211866
+      Fishfolk Shaman Sprite Sheet_28: -520639371
+      Fishfolk Shaman Sprite Sheet_32: 146033065
+      Fishfolk Shaman Sprite Sheet_49: -1220696848
+      Fishfolk Shaman Sprite Sheet_44: -1097784873
+      Fishfolk Shaman Sprite Sheet_30: -1993819988
+      Fishfolk Shaman Sprite Sheet_12: 1956477545
+      Fishfolk Shaman Sprite Sheet_37: 110230306
+      Fishfolk Shaman Sprite Sheet_9: 1460523684
+      Fishfolk Shaman Sprite Sheet_24: -180575781
+      Fishfolk Shaman Sprite Sheet_13: 1150957875
+      Fishfolk Shaman Sprite Sheet_25: 1243450179
+      Fishfolk Shaman Sprite Sheet_56: 1239658574
+      Fishfolk Shaman Sprite Sheet_42: 1112310809
+      Fishfolk Shaman Sprite Sheet_10: 1151140792
+      Fishfolk Shaman Sprite Sheet_11: -200618261
+      Fishfolk Shaman Sprite Sheet_18: 2044338861
+      Fishfolk Shaman Sprite Sheet_17: -1734325992
+      Fishfolk Shaman Sprite Sheet_45: -801399475
+      Fishfolk Shaman Sprite Sheet_51: 1964698926
+      Fishfolk Shaman Sprite Sheet_4: -687340746
+      Fishfolk Shaman Sprite Sheet_57: -1953453949
+      Fishfolk Shaman Sprite Sheet_53: 483425472
+      Fishfolk Shaman Sprite Sheet_58: -1093277923
+      Fishfolk Shaman Sprite Sheet_26: 1977042567
+      Fishfolk Shaman Sprite Sheet_14: -2136344911
+      Fishfolk Shaman Sprite Sheet_7: -302825277
+      Fishfolk Shaman Sprite Sheet_8: -1027891496
+      Fishfolk Shaman Sprite Sheet_15: 1248966025
+      Fishfolk Shaman Sprite Sheet_34: 2066389049
+      Fishfolk Shaman Sprite Sheet_48: 1155160794
+      Fishfolk Shaman Sprite Sheet_0: 1240431226
+      Fishfolk Shaman Sprite Sheet_1: 1025705269
+      Fishfolk Shaman Sprite Sheet_16: -1705339055
+      Fishfolk Shaman Sprite Sheet_43: 1463639488
+      Fishfolk Shaman Sprite Sheet_36: -362980808
+      Fishfolk Shaman Sprite Sheet_39: 1294174527
+      Fishfolk Shaman Sprite Sheet_35: 473030345
+      Fishfolk Shaman Sprite Sheet_54: 586055513
+      Fishfolk Shaman Sprite Sheet_55: -245602596
+      Fishfolk Shaman Sprite Sheet_19: 84521316
+      Fishfolk Shaman Sprite Sheet_31: -201988526
+      Fishfolk Shaman Sprite Sheet_21: -1026696372
+      Fishfolk Shaman Sprite Sheet_33: 651561751
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
