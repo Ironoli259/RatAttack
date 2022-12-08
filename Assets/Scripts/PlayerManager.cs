@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,6 +16,7 @@ public class PlayerManager : MonoBehaviour
     {
         characterIndex = PlayerPrefs.GetInt("SelectedCharacter", 0);
         Instantiate(playerPrefabs[characterIndex], startLocation, Quaternion.identity);
+        Console.WriteLine("Character spawned");
         isGameOver = false;
 
     }

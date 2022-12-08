@@ -31,8 +31,11 @@ public class Player : MonoBehaviour
 
     internal Action<int, int> OnExpGained;
 
-    protected void Start()
+    bool spawn = false;
+
+    private void Start()
     {
+        Console.WriteLine("Player");
         this.weapons[0].LevelUp();
 
         this.playerMaxHP += TitleManager.saveData.permHealthBoost;
@@ -53,6 +56,13 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     protected void Update()
     {
+        if(!this.spawn)
+        {
+            this.Start();
+            this.spawn = true;
+            Console.WriteLine("Testing");
+        }
+        Console.WriteLine(spawn);
         //Move
         float inputX = Input.GetAxis("Horizontal");
         float inputY = Input.GetAxis("Vertical");
@@ -66,9 +76,12 @@ public class Player : MonoBehaviour
 
         //Running animation
         if(animator!= null)        
-            animator.SetBool("IsRunning", inputX != 0 || inputY != 0);        
+            animator.SetBool("IsRunning", inputX != 0 || inputY != 0);
         else
+        {
             this.animator = GetComponent<Animator>();
+            Console.WriteLine("animator");
+        }
     }
 
     internal void AddExp()

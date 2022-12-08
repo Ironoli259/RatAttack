@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -27,6 +28,7 @@ public class GameManager : MonoBehaviour
     {
         seconds = (int)Time.time;                
         timerText.text = seconds.ToString("00");
+        Console.WriteLine("Testing");
     }
 
     IEnumerator SpawnEnemiesCoroutine()
