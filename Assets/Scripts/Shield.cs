@@ -5,13 +5,14 @@ using UnityEngine;
 public class Shield : BaseWeapon
 {
     int maxDurability;
-    [SerializeField] Player player;
+    Player player;
 
     Animator animator;
     int durability;
 
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         animator = GetComponent<Animator>();
         maxDurability = 2 * level;
         durability = 1;

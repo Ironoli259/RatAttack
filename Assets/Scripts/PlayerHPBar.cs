@@ -5,11 +5,12 @@ using UnityEngine;
 
 public class PlayerHPBar : MonoBehaviour
 {
-    [SerializeField] Player player;
     [SerializeField] GameObject foreground;
+    Player player;
 
     private void Update()
     {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         if (player == null)
         {
             return;

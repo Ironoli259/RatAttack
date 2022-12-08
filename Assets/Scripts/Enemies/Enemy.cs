@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected int enemyHP = 2;
     [SerializeField] protected int enemyMaxHP;
     [SerializeField] protected int damage;
-    [SerializeField] protected int attackRange;
+    [SerializeField] protected float attackRange;
     [SerializeField] float attackWaitTimer = 1;
 
     [SerializeField] Drops[] dropList;

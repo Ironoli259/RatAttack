@@ -10,12 +10,17 @@ using UnityEngine.SceneManagement;
 public class TitleManager : MonoBehaviour
 {
     [SerializeField] GameObject upgradesMenu;
-    [SerializeField] TMP_Text goldValue;
+    [SerializeField] GameObject shopMenu;
+    [SerializeField] TMP_Text upGoldValue;
     [SerializeField] TMP_Text goldCost;
     [SerializeField] TMP_Text currentHealth;
     [SerializeField] TMP_Text currentPower;
+    [SerializeField] TMP_Text shGoldValue;
+    [SerializeField] TMP_Text profText;
+    [SerializeField] TMP_Text palaText;
 
-    private int cost;
+    private int upgradeCost;    
+
     public static SaveData saveData;
     string SavePath => Path.Combine(Application.persistentDataPath, "save.data");
 
@@ -75,43 +80,75 @@ public class TitleManager : MonoBehaviour
         SceneManager.LoadScene("Game");
     }
 
+    //----------------- Upgrade Menu -----------------//
     public void OnUpgradeButtonClick()
     {
         upgradesMenu.SetActive(true);
-        SetStrings();
+        SetUpgradeStrings();
     }
-
-    public void OnQuitButtonClick()
-    {
-        Application.Quit();
-    }
-
     public void AddHealth()
     {
         TitleManager.saveData.permHealthBoost++;
-        TitleManager.saveData.goldCoins -= cost;
-        SetStrings();
+        TitleManager.saveData.goldCoins -= upgradeCost;
+        SetUpgradeStrings();
     }
 
     public void AddPower()
     {
         TitleManager.saveData.permPowerBoost++;
-        TitleManager.saveData.goldCoins -= cost;
-        SetStrings();
+        TitleManager.saveData.goldCoins -= upgradeCost;
+        SetUpgradeStrings();
     }
 
-    public void SetStrings()
+    public void SetUpgradeStrings()
     {
-        goldValue.text = TitleManager.saveData.goldCoins.ToString();
-        cost = (TitleManager.saveData.permHealthBoost + TitleManager.saveData.permPowerBoost) * 10;
-        goldCost.text = cost.ToString();
+        upGoldValue.text = TitleManager.saveData.goldCoins.ToString();
+        upgradeCost = (TitleManager.saveData.permHealthBoost + TitleManager.saveData.permPowerBoost) * 10;
+        goldCost.text = upgradeCost.ToString();
         currentHealth.text = TitleManager.saveData.permHealthBoost.ToString();
         currentPower.text = TitleManager.saveData.permPowerBoost.ToString();
+    }
+    //----------------- Shop Menu -----------------//
+    public void OnShopButtonClick()
+    {
+        shopMenu.SetActive(true);
+        SetShopStrings();
+    }
+
+    public void OnPurchaseProfClick()
+    {
+        if (TitleManager.saveData.isProfessorPurchased || TitleManager.saveData.goldCoins < 1000)
+            return;
+        TitleManager.saveData.goldCoins -= 1000;
+        TitleManager.saveData.isProfessorPurchased = true;
+        SetShopStrings();
+    }
+
+    public void OnPurchasePalaClick() 
+    {
+        if (TitleManager.saveData.isPaladinPurchased || TitleManager.saveData.goldCoins < 1500)
+            return;
+        TitleManager.saveData.goldCoins -= 1500;
+        TitleManager.saveData.isPaladinPurchased = true;
+        SetShopStrings();
+    }
+
+    public void SetShopStrings()
+    {
+        shGoldValue.text = TitleManager.saveData.goldCoins.ToString();
+        profText.text = (TitleManager.saveData.isProfessorPurchased ? "Purchased" : "Purchase");
+        palaText.text = (TitleManager.saveData.isPaladinPurchased ? "Purchased" : "Purchase");
     }
 
     public void Back()
     {
         upgradesMenu.SetActive(false);
+        shopMenu.SetActive(false);
         Save();
+    }
+
+    public void OnQuitButtonClick()
+    {
+        Application.Quit();
     }
 }

@@ -6,12 +6,13 @@ using UnityEngine.UI;
 
 public class ExpBar : MonoBehaviour
 {
-    [SerializeField] Player player;
     [SerializeField] Image foreground;
     [SerializeField] TMP_Text levelText;
+    Player player;
 
     private void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         player.OnExpGained += OnExpGained;
         OnExpGained(0, 1);
     }

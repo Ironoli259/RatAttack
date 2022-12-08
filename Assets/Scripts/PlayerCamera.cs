@@ -28,12 +28,12 @@ public class PlayerCamera : MonoBehaviour
         vignette.intensity.Override(1 - player.GetHPRatio());
 
         //Make camera follow the player
-        if (target == null)
+        if (player == null)
         {
             return;
         }
 
-        transform.position = new Vector3(target.transform.position.x, target.transform.position.y, transform.position.z);
+        transform.position = new Vector3(player.transform.position.x, player.transform.position.y, transform.position.z);
     }
     
 }

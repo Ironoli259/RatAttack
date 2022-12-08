@@ -6,8 +6,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] TMP_Text timerText;
-    [SerializeField] GameObject player;
     [SerializeField] GameObject[] enemies;
+    Player player;
     
     int totalSeconds, seconds, minutes;
 
@@ -19,13 +19,14 @@ public class GameManager : MonoBehaviour
         {
             TitleManager.saveData = new SaveData();
         }
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         //StartCoroutine(SpawnEnemiesCoroutine());
     }
 
     void Update()
     {
         seconds = (int)Time.time;                
-        timerText.text =seconds.ToString("00");
+        timerText.text = seconds.ToString("00");
     }
 
     IEnumerator SpawnEnemiesCoroutine()

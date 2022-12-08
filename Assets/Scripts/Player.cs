@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     [SerializeField] float speed = 1;
+    [SerializeField] public int playerMaxHP;
     [SerializeField] BaseWeapon[] weapons;
     [SerializeField] GameObject levelUpMenu;
     [SerializeField] GameObject magnetEffect;
@@ -18,7 +19,6 @@ public class Player : MonoBehaviour
 
     Material material;
 
-    [SerializeField] internal int playerMaxHP;
     internal float playerHP;
     public float playerPower;
     bool isInvincible;
@@ -65,7 +65,10 @@ public class Player : MonoBehaviour
         }
 
         //Running animation
-        animator.SetBool("IsRunning", inputX != 0 || inputY != 0);
+        if(animator!= null)        
+            animator.SetBool("IsRunning", inputX != 0 || inputY != 0);        
+        else
+            this.animator = GetComponent<Animator>();
     }
 
     internal void AddExp()

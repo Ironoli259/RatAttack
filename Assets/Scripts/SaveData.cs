@@ -9,4 +9,6 @@ public class SaveData
     public int goldCoins;
     public int permHealthBoost;
     public int permPowerBoost;
+    public bool isProfessorPurchased = false;
+    public bool isPaladinPurchased = false;
 }
