@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 2836134977194953289}
   - component: {fileID: 157510696507677279}
   - component: {fileID: 270807730835329584}
+  - component: {fileID: 3557810841809442269}
+  - component: {fileID: 7931909686716894}
   m_Layer: 0
   m_Name: Smite
   m_TagString: Untagged
@@ -105,3 +107,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!58 &3557810841809442269
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9050169804840877037}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.09938729, y: 0.3612435}
+  serializedVersion: 2
+  m_Radius: 1.0453126
+--- !u!114 &7931909686716894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9050169804840877037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01cd0b256f423ab4884c762f6c43cc5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

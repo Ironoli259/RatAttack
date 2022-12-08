@@ -34,8 +34,11 @@ public class Fireball : MonoBehaviour
     IEnumerator FireballCoroutine()
     {
         yield return new WaitForSeconds(2);
-        animator.SetBool("FireballEnd", true);
-        yield return new WaitForSeconds(0.5f);
-        Destroy(gameObject);        
+        animator.SetTrigger("Death");              
+    }
+
+    public void DestroyObj()
+    {
+        Destroy(this.gameObject);
     }
 }

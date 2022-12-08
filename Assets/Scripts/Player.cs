@@ -30,13 +30,12 @@ public class Player : MonoBehaviour
     internal int currentLevel;
 
     internal Action<int, int> OnExpGained;
+    int character;
 
-    bool spawn = false;
 
     private void Start()
     {
-        Console.WriteLine("Player");
-        this.weapons[0].LevelUp();
+        this.character = PlayerPrefs.GetInt("SelectedCharacter");
 
         this.playerMaxHP += TitleManager.saveData.permHealthBoost;
         this.playerPower += TitleManager.saveData.permPowerBoost;
@@ -50,19 +49,33 @@ public class Player : MonoBehaviour
         this.spriteRenderer = GetComponent<SpriteRenderer>();
         this.source = GetComponent<AudioSource>();
 
-        this.material = spriteRenderer.material;
+        this.material = spriteRenderer.material;                
+        this.weapons[0].LevelUp();
+
+        if(character == 0)
+        {
+            this.weapons[1].LevelUp();
+            this.weapons[2].LevelUp();
+        }
+        else if(character == 1)
+        {
+            this.weapons[0].level++;
+            this.weapons[1].level++;
+            this.weapons[2].level++;
+            StartCoroutine(ProfessorCoroutine());
+        }
+        else if (character == 2)
+        {
+            this.weapons[0].level++;
+            this.weapons[1].level++;
+            this.weapons[2].level++;
+            StartCoroutine(PaladinCoroutine());
+        }
     }
 
     // Update is called once per frame
     protected void Update()
     {
-        if(!this.spawn)
-        {
-            this.Start();
-            this.spawn = true;
-            Console.WriteLine("Testing");
-        }
-        Console.WriteLine(spawn);
         //Move
         float inputX = Input.GetAxis("Horizontal");
         float inputY = Input.GetAxis("Vertical");
@@ -75,11 +88,11 @@ public class Player : MonoBehaviour
         }
 
         //Running animation
-        if(animator!= null)        
+        if (animator != null)
             animator.SetBool("IsRunning", inputX != 0 || inputY != 0);
         else
         {
-            this.animator = GetComponent<Animator>();
+            //this.animator = GetComponent<Animator>();
             Console.WriteLine("animator");
         }
     }
@@ -190,7 +203,7 @@ public class Player : MonoBehaviour
         //this.spriteRenderer.color = Color.white;
         this.isInvincible = false;
     }
-    
+
     IEnumerator CameraShakeCoroutine()
     {
         Camera.main.GetComponent<PlayerCamera>().target.transform.position = new Vector3(this.transform.position.x + 0.5f, this.transform.position.y, this.transform.position.z);
@@ -238,5 +251,84 @@ public class Player : MonoBehaviour
         Camera.main.GetComponent<PlayerCamera>().chromaticAberration.intensity.Override(0.33f);
         Camera.main.GetComponent<PlayerCamera>().chromaticAberration.intensity.Override(0f);
         Time.timeScale = 1;
+    }
+
+    //--------------- Paladin and Professor Attacks ---------------//
+    public void ActivateWeapon(int index)
+    {
+        weapons[index].Activate();
+    }
+    public void DeactivateWeapon(int index)
+    {
+        weapons[index].Deactivate();
+    }
+
+    IEnumerator PaladinCoroutine()
+    {
+        while (true)
+        {
+            animator.SetTrigger("HAttack");
+            yield return new WaitForSeconds(2f);
+
+            if (weapons[1].level > 0)
+                animator.SetTrigger("GAttack");
+            else
+                animator.SetTrigger("HAttack");
+            yield return new WaitForSeconds(2f);
+
+            animator.SetTrigger("HAttack");
+            yield return new WaitForSeconds(2f);
+
+            if (weapons[1].level > 0)
+                animator.SetTrigger("GAttack");
+            else
+                animator.SetTrigger("HAttack");
+            yield return new WaitForSeconds(2f);
+
+            if (weapons[2].level > 0)
+                animator.SetTrigger("Smite");
+            else
+                animator.SetTrigger("HAttack");
+            yield return new WaitForSeconds(2f);
+        }
+    }
+
+    IEnumerator ProfessorCoroutine()
+    {
+        while (true)
+        {
+            animator.SetTrigger("ThrowRed");
+            yield return new WaitForSeconds(2f);
+
+            if (weapons[1].level > 0)
+                animator.SetTrigger("ThrowGreen");
+            else
+                animator.SetTrigger("ThrowRed");
+            yield return new WaitForSeconds(2f);
+
+            animator.SetTrigger("ThrowRed");
+            yield return new WaitForSeconds(2f);
+
+            if (weapons[2].level > 0)
+                animator.SetTrigger("ThrowPurple");
+            else
+                animator.SetTrigger("ThrowRed");
+            yield return new WaitForSeconds(2f);
+
+            if (weapons[1].level > 0)
+                animator.SetTrigger("ThrowGreen");
+            else
+                animator.SetTrigger("ThrowRed");
+            yield return new WaitForSeconds(2f);
+
+            animator.SetTrigger("ThrowRed");
+            yield return new WaitForSeconds(2f);
+
+            if (weapons[2].level > 0)
+                animator.SetTrigger("ThrowPurple");
+            else
+                animator.SetTrigger("ThrowRed");
+            yield return new WaitForSeconds(2f);
+        }
     }
 }

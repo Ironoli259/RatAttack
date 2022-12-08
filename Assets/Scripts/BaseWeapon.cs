@@ -20,4 +20,8 @@ public class BaseWeapon : MonoBehaviour
     {
         gameObject.SetActive(true);
     }
+    public void Deactivate()
+    {
+        gameObject.SetActive(false);
+    }
 }

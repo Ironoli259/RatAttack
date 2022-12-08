@@ -2,17 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HammerHit : MonoBehaviour
+public class HammerHit : BaseWeapon
 {
-    // Start is called before the first frame update
+    Player player;
+    CircleCollider2D circleCollider2D;
+
     void Start()
     {
-        
+        circleCollider2D = GetComponent<CircleCollider2D>();
+        circleCollider2D.radius = (float)(0.8 + (level * 0.2));
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+
+        Enemy enemy = collision.GetComponent<Enemy>();
+        if (enemy)
+        {
+            enemy.Damage(level + (int)player.playerPower + TitleManager.saveData.permPowerBoost);
+        }
+
     }
 }
