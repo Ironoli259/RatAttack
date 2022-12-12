@@ -10,9 +10,9 @@ public class Player : MonoBehaviour
     [SerializeField] float speed = 1;
     [SerializeField] public int playerMaxHP;
     [SerializeField] BaseWeapon[] weapons;
-    [SerializeField] GameObject levelUpMenu;
     [SerializeField] GameObject magnetEffect;
 
+    GameObject levelUpMenu;
     AudioSource source;
     SpriteRenderer spriteRenderer;
     Animator animator;
@@ -50,15 +50,17 @@ public class Player : MonoBehaviour
         this.source = GetComponent<AudioSource>();
 
         this.material = spriteRenderer.material;                
-        this.weapons[0].LevelUp();
 
         if(character == 0)
         {
+            //levelUpMenu = GameObject.FindGameObjectWithTag("LvlAdv").GetComponent<GameObject>();
+            this.weapons[0].LevelUp();
             this.weapons[1].LevelUp();
             this.weapons[2].LevelUp();
         }
         else if(character == 1)
         {
+            //levelUpMenu = GameObject.FindGameObjectWithTag("LvlPro").GetComponent<GameObject>();
             this.weapons[0].level++;
             this.weapons[1].level++;
             this.weapons[2].level++;
@@ -66,6 +68,7 @@ public class Player : MonoBehaviour
         }
         else if (character == 2)
         {
+            //levelUpMenu = GameObject.FindGameObjectWithTag("LvlPal").GetComponent<GameObject>();
             this.weapons[0].level++;
             this.weapons[1].level++;
             this.weapons[2].level++;
@@ -125,6 +128,23 @@ public class Player : MonoBehaviour
         Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
         Time.timeScale = 1;
     }
+
+    public void LevelUpRedPot()
+    {
+        levelUpMenu.SetActive(false);
+        weapons[0].LevelUp();
+        Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
+        Time.timeScale = 1;
+    }
+
+    public void LevelUpHammer()
+    {
+        levelUpMenu.SetActive(false);
+        weapons[0].LevelUp();        
+        Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
+        Time.timeScale = 1;
+    }
+
     public void LevelUpLightning()
     {
         levelUpMenu.SetActive(false);
@@ -132,6 +152,23 @@ public class Player : MonoBehaviour
         Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
         Time.timeScale = 1;
     }
+
+    public void LevelUpGreenPot()
+    {
+        levelUpMenu.SetActive(false);
+        weapons[1].LevelUp();
+        Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
+        Time.timeScale = 1;
+    }
+
+    public void LevelUpHSlash()
+    {
+        levelUpMenu.SetActive(false);
+        weapons[1].level++;
+        Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
+        Time.timeScale = 1;
+    }
+
     public void LevelUpFireball()
     {
         levelUpMenu.SetActive(false);
@@ -139,6 +176,22 @@ public class Player : MonoBehaviour
         Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
         Time.timeScale = 1;
     }
+    public void LevelUpPurplePot()
+    {
+        levelUpMenu.SetActive(false);
+        weapons[0].LevelUp();
+        Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
+        Time.timeScale = 1;
+    }
+
+    public void LevelUpSmite()
+    {
+        levelUpMenu.SetActive(false);
+        weapons[2].level++;
+        Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
+        Time.timeScale = 1;
+    }
+
     public void LevelUpShield()
     {
         levelUpMenu.SetActive(false);

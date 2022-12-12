@@ -453,11 +453,17 @@ PrefabInstance:
       propertyPath: weapons.Array.data[5]
       value: 
       objectReference: {fileID: 4723784952069977263}
+    - target: {fileID: 6056532451781789983, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6056532452987082131, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6056532451781789983, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
+    - {fileID: 6056532451781789982, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
 --- !u!4 &4042626762903828860 stripped
 Transform:
