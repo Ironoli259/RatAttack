@@ -23,7 +23,7 @@ public class Axe : BaseWeapon
         Enemy enemy = collision.GetComponent<Enemy>();
         if (enemy)
         {
-            enemy.Damage(level+(int)player.playerPower + TitleManager.saveData.permPowerBoost);
+            enemy.Damage(level+(int)player.PlayerPower + TitleManager.saveData.permPowerBoost);
         }
         
     }

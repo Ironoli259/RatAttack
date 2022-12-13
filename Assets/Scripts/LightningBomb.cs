@@ -19,7 +19,7 @@ public class LightningBomb : MonoBehaviour
         Enemy enemy = collision.GetComponent<Enemy>();
         if (enemy)
         {
-            enemy.Damage(1 + (int)player.playerPower);
+            enemy.Damage(1 + (int)player.PlayerPower);
         }
     }
 }

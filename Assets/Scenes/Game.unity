@@ -242,7 +242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_LocalPosition.x
@@ -616,8 +616,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+      - m_Target: {fileID: 1841772873}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
         m_MethodName: LevelUpArmor
         m_Mode: 1
         m_Arguments:
@@ -860,7 +860,7 @@ GameObject:
   - component: {fileID: 58695811}
   m_Layer: 5
   m_Name: LevelUpMenuPaladin
-  m_TagString: LvlPal
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6040,7 +6040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6443,8 +6443,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6289189630393991991, guid: 57e7026ccfbc2df47b65b1e7a5c2f131, type: 3}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+      - m_Target: {fileID: 1841772873}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
         m_MethodName: LevelUpHammer
         m_Mode: 1
         m_Arguments:
@@ -6916,7 +6916,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7103,7 +7103,7 @@ GameObject:
   - component: {fileID: 286212827}
   - component: {fileID: 286212826}
   m_Layer: 5
-  m_Name: PoisonUpgradeButton
+  m_Name: SmiteUpgradeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7174,9 +7174,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
-        m_MethodName: LevelUpFireball
+      - m_Target: {fileID: 1841772873}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
+        m_MethodName: LevelUpSmite
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7206,7 +7206,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1232026000, guid: f4b1dc2a84732874c8af6f4c351a585c, type: 3}
+  m_Sprite: {fileID: 118120776, guid: c11d514e6a15d7440972e235ba06c63b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7308,8 +7308,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4042626762903828859, guid: 4256c1cd2889907479b63a4645d6d98d, type: 3}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+      - m_Target: {fileID: 1841772873}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
         m_MethodName: LevelUpShield
         m_Mode: 1
         m_Arguments:
@@ -7436,7 +7436,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8490,8 +8490,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1446983658900772836, guid: 70e470b9db8eebd4d9be32672985d250, type: 3}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+      - m_Target: {fileID: 1841772873}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
         m_MethodName: LevelUpArmor
         m_Mode: 1
         m_Arguments:
@@ -8788,7 +8788,7 @@ GameObject:
   - component: {fileID: 564601807}
   m_Layer: 5
   m_Name: LevelUpMenuProfessor
-  m_TagString: LvlPro
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9012,8 +9012,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4042626762903828859, guid: 4256c1cd2889907479b63a4645d6d98d, type: 3}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+      - m_Target: {fileID: 1841772873}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
         m_MethodName: LevelUpArmor
         m_Mode: 1
         m_Arguments:
@@ -9171,7 +9171,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &623040048 stripped
 Transform:
@@ -9430,7 +9430,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &694424425
 PrefabInstance:
@@ -14527,7 +14527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14584,7 +14584,7 @@ GameObject:
   - component: {fileID: 765069414}
   m_Layer: 5
   m_Name: LevelUpMenuAdventurer
-  m_TagString: LvlAdv
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14742,7 +14742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14958,7 +14958,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &819835395 stripped
 Transform:
@@ -15179,8 +15179,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+      - m_Target: {fileID: 1841772873}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
         m_MethodName: LevelUpShield
         m_Mode: 1
         m_Arguments:
@@ -15372,7 +15372,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15880,6 +15880,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7186093335207278872, guid: 8426f3c5e4e308c489c58cacc7fdadef, type: 3}
   m_PrefabInstance: {fileID: 1937615798}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &998703132
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 261315647033264585, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
+      propertyPath: m_Name
+      value: Crystal (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.8452954
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.028600931
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
 --- !u!1001 &999598919
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16303,7 +16360,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16431,8 +16488,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+      - m_Target: {fileID: 1841772873}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
         m_MethodName: LevelUpPower
         m_Mode: 1
         m_Arguments:
@@ -16654,7 +16711,7 @@ Transform:
   - {fileID: 1667422978}
   - {fileID: 253785564}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1064916421 stripped
 Transform:
@@ -17094,7 +17151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17222,8 +17279,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4042626762903828859, guid: 4256c1cd2889907479b63a4645d6d98d, type: 3}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+      - m_Target: {fileID: 1841772873}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
         m_MethodName: LevelUpPurplePot
         m_Mode: 1
         m_Arguments:
@@ -17285,7 +17342,7 @@ GameObject:
   - component: {fileID: 1167399295}
   - component: {fileID: 1167399294}
   m_Layer: 5
-  m_Name: PoisonUpgradeButton
+  m_Name: GAttackUpgradeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17309,8 +17366,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -559.25, y: -213}
-  m_SizeDelta: {x: 343.662, y: 340.9493}
+  m_AnchoredPosition: {x: -559.25, y: -219.38528}
+  m_SizeDelta: {x: 343.662, y: 316.0375}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1167399294
 MonoBehaviour:
@@ -17356,9 +17413,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
-        m_MethodName: LevelUpLightning
+      - m_Target: {fileID: 1841772873}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
+        m_MethodName: LevelUpHSlash
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17388,7 +17445,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -893830993, guid: 63a61057d8abdd54692b30099c9346de, type: 3}
+  m_Sprite: {fileID: 1340786514, guid: 8a74ba92bdd607b4391a83e2c751b90e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17920,8 +17977,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1446983658900772836, guid: 70e470b9db8eebd4d9be32672985d250, type: 3}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+      - m_Target: {fileID: 1841772873}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
         m_MethodName: LevelUpShield
         m_Mode: 1
         m_Arguments:
@@ -18059,8 +18116,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4042626762903828859, guid: 4256c1cd2889907479b63a4645d6d98d, type: 3}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+      - m_Target: {fileID: 1841772873}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
         m_MethodName: LevelUpPower
         m_Mode: 1
         m_Arguments:
@@ -18282,8 +18339,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1446983658900772836, guid: 70e470b9db8eebd4d9be32672985d250, type: 3}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+      - m_Target: {fileID: 1841772873}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
         m_MethodName: LevelUpAxe
         m_Mode: 1
         m_Arguments:
@@ -18715,7 +18772,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lightning
+  m_text: Poison
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ee20e0d512ca53b49ba7328ffcaea0bd, type: 2}
   m_sharedMaterial: {fileID: -1352884227066287424, guid: ee20e0d512ca53b49ba7328ffcaea0bd, type: 2}
@@ -18805,7 +18862,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18998,8 +19055,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1446983658900772836, guid: 70e470b9db8eebd4d9be32672985d250, type: 3}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+      - m_Target: {fileID: 1841772873}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
         m_MethodName: LevelUpLightning
         m_Mode: 1
         m_Arguments:
@@ -19132,8 +19189,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4042626762903828859, guid: 4256c1cd2889907479b63a4645d6d98d, type: 3}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+      - m_Target: {fileID: 1841772873}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
         m_MethodName: LevelUpRedPot
         m_Mode: 1
         m_Arguments:
@@ -19395,7 +19452,7 @@ GameObject:
   - component: {fileID: 1507698601}
   - component: {fileID: 1507698600}
   m_Layer: 5
-  m_Name: PoisonUpgradeButton
+  m_Name: AcidUpgradeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19466,8 +19523,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4042626762903828859, guid: 4256c1cd2889907479b63a4645d6d98d, type: 3}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+      - m_Target: {fileID: 1841772873}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
         m_MethodName: LevelUpGreenPot
         m_Mode: 1
         m_Arguments:
@@ -19574,7 +19631,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Poison
+  m_text: Acid
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ee20e0d512ca53b49ba7328ffcaea0bd, type: 2}
   m_sharedMaterial: {fileID: -1352884227066287424, guid: ee20e0d512ca53b49ba7328ffcaea0bd, type: 2}
@@ -19870,7 +19927,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19937,7 +19994,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20139,7 +20196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20749,8 +20806,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -206}
-  m_SizeDelta: {x: 0, y: -264.4383}
+  m_AnchoredPosition: {x: 0, y: -199}
+  m_SizeDelta: {x: 0, y: -259.4559}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1742599198
 MonoBehaviour:
@@ -20772,7 +20829,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lightning
+  m_text: Slash
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ee20e0d512ca53b49ba7328ffcaea0bd, type: 2}
   m_sharedMaterial: {fileID: -1352884227066287424, guid: ee20e0d512ca53b49ba7328ffcaea0bd, type: 2}
@@ -25901,6 +25958,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverScreen: {fileID: 0}
+  levelUpMenus:
+  - {fileID: 765069412}
+  - {fileID: 564601805}
+  - {fileID: 58695809}
   playerPrefabs:
   - {fileID: 1446983658900772837, guid: 70e470b9db8eebd4d9be32672985d250, type: 3}
   - {fileID: 4042626762903828858, guid: 4256c1cd2889907479b63a4645d6d98d, type: 3}
@@ -25918,7 +25979,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1850440190
 GameObject:
@@ -26004,8 +26065,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1446983658900772836, guid: 70e470b9db8eebd4d9be32672985d250, type: 3}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+      - m_Target: {fileID: 1841772873}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
         m_MethodName: LevelUpFireball
         m_Mode: 1
         m_Arguments:
@@ -26157,7 +26218,7 @@ RectTransform:
   - {fileID: 58695810}
   - {fileID: 233944439}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -26453,8 +26514,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1446983658900772836, guid: 70e470b9db8eebd4d9be32672985d250, type: 3}
-        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+      - m_Target: {fileID: 1841772873}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
         m_MethodName: LevelUpPower
         m_Mode: 1
         m_Arguments:
@@ -27446,7 +27507,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Poison
+  m_text: Smite
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ee20e0d512ca53b49ba7328ffcaea0bd, type: 2}
   m_sharedMaterial: {fileID: -1352884227066287424, guid: ee20e0d512ca53b49ba7328ffcaea0bd, type: 2}
@@ -27862,7 +27923,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 8568590295278331724, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
       propertyPath: m_LocalPosition.x

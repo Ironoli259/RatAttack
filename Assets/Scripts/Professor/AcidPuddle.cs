@@ -16,7 +16,7 @@ public class AcidPuddle : MonoBehaviour
         Enemy enemy = collision.GetComponent<Enemy>();
         if (enemy)
         {
-            enemy.Damage((int)(2 + (player.playerPower/2)));
+            enemy.Damage((int)(2 + (player.PlayerPower/2)));
         }
     }
 

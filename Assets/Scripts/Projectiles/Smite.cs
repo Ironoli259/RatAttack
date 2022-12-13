@@ -17,7 +17,7 @@ public class Smite : MonoBehaviour
         Enemy enemy = collision.GetComponent<Enemy>();
         if (enemy)
         {
-            enemy.Damage(3 + (int)player.playerPower);
+            enemy.Damage(3 + (int)player.PlayerPower);
         }
     }
 

@@ -9,7 +9,7 @@ public class PowerUp : Drops
         Player player = collision.GetComponent<Player>();
         if (player)
         {
-            player.playerPower++;
+            player.PlayerPower++;
             Destroy(gameObject);
         }
     }

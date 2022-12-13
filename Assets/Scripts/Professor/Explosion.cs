@@ -16,7 +16,7 @@ public class Explosion : MonoBehaviour
         Enemy enemy = collision.GetComponent<Enemy>();
         if (enemy)
         {
-            enemy.Damage((int)(5 + player.playerPower));            
+            enemy.Damage((int)(5 + player.PlayerPower));            
         }
     }
 

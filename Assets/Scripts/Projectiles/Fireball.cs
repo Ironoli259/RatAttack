@@ -25,7 +25,7 @@ public class Fireball : MonoBehaviour
         Enemy enemy = collision.GetComponent<Enemy>();
         if (enemy)
         {
-            enemy.Damage((int)(1 + player.playerPower));
+            enemy.Damage((int)(1 + player.PlayerPower));
             Destroy(gameObject);
         }
     }

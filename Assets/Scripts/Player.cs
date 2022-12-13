@@ -8,19 +8,18 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     [SerializeField] float speed = 1;
-    [SerializeField] public int playerMaxHP;
-    [SerializeField] BaseWeapon[] weapons;
-    [SerializeField] GameObject magnetEffect;
+    [SerializeField] private int playerMaxHP;
+    [SerializeField] public BaseWeapon[] weapons;
+    [SerializeField] GameObject magnetEffect;    
 
-    GameObject levelUpMenu;
     AudioSource source;
     SpriteRenderer spriteRenderer;
     Animator animator;
 
     Material material;
 
-    internal float playerHP;
-    public float playerPower;
+    private float playerHP;
+    private float playerPower;
     bool isInvincible;
 
     internal int goldCoins;
@@ -32,48 +31,61 @@ public class Player : MonoBehaviour
     internal Action<int, int> OnExpGained;
     int character;
 
+    public int PlayerMaxHP { get => playerMaxHP; set => playerMaxHP = value; }
+    internal float PlayerHP { get => playerHP; set => playerHP = value; }
+    public float PlayerPower { get => playerPower; set => playerPower = value; }
 
     private void Start()
     {
         this.character = PlayerPrefs.GetInt("SelectedCharacter");
 
-        this.playerMaxHP += TitleManager.saveData.permHealthBoost;
-        this.playerPower += TitleManager.saveData.permPowerBoost;
+        this.PlayerMaxHP += TitleManager.saveData.permHealthBoost;
+        this.PlayerPower += TitleManager.saveData.permPowerBoost;
 
         this.goldCoins = 0;
-        this.playerPower = 1;
-        this.playerHP = this.playerMaxHP;
+        this.PlayerPower = 1;
+        this.PlayerHP = this.PlayerMaxHP;
         this.isInvincible = false;
 
         this.animator = GetComponent<Animator>();
         this.spriteRenderer = GetComponent<SpriteRenderer>();
         this.source = GetComponent<AudioSource>();
 
-        this.material = spriteRenderer.material;                
+        this.material = spriteRenderer.material;   
+        
+        for(int i=0; i< weapons.Length; i++)
+        {
+            weapons[i].level = 0;
+        }
 
         if(character == 0)
         {
             //levelUpMenu = GameObject.FindGameObjectWithTag("LvlAdv").GetComponent<GameObject>();
             this.weapons[0].LevelUp();
-            this.weapons[1].LevelUp();
-            this.weapons[2].LevelUp();
+            //this.weapons[1].LevelUp();
+            //this.weapons[2].LevelUp();
         }
         else if(character == 1)
         {
             //levelUpMenu = GameObject.FindGameObjectWithTag("LvlPro").GetComponent<GameObject>();
             this.weapons[0].level++;
-            this.weapons[1].level++;
-            this.weapons[2].level++;
+            //this.weapons[1].level++;
+            //this.weapons[2].level++;
             StartCoroutine(ProfessorCoroutine());
         }
         else if (character == 2)
         {
             //levelUpMenu = GameObject.FindGameObjectWithTag("LvlPal").GetComponent<GameObject>();
             this.weapons[0].level++;
-            this.weapons[1].level++;
-            this.weapons[2].level++;
+            //this.weapons[1].level++;
+            //this.weapons[2].level++;
+
             StartCoroutine(PaladinCoroutine());
         }
+
+        Debug.Log(this.weapons[0].level);
+        Debug.Log(this.weapons[1].level);
+        Debug.Log(this.weapons[2].level);
     }
 
     // Update is called once per frame
@@ -97,7 +109,7 @@ public class Player : MonoBehaviour
         {
             //this.animator = GetComponent<Animator>();
             Console.WriteLine("animator");
-        }
+        }        
     }
 
     internal void AddExp()
@@ -106,130 +118,30 @@ public class Player : MonoBehaviour
 
         if (this.currentExp >= this.expToLevel)
         {
-            source.Play();
+            //source.Play();
             this.currentExp -= this.expToLevel;
             this.currentLevel++;
             this.expToLevel *= 2;
 
             Time.timeScale = 0;
             Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(0.1f);
-            levelUpMenu.SetActive(true);
+            PlayerManager.isLvlUpActive = true;
         }
 
         OnExpGained(currentExp, expToLevel);
     }
 
-    #region LevelUp Methods
-    public void LevelUpAxe()
-    {
-        levelUpMenu.SetActive(false);
-        weapons[0].LevelUp();
-        weapons[0].transform.localScale = new Vector3(1, 1, 1) * (float)(1 + (0.2 * weapons[0].level));
-        Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
-        Time.timeScale = 1;
-    }
-
-    public void LevelUpRedPot()
-    {
-        levelUpMenu.SetActive(false);
-        weapons[0].LevelUp();
-        Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
-        Time.timeScale = 1;
-    }
-
-    public void LevelUpHammer()
-    {
-        levelUpMenu.SetActive(false);
-        weapons[0].LevelUp();        
-        Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
-        Time.timeScale = 1;
-    }
-
-    public void LevelUpLightning()
-    {
-        levelUpMenu.SetActive(false);
-        weapons[1].LevelUp();
-        Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
-        Time.timeScale = 1;
-    }
-
-    public void LevelUpGreenPot()
-    {
-        levelUpMenu.SetActive(false);
-        weapons[1].LevelUp();
-        Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
-        Time.timeScale = 1;
-    }
-
-    public void LevelUpHSlash()
-    {
-        levelUpMenu.SetActive(false);
-        weapons[1].level++;
-        Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
-        Time.timeScale = 1;
-    }
-
-    public void LevelUpFireball()
-    {
-        levelUpMenu.SetActive(false);
-        weapons[2].LevelUp();
-        Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
-        Time.timeScale = 1;
-    }
-    public void LevelUpPurplePot()
-    {
-        levelUpMenu.SetActive(false);
-        weapons[0].LevelUp();
-        Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
-        Time.timeScale = 1;
-    }
-
-    public void LevelUpSmite()
-    {
-        levelUpMenu.SetActive(false);
-        weapons[2].level++;
-        Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
-        Time.timeScale = 1;
-    }
-
-    public void LevelUpShield()
-    {
-        levelUpMenu.SetActive(false);
-        weapons[3].LevelUp();
-        Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
-        Time.timeScale = 1;
-    }
-    public void LevelUpArmor()
-    {
-        levelUpMenu.SetActive(false);
-        weapons[4].LevelUp();
-        Armor armor = weapons[4].GetComponent<Armor>();
-        this.playerMaxHP += armor.armorPoints * weapons[4].level;
-        this.playerHP = this.playerMaxHP;
-        Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
-        Time.timeScale = 1;
-    }
-    public void LevelUpPower()
-    {
-        levelUpMenu.SetActive(false);
-        weapons[5].LevelUp();
-        PowerOrb powerOrb = weapons[5].GetComponent<PowerOrb>();
-        this.playerPower += powerOrb.powerPoints * weapons[5].level;
-        Camera.main.GetComponent<PlayerCamera>().depthOfField.focusDistance.Override(10f);
-        Time.timeScale = 1;
-    }
-    #endregion
 
     internal void AddHealth(float percentage)
     {
-        this.playerHP += this.playerMaxHP * (percentage / 100);
-        if (this.playerHP > this.playerMaxHP)
-            this.playerHP = this.playerMaxHP;
+        this.PlayerHP += this.PlayerMaxHP * (percentage / 100);
+        if (this.PlayerHP > this.PlayerMaxHP)
+            this.PlayerHP = this.PlayerMaxHP;
     }
 
     public float GetHPRatio()
     {
-        return (float)playerHP / playerMaxHP;
+        return (float)PlayerHP / PlayerMaxHP;
     }
 
     internal void OnDamage(int damage)
@@ -239,8 +151,8 @@ public class Player : MonoBehaviour
             StartCoroutine(InvincibilityCoroutine());
             //StartCoroutine(CameraShakeCoroutine());
             StartCoroutine(DamageCoroutine());
-            this.playerHP -= damage;
-            if (this.playerHP <= 0)
+            this.PlayerHP -= damage;
+            if (this.PlayerHP <= 0)
             {
                 TitleManager.saveData.goldCoins += this.goldCoins;
                 SceneManager.LoadScene("Title");
@@ -323,6 +235,7 @@ public class Player : MonoBehaviour
             animator.SetTrigger("HAttack");
             yield return new WaitForSeconds(2f);
 
+            Debug.Log(weapons[1].level);
             if (weapons[1].level > 0)
                 animator.SetTrigger("GAttack");
             else
@@ -332,12 +245,14 @@ public class Player : MonoBehaviour
             animator.SetTrigger("HAttack");
             yield return new WaitForSeconds(2f);
 
+            Debug.Log(weapons[1].level);
             if (weapons[1].level > 0)
                 animator.SetTrigger("GAttack");
             else
                 animator.SetTrigger("HAttack");
             yield return new WaitForSeconds(2f);
 
+            Debug.Log(weapons[2].level);
             if (weapons[2].level > 0)
                 animator.SetTrigger("Smite");
             else
@@ -353,6 +268,7 @@ public class Player : MonoBehaviour
             animator.SetTrigger("ThrowRed");
             yield return new WaitForSeconds(2f);
 
+            Debug.Log("1:" + weapons[1].level);
             if (weapons[1].level > 0)
                 animator.SetTrigger("ThrowGreen");
             else
@@ -362,12 +278,14 @@ public class Player : MonoBehaviour
             animator.SetTrigger("ThrowRed");
             yield return new WaitForSeconds(2f);
 
+            Debug.Log("2:" + weapons[2].level);
             if (weapons[2].level > 0)
                 animator.SetTrigger("ThrowPurple");
             else
                 animator.SetTrigger("ThrowRed");
             yield return new WaitForSeconds(2f);
 
+            Debug.Log("1:" + weapons[1].level);
             if (weapons[1].level > 0)
                 animator.SetTrigger("ThrowGreen");
             else
@@ -377,11 +295,21 @@ public class Player : MonoBehaviour
             animator.SetTrigger("ThrowRed");
             yield return new WaitForSeconds(2f);
 
+            Debug.Log("2:" + weapons[2].level);
             if (weapons[2].level > 0)
                 animator.SetTrigger("ThrowPurple");
             else
                 animator.SetTrigger("ThrowRed");
             yield return new WaitForSeconds(2f);
+            DisplayLevels();
+        }
+    }
+
+    public void DisplayLevels()
+    {
+        for(int i =0 ; i < 6 ; i++)
+        {
+            Debug.Log(weapons[i].level);
         }
     }
 }
