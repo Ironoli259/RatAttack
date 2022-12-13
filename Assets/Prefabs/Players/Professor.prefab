@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 5
-  flaskPrefab: {fileID: 8245688309699498020, guid: 0956f834706b44049bb203e98eb66342, type: 3}
+  flaskTag: ExplodeFlask
 --- !u!1 &4511154778149688702
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,7 +91,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 1
-  flaskPrefab: {fileID: 5196455406488201949, guid: 06e90322ad3315847a217240336a01eb, type: 3}
+  flaskTag: AcidFlask
 --- !u!1 &8428874546576565496
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 0
-  flaskPrefab: {fileID: 8847916723068092473, guid: f322f5c601f78584e81414069f4a2633, type: 3}
+  flaskTag: PoisonFlask
 --- !u!1001 &330101407228039025
 PrefabInstance:
   m_ObjectHideFlags: 0

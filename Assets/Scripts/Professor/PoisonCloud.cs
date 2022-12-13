@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PoisonCloud : MonoBehaviour
+public class PoisonCloud : MonoBehaviour, IPooledObject
 {
     Animator animator;
-    void Start()
+    public void OnObjectSpawn()
     {
         animator = GetComponent<Animator>();
     }

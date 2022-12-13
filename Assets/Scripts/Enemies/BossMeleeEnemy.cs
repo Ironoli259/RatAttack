@@ -7,9 +7,9 @@ public class BossMeleeEnemy : MeleeEnemy
 {
     int maxhealth;
 
-    protected override void Start()
+    public override void OnObjectSpawn()
     {        
-        base.Start();
+        base.OnObjectSpawn();
         maxhealth = enemyHP;
 
         StartCoroutine(BossCameraCoroutine());

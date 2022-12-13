@@ -6289,6 +6289,138 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6790612485611116906, guid: ee51a03dd8e73304c94d4cf0d846855f, type: 3}
   m_PrefabInstance: {fileID: 1348970912}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &169864833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 169864835}
+  - component: {fileID: 169864834}
+  m_Layer: 0
+  m_Name: ObjectPooler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &169864834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169864833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cb02f1abe2d9d49b6306f00654b1df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - tag: Crystal
+    prefab: {fileID: 261315647033264585, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
+    size: 70
+  - tag: Coin
+    prefab: {fileID: 323861319101937687, guid: e0098df0626b1334393acabd6df122da, type: 3}
+    size: 30
+  - tag: Coins
+    prefab: {fileID: 410372738394527860, guid: 26dd694ff01a6c444ba71c215c473dec, type: 3}
+    size: 15
+  - tag: Coins1
+    prefab: {fileID: 5026568469711745609, guid: 5cdf6f46a578ea94e813ae94c2ea5b48, type: 3}
+    size: 10
+  - tag: TreasurePile
+    prefab: {fileID: 8069926123133187370, guid: f01158942cb042b4fa05c00244ab1410, type: 3}
+    size: 3
+  - tag: Cookie
+    prefab: {fileID: 4472015611185149198, guid: 0dadf17d161399047a61011358d4556c, type: 3}
+    size: 12
+  - tag: ChickenLeg
+    prefab: {fileID: 6209063699400325201, guid: cd4b8a218140f174fbf8f234a3e6d6c7, type: 3}
+    size: 7
+  - tag: Chicken
+    prefab: {fileID: 5284018139981729375, guid: cc3106bf6986ada439ba09558a9f622f, type: 3}
+    size: 3
+  - tag: PowerUp
+    prefab: {fileID: 771740365163203087, guid: 25217476e982ab842828e5441c97f0cd, type: 3}
+    size: 5
+  - tag: Magnet
+    prefab: {fileID: 7013980317746700253, guid: 71b7071e2e9db484c95123d7fe89d3d6, type: 3}
+    size: 5
+  - tag: RatFarmer
+    prefab: {fileID: 1305586410403573703, guid: 6345b74d2e24049459d974396d81a047, type: 3}
+    size: 30
+  - tag: RatZombie
+    prefab: {fileID: 3768928379986238957, guid: bc177fff6ace068449486a1e5baeecc7, type: 3}
+    size: 35
+  - tag: RatAxeHolder
+    prefab: {fileID: 2159053793725704952, guid: 591baed6135e55d41b222035c5bfa92d, type: 3}
+    size: 30
+  - tag: RatRogue
+    prefab: {fileID: 8367805917989237196, guid: e21104f525c507345b4b8a9a40f5fd71, type: 3}
+    size: 30
+  - tag: RatKnight
+    prefab: {fileID: 8981626362726183443, guid: aa4ff653222005f4f91bcd2eed242c7a, type: 3}
+    size: 20
+  - tag: RatRanger
+    prefab: {fileID: 37223322860028241, guid: 1173917d355ada340be38b92475daeb8, type: 3}
+    size: 15
+  - tag: RatBoss
+    prefab: {fileID: 8620723639801960041, guid: e8adedf3c6c636d40919cbdea3a936c7, type: 3}
+    size: 3
+  - tag: ExplodeFlask
+    prefab: {fileID: 8245688309699498020, guid: 0956f834706b44049bb203e98eb66342, type: 3}
+    size: 2
+  - tag: AcidFlask
+    prefab: {fileID: 5196455406488201949, guid: 06e90322ad3315847a217240336a01eb, type: 3}
+    size: 2
+  - tag: PoisonFlask
+    prefab: {fileID: 8847916723068092473, guid: f322f5c601f78584e81414069f4a2633, type: 3}
+    size: 2
+  - tag: Explosion
+    prefab: {fileID: 5536105545835349194, guid: b8ec85102019f124fa8245b502a90385, type: 3}
+    size: 2
+  - tag: AcidPool
+    prefab: {fileID: 5745095269286727619, guid: d12a3281a3543674487022623b2c6cfe, type: 3}
+    size: 2
+  - tag: PoisonCloud
+    prefab: {fileID: 370849350024604434, guid: a587262be4114f1488d5e414abfd234d, type: 3}
+    size: 2
+  - tag: LightningBomb
+    prefab: {fileID: 7142876791239696699, guid: 54d55961e552e3c4096ea12603024a1e, type: 3}
+    size: 10
+  - tag: FireBall
+    prefab: {fileID: 3749028092337428699, guid: 88f8d56b5df60b24b8983d6c54fc1fa5, type: 3}
+    size: 12
+  - tag: HolySlash
+    prefab: {fileID: 215908726912388126, guid: d887945f10cf53f4085d559bc97b155b, type: 3}
+    size: 4
+  - tag: Smite
+    prefab: {fileID: 9050169804840877037, guid: 6a1a3a69dedde3941b829833e231cdd6, type: 3}
+    size: 4
+  - tag: Arrow
+    prefab: {fileID: 1700486285463859694, guid: 9535aadb73ee31f44b68442223bead0d, type: 3}
+    size: 30
+  - tag: LightBolt
+    prefab: {fileID: 4454184303255011108, guid: 05a5aaa148db95b4f8f34158601d5685, type: 3}
+    size: 30
+--- !u!4 &169864835
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169864833}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 985.1178, y: 421.64014, z: -32.919994}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &170243679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25962,6 +26094,7 @@ MonoBehaviour:
   - {fileID: 765069412}
   - {fileID: 564601805}
   - {fileID: 58695809}
+  objectPool: {fileID: 0}
   playerPrefabs:
   - {fileID: 1446983658900772837, guid: 70e470b9db8eebd4d9be32672985d250, type: 3}
   - {fileID: 4042626762903828858, guid: 4256c1cd2889907479b63a4645d6d98d, type: 3}

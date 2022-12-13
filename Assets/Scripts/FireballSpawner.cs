@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class FireballSpawner : BaseWeapon
-{
-    [SerializeField] GameObject fireballPrefab;
+{    
+    ObjectPooler objectPooler;
+
     void Start()
     {
+        objectPooler = ObjectPooler.Instance;
         StartCoroutine(SpawnCoroutine());
     }
 
@@ -20,7 +22,7 @@ public class FireballSpawner : BaseWeapon
             {
                 float randomAngle = Random.Range(0, 360f);
                 Quaternion rotation = Quaternion.Euler(0, 0, randomAngle);
-                Instantiate(fireballPrefab, transform.position, rotation);
+                objectPooler.SpawnFromPool("FireBall", transform.position, rotation);
             }
         }
     }

@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LightningBomb : MonoBehaviour
+public class LightningBomb : MonoBehaviour, IPooledObject
 { 
 
-    private void Start()
+    public void OnObjectSpawn()
     {        
         transform.localScale *=  1 + (TitleManager.saveData.permPowerBoost / 5);
         //Destroy Bomb after 4 seconds

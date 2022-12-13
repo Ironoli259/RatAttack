@@ -11,6 +11,7 @@ public class PlayerCamera : MonoBehaviour
     Player player;
     Volume volume;
     Vignette vignette;
+    Bloom bloom;
     public ChromaticAberration chromaticAberration;
     public DepthOfField depthOfField;
 
@@ -20,6 +21,7 @@ public class PlayerCamera : MonoBehaviour
         volume = GetComponent<Volume>();
         volume.profile.TryGet(out chromaticAberration);
         volume.profile.TryGet(out vignette);
+        volume.profile.TryGet(out bloom);
         volume.profile.TryGet(out depthOfField);
     }
 

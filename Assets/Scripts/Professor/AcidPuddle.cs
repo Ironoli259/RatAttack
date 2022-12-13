@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AcidPuddle : MonoBehaviour
+public class AcidPuddle : MonoBehaviour, IPooledObject
 {    
     Animator animator;
-    void Start()
+    public void OnObjectSpawn()
     {
         animator = GetComponent<Animator>();
     }

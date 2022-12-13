@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class LightningBombSpawner : BaseWeapon
 {
-    [SerializeField] GameObject lightningBombPrefab;
+    ObjectPooler objectPooler;
 
     private void Start()
     {
+        objectPooler = ObjectPooler.Instance;
         StartCoroutine(SpawnCoroutine());
     }
 
@@ -20,8 +21,8 @@ public class LightningBombSpawner : BaseWeapon
             for (int i = 0; i < level; i++)
             {
                 Vector3 spawnPosition = UnityEngine.Random.insideUnitCircle * 5;
-                spawnPosition += this.transform.position;                
-                Instantiate(lightningBombPrefab, spawnPosition, Quaternion.identity);
+                spawnPosition += this.transform.position;
+                objectPooler.SpawnFromPool("LightningBomb", spawnPosition, Quaternion.identity);
             }
         }
     }

@@ -148,8 +148,7 @@ public class Player : MonoBehaviour
     {
         if (!isInvincible)
         {
-            StartCoroutine(InvincibilityCoroutine());
-            //StartCoroutine(CameraShakeCoroutine());
+            StartCoroutine(InvincibilityCoroutine());            
             StartCoroutine(DamageCoroutine());
             this.PlayerHP -= damage;
             if (this.PlayerHP <= 0)
@@ -172,13 +171,13 @@ public class Player : MonoBehaviour
     IEnumerator CameraShakeCoroutine()
     {
         Camera.main.GetComponent<PlayerCamera>().target.transform.position = new Vector3(this.transform.position.x + 0.5f, this.transform.position.y, this.transform.position.z);
-        yield return new WaitForSecondsRealtime(0.2f);
+        yield return new WaitForSecondsRealtime(0.1f);
         Camera.main.GetComponent<PlayerCamera>().target.transform.position = new Vector3(this.transform.position.x - 0.5f, this.transform.position.y, this.transform.position.z);
-        yield return new WaitForSecondsRealtime(0.2f);
+        yield return new WaitForSecondsRealtime(0.1f);
         Camera.main.GetComponent<PlayerCamera>().target.transform.position = new Vector3(this.transform.position.x + 0.5f, this.transform.position.y, this.transform.position.z);
-        yield return new WaitForSecondsRealtime(0.2f);
+        yield return new WaitForSecondsRealtime(0.1f);
         Camera.main.GetComponent<PlayerCamera>().target.transform.position = new Vector3(this.transform.position.x - 0.5f, this.transform.position.y, this.transform.position.z);
-        yield return new WaitForSecondsRealtime(0.2f);
+        yield return new WaitForSecondsRealtime(0.1f);
         Camera.main.GetComponent<PlayerCamera>().target.transform.position = this.transform.position;
     }
 
@@ -254,7 +253,11 @@ public class Player : MonoBehaviour
 
             Debug.Log(weapons[2].level);
             if (weapons[2].level > 0)
+            {
                 animator.SetTrigger("Smite");
+                yield return new WaitForSeconds(0.3f);
+                StartCoroutine(CameraShakeCoroutine());
+            }
             else
                 animator.SetTrigger("HAttack");
             yield return new WaitForSeconds(2f);

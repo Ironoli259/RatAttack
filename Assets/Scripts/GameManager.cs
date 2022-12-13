@@ -6,8 +6,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] TMP_Text timerText;
-    [SerializeField] GameObject[] enemies;
+    [SerializeField] TMP_Text timerText;    
+    ObjectPooler objectPooler;
     Player player;
     
     int totalSeconds, seconds, minutes;
@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
         {
             TitleManager.saveData = new SaveData();
         }
+        objectPooler = ObjectPooler.Instance;
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         //StartCoroutine(SpawnEnemiesCoroutine());
     }
@@ -34,49 +35,47 @@ public class GameManager : MonoBehaviour
     IEnumerator SpawnEnemiesCoroutine()
     {
 
-        SpawnEnemies(enemies[7], 3);
+        SpawnEnemies("RatZombie", 10);
+        SpawnEnemies("RatBoss", 1);
         yield return new WaitForSeconds(15);
-        /*SpawnEnemies(enemies[1], 10);
-        SpawnEnemies(enemies[6], 1);
+        SpawnEnemies("RatFarmer", 5);
+        SpawnEnemies("RatZombie", 8);
         yield return new WaitForSeconds(15);
-        SpawnEnemies(enemies[0], 5);
-        SpawnEnemies(enemies[1], 8);
-        yield return new WaitForSeconds(15);
-        SpawnEnemies(enemies[0], 10);
-        SpawnEnemies(enemies[1], 15);
+        SpawnEnemies("RatFarmer", 10);
+        SpawnEnemies("RatZombie", 15);
         yield return new WaitForSeconds(20);
-        SpawnEnemies(enemies[0], 10);
-        SpawnEnemies(enemies[5], 1);        
+        SpawnEnemies("RatZombie", 10);
+        SpawnEnemies("RatRanger", 1);        
         yield return new WaitForSeconds(15);
-        SpawnEnemies(enemies[0], 5);
-        SpawnEnemies(enemies[2], 5);
-        SpawnEnemies(enemies[5], 1);
+        SpawnEnemies("RatFarmer", 5);
+        SpawnEnemies("RatAxeHolder", 5);
+        SpawnEnemies("RatRanger", 1);
         yield return new WaitForSeconds(15);
-        SpawnEnemies(enemies[0], 3);
-        SpawnEnemies(enemies[2], 7);
-        SpawnEnemies(enemies[3], 3);
+        SpawnEnemies("RatFarmer", 3);
+        SpawnEnemies("RatAxeHolder", 7);
+        SpawnEnemies("RatRogue", 3);
         yield return new WaitForSeconds(10);
-        SpawnEnemies(enemies[2], 7);
-        SpawnEnemies(enemies[3], 5);
-        SpawnEnemies(enemies[5], 2);
+        SpawnEnemies("RatAxeHolder", 7);
+        SpawnEnemies("RatRogue", 5);
+        SpawnEnemies("RatRanger", 2);
         yield return new WaitForSeconds(17);
-        SpawnEnemies(enemies[2], 4);
-        SpawnEnemies(enemies[3], 5);
-        SpawnEnemies(enemies[4], 3);
-        SpawnEnemies(enemies[5], 1);
+        SpawnEnemies("RatAxeHolder", 4);
+        SpawnEnemies("RatRogue", 5);
+        SpawnEnemies("RatKnight", 3);
+        SpawnEnemies("RatRanger", 1);
         yield return new WaitForSeconds(20);
-        SpawnEnemies(enemies[1], 30);
+        SpawnEnemies("RatZombie", 30);
         yield return new WaitForSeconds(15);
-        SpawnEnemies(enemies[4], 8);
-        SpawnEnemies(enemies[5], 3);
+        SpawnEnemies("RatKnight", 8);
+        SpawnEnemies("RatRanger", 3);
         yield return new WaitForSeconds(20);
-        SpawnEnemies(enemies[3], 10);
-        SpawnEnemies(enemies[4], 12);
-        SpawnEnemies(enemies[5], 3);
+        SpawnEnemies("RatRoghe", 10);
+        SpawnEnemies("RatKnight", 12);
+        SpawnEnemies("RatAxeHolder", 3);
         yield return new WaitForSeconds(30);
-        SpawnEnemies(enemies[6], 1);
+        SpawnEnemies("RatBoss", 1);
         yield return new WaitForSeconds(25);
-
+         /*
         while (true)
         {
             spawnCounter++;
@@ -88,16 +87,17 @@ public class GameManager : MonoBehaviour
             //SpawnEnemies(enemies[6], Random.Range(0, spawnCounter/2));
             yield return new WaitForSeconds(20);
         }
-        */
+         */
+        
     }
 
-    private void SpawnEnemies(GameObject enemyToSpawn, int numberofEnemies)
+    private void SpawnEnemies(string enemyTag, int numberofEnemies)
     {
         for (int i = 0; i < numberofEnemies; i++)
         {
             Vector3 spawnPosition = UnityEngine.Random.insideUnitCircle.normalized * 10;
             spawnPosition += player.transform.position;
-            Instantiate(enemyToSpawn, spawnPosition, Quaternion.identity);            
+            objectPooler.SpawnFromPool(enemyTag, spawnPosition, Quaternion.identity);            
         }
     }
 }

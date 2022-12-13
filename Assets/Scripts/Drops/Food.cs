@@ -5,6 +5,7 @@ using UnityEngine;
 public class Food : Drops
 {
     [SerializeField] float healthPercentage;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Player player = collision.GetComponent<Player>();

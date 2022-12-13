@@ -4,9 +4,15 @@ using UnityEngine;
 
 public class FlaskSpawner : BaseWeapon
 {
-    [SerializeField] GameObject flaskPrefab;
+    [SerializeField] string flaskTag;
+    ObjectPooler objectPooler;
     
-    private Vector3 mousePos;    
+    private Vector3 mousePos;
+
+    private void Start()
+    {
+        objectPooler = ObjectPooler.Instance;
+    }
 
     void OnEnable()
     {
@@ -17,6 +23,6 @@ public class FlaskSpawner : BaseWeapon
 
         transform.rotation = Quaternion.Euler(0, 0, rotZ);
 
-        Instantiate(flaskPrefab, transform.position, Quaternion.identity);
+        objectPooler.SpawnFromPool(flaskTag, transform.position, Quaternion.identity);
     }
 }

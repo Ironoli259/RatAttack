@@ -3,11 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SmiteSpawner : BaseWeapon
-{
-    [SerializeField] GameObject smitePrefab;
+{    
+    ObjectPooler objectPooler;
     Vector3 placement;
-    void OnEnable()
+
+    private void Start()
     {
+        objectPooler = ObjectPooler.Instance;
+    }
+
+    void OnEnable()
+    {        
         int angle = 30;
         
         for (int i = 0; i < 4; i++)
@@ -20,7 +26,7 @@ public class SmiteSpawner : BaseWeapon
                 case 3: placement = new Vector3(0,-5,0); break;
             }
             Quaternion rotation = Quaternion.Euler(0, 0, angle);
-            Instantiate(smitePrefab, transform.position + placement, rotation);
+            objectPooler.SpawnFromPool("Smite", transform.position + placement, rotation);
             angle += 60;
         }
     }

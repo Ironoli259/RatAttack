@@ -9,9 +9,9 @@ public class RangeEnemy : Enemy
 
     private bool isInRange;
 
-    protected override void Start()
+    public override void OnObjectSpawn()
     {
-        base.Start();
+        base.OnObjectSpawn();
         isInRange = false;
         
     }

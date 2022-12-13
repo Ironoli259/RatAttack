@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Smite : MonoBehaviour
+public class Smite : MonoBehaviour, IPooledObject
 {
     // Start is called before the first frame update
-    void Start()
+    public void OnObjectSpawn()
     {
         transform.localScale *= 1 + (TitleManager.saveData.permPowerBoost / 5);
     }

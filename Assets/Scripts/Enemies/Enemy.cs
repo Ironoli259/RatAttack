@@ -4,7 +4,7 @@ using UnityEngine;
 
 enum AI_State { IDLE, CHASING, ATTACK };
 
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour, IPooledObject
 {
     [SerializeField] protected float speed = 1f;
     [SerializeField] protected int enemyHP = 2;
@@ -13,8 +13,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected float attackRange;
     [SerializeField] float attackWaitTimer = 1;
 
-    [SerializeField] Drops[] dropList;
-
+    protected ObjectPooler objectPooler;
     protected AudioSource source;
     protected GameObject player;
     protected Vector3 direction;
@@ -25,8 +24,14 @@ public class Enemy : MonoBehaviour
     protected Animator animator;
     float waitTimer;
 
-    protected virtual void Start()
+    protected void Start()
     {
+        objectPooler = ObjectPooler.Instance;
+    }
+
+    public virtual void OnObjectSpawn()
+    {
+        objectPooler = ObjectPooler.Instance;
         this.enemyMaxHP = this.enemyHP;
         player = GameObject.FindGameObjectWithTag("Player");
         animator = GetComponent<Animator>();
@@ -90,26 +95,26 @@ public class Enemy : MonoBehaviour
 
     protected void SpawnDrop()
     {
-        Instantiate(dropList[0], this.transform.position, Quaternion.identity);
+        objectPooler.SpawnFromPool("Crystal", this.transform.position, Quaternion.identity);
         int spawnChance = Random.Range(0, 200);
 
         if (spawnChance < 55)
-            Instantiate(dropList[1], this.transform.position, Quaternion.identity);
+            objectPooler.SpawnFromPool("Coin", this.transform.position, Quaternion.identity);
         else if (spawnChance < 65)
-            Instantiate(dropList[2], this.transform.position, Quaternion.identity);
+            objectPooler.SpawnFromPool("Coins", this.transform.position, Quaternion.identity);
         else if (spawnChance < 69)
-            Instantiate(dropList[3], this.transform.position, Quaternion.identity);
+            objectPooler.SpawnFromPool("Coins1", this.transform.position, Quaternion.identity);
         else if (spawnChance < 70)
-            Instantiate(dropList[4], this.transform.position, Quaternion.identity);
+            objectPooler.SpawnFromPool("TreasurePile", this.transform.position, Quaternion.identity);
         else if (spawnChance < 85)
-            Instantiate(dropList[5], this.transform.position, Quaternion.identity);
+            objectPooler.SpawnFromPool("Cookie", this.transform.position, Quaternion.identity);
         else if (spawnChance < 92)
-            Instantiate(dropList[6], this.transform.position, Quaternion.identity);
+            objectPooler.SpawnFromPool("ChickenLeg", this.transform.position, Quaternion.identity);
         else if (spawnChance < 95)
-            Instantiate(dropList[7], this.transform.position, Quaternion.identity);
+            objectPooler.SpawnFromPool("Chicken", this.transform.position, Quaternion.identity);
         else if (spawnChance < 100)
-            Instantiate(dropList[8], this.transform.position, Quaternion.identity);
+            objectPooler.SpawnFromPool("PowerUp", this.transform.position, Quaternion.identity);
         else if (spawnChance < 105)
-            Instantiate(dropList[9], this.transform.position, Quaternion.identity);
+            objectPooler.SpawnFromPool("Magnet", this.transform.position, Quaternion.identity);
     }
 }

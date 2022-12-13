@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Arrow : MonoBehaviour
+public class Arrow : MonoBehaviour, IPooledObject
 {
-    void Start()
+    public void OnObjectSpawn()
     {
         Destroy(gameObject, 3);
     }

@@ -5,9 +5,9 @@ using UnityEngine;
 public class MeleeEnemy : Enemy
 {    
     
-    protected override void Start()
+    public override void OnObjectSpawn()
     {
-        base.Start();  
+        base.OnObjectSpawn();  
     }
     
     protected override void Update()

@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Fireball : MonoBehaviour
+public class Fireball : MonoBehaviour, IPooledObject
 {    
     Animator animator;
     
-    void Start()
+    public void OnObjectSpawn()
     {
         transform.localScale *= 1 + (TitleManager.saveData.permPowerBoost / 5);
         animator = GetComponent<Animator>();
