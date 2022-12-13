@@ -204,17 +204,23 @@ public class Player : MonoBehaviour
     }
     IEnumerator MagnetCoroutine()
     {
-        Time.timeScale = 0.1f;
-        Camera.main.GetComponent<PlayerCamera>().chromaticAberration.intensity.Override(0.33f);
-        Camera.main.GetComponent<PlayerCamera>().chromaticAberration.intensity.Override(0.66f);
-        Camera.main.GetComponent<PlayerCamera>().chromaticAberration.intensity.Override(1f);
+        if (TitleManager.IsPostProcessActive)
+        {
+            Time.timeScale = 0.1f;
+            Camera.main.GetComponent<PlayerCamera>().chromaticAberration.intensity.Override(0.33f);
+            Camera.main.GetComponent<PlayerCamera>().chromaticAberration.intensity.Override(0.66f);
+            Camera.main.GetComponent<PlayerCamera>().chromaticAberration.intensity.Override(1f);
+        }        
         magnetEffect.SetActive(true);
         yield return new WaitForSeconds(1);
         magnetEffect.SetActive(false);
-        Camera.main.GetComponent<PlayerCamera>().chromaticAberration.intensity.Override(0.66f);
-        Camera.main.GetComponent<PlayerCamera>().chromaticAberration.intensity.Override(0.33f);
-        Camera.main.GetComponent<PlayerCamera>().chromaticAberration.intensity.Override(0f);
-        Time.timeScale = 1;
+        if(TitleManager.IsPostProcessActive)
+        {
+            Camera.main.GetComponent<PlayerCamera>().chromaticAberration.intensity.Override(0.66f);
+            Camera.main.GetComponent<PlayerCamera>().chromaticAberration.intensity.Override(0.33f);
+            Camera.main.GetComponent<PlayerCamera>().chromaticAberration.intensity.Override(0f);
+            Time.timeScale = 1;
+        }        
     }
 
     //--------------- Paladin and Professor Attacks ---------------//
@@ -255,8 +261,11 @@ public class Player : MonoBehaviour
             if (weapons[2].level > 0)
             {
                 animator.SetTrigger("Smite");
-                yield return new WaitForSeconds(0.3f);
-                StartCoroutine(CameraShakeCoroutine());
+                if (TitleManager.IsPostProcessActive)
+                {
+                    yield return new WaitForSeconds(0.3f);
+                    StartCoroutine(CameraShakeCoroutine());
+                }                
             }
             else
                 animator.SetTrigger("HAttack");

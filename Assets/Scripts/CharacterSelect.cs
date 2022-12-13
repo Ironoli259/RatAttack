@@ -20,10 +20,10 @@ public class CharacterSelect : MonoBehaviour
     {
         characters[selectedCharacter].SetActive(false);
         selectedCharacter++;
-        /*if (selectedCharacter == 1 && !TitleManager.saveData.isProfessorPurchased)
+        if (selectedCharacter == 1 && !TitleManager.saveData.isProfessorPurchased)
             selectedCharacter++;
         if (selectedCharacter == 2 && !TitleManager.saveData.isPaladinPurchased)
-            selectedCharacter++;*/
+            selectedCharacter++;
         if (selectedCharacter == characters.Length)
             selectedCharacter = 0;
 
@@ -37,10 +37,10 @@ public class CharacterSelect : MonoBehaviour
         selectedCharacter--;
         if (selectedCharacter == -1)
             selectedCharacter = characters.Length - 1;
-        /*if (selectedCharacter == 2 && !TitleManager.saveData.isPaladinPurchased)
+        if (selectedCharacter == 2 && !TitleManager.saveData.isPaladinPurchased)
             selectedCharacter--;
         if (selectedCharacter == 1 && !TitleManager.saveData.isProfessorPurchased)
-            selectedCharacter--;*/
+            selectedCharacter--;
 
         characters[selectedCharacter].SetActive(true);
         PlayerPrefs.SetInt("SelectedCharacter", selectedCharacter);

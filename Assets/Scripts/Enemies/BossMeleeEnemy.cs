@@ -6,10 +6,12 @@ using UnityEngine;
 public class BossMeleeEnemy : MeleeEnemy
 {
     int maxhealth;
+    bool hasCalledHelp;    
 
     public override void OnObjectSpawn()
     {        
         base.OnObjectSpawn();
+        hasCalledHelp = false;
         maxhealth = enemyHP;
 
         StartCoroutine(BossCameraCoroutine());
@@ -30,9 +32,31 @@ public class BossMeleeEnemy : MeleeEnemy
         attackRange = 2.5f;
         base.Update();
 
-        if(enemyHP< maxhealth / 2)
+        if(enemyHP < maxhealth / 2)
         {
             speed = 3;
+            if (!hasCalledHelp)
+            {
+                hasCalledHelp = true;
+                animator.SetTrigger("CallHounds");
+            }
         }
+    }
+
+    public void callHelp()
+    {
+        for(int i = 0; i < 4; i++)
+        {
+            objectPooler.SpawnFromPool("RatKnight", transform.position, Quaternion.identity);
+        }
+    }
+
+    public void OnDeath()
+    {
+        for (int i = 0; i < 6; i++)
+        {
+            objectPooler.SpawnFromPool("RatZombie", transform.position, Quaternion.identity);
+        }
+        Destroy(gameObject);
     }
 }

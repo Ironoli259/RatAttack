@@ -27,7 +27,8 @@ public class PlayerCamera : MonoBehaviour
 
     void Update()
     {
-        vignette.intensity.Override(1 - player.GetHPRatio());
+        if(TitleManager.IsPostProcessActive)
+            vignette.intensity.Override(1 - player.GetHPRatio());
 
         //Make camera follow the player
         if (player == null)

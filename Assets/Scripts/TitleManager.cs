@@ -6,6 +6,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class TitleManager : MonoBehaviour
 {
@@ -18,6 +19,9 @@ public class TitleManager : MonoBehaviour
     [SerializeField] TMP_Text shGoldValue;
     [SerializeField] TMP_Text profText;
     [SerializeField] TMP_Text palaText;
+    [SerializeField] GameObject PostProcessButton;
+
+    public static bool IsPostProcessActive = true;
 
     private int upgradeCost;    
 
@@ -78,6 +82,20 @@ public class TitleManager : MonoBehaviour
     public void OnStartButtonClick()
     {
         SceneManager.LoadScene("Game");
+    }
+
+    public void TogglePostProcess()
+    {
+        if (IsPostProcessActive)
+        {
+            IsPostProcessActive = false;
+            PostProcessButton.GetComponent<Image>().color = Color.grey;
+        }
+        else
+        {
+            IsPostProcessActive = true;
+            PostProcessButton.GetComponent<Image>().color = Color.red;
+        }
     }
 
     //----------------- Upgrade Menu -----------------//

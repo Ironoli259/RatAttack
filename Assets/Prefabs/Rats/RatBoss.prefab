@@ -105,6 +105,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5583472053043846814, guid: cc7f126c0d47791488d512e9893fd175, type: 3}
+    - {fileID: 2016351860463947585, guid: cc7f126c0d47791488d512e9893fd175, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cc7f126c0d47791488d512e9893fd175, type: 3}
 --- !u!1 &8620723639801960041 stripped
 GameObject:
@@ -145,15 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   enemyHP: 60
+  enemyMaxHP: 60
   damage: 6
-  dropList:
-  - {fileID: 4945308595554705459, guid: e049f6c32c4fdba46bab777b6499a074, type: 3}
-  - {fileID: -4040167413489658669, guid: e0098df0626b1334393acabd6df122da, type: 3}
-  - {fileID: 4149581931183428322, guid: 26dd694ff01a6c444ba71c215c473dec, type: 3}
-  - {fileID: 6139730196564218878, guid: 5cdf6f46a578ea94e813ae94c2ea5b48, type: 3}
-  - {fileID: 8212488658449484732, guid: f01158942cb042b4fa05c00244ab1410, type: 3}
-  - {fileID: 3356536667392149557, guid: 0dadf17d161399047a61011358d4556c, type: 3}
-  - {fileID: 3725593758681052037, guid: cd4b8a218140f174fbf8f234a3e6d6c7, type: 3}
-  - {fileID: 8769680718821188776, guid: cc3106bf6986ada439ba09558a9f622f, type: 3}
-  - {fileID: -1548971859004171109, guid: 25217476e982ab842828e5441c97f0cd, type: 3}
-  - {fileID: -414938848874785505, guid: 71b7071e2e9db484c95123d7fe89d3d6, type: 3}
+  attackRange: 0
+  attackWaitTimer: 1
