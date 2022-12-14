@@ -6,13 +6,15 @@ using UnityEngine;
 public class BossMeleeEnemy : MeleeEnemy
 {
     int maxhealth;
-    bool hasCalledHelp;    
+    bool hasCalledHelp;
+    bool hasTriggeredDeath;
 
     public override void OnObjectSpawn()
     {        
         base.OnObjectSpawn();
-        hasCalledHelp = false;
-        maxhealth = enemyHP;
+        this.hasCalledHelp = false;
+        this.hasTriggeredDeath = false;
+        this.maxhealth = base.enemyHP;
 
         StartCoroutine(BossCameraCoroutine());
     }
@@ -40,6 +42,11 @@ public class BossMeleeEnemy : MeleeEnemy
                 hasCalledHelp = true;
                 animator.SetTrigger("CallHounds");
             }
+            if (base.enemyHP <= 0 && !hasTriggeredDeath)
+            {
+                animator.SetTrigger("IsDead");
+                this.hasTriggeredDeath = true;
+            }
         }
     }
 
@@ -53,10 +60,12 @@ public class BossMeleeEnemy : MeleeEnemy
 
     public void OnDeath()
     {
+        GameManager.enemiesKilled[6]++;
         for (int i = 0; i < 6; i++)
         {
             objectPooler.SpawnFromPool("RatZombie", transform.position, Quaternion.identity);
         }
+
         gameObject.SetActive(false);
     }
 }

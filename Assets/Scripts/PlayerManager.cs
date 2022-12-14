@@ -3,18 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerManager : MonoBehaviour
 {
     public static bool isGameOver;
     public GameObject gameOverScreen;
     public static bool isLvlUpActive = false;
-    [SerializeField] public GameObject[] levelUpMenus;
-    [SerializeField] GameObject objectPool;
+    [SerializeField] public GameObject[] levelUpMenus;    
 
     public static Vector2 startLocation = new Vector2(0, 0);
     public GameObject[] playerPrefabs;
     Player player;
+    public static int totalXp;
+    public static int goldCoins;
     int characterIndex;
 
     private void Awake()
@@ -24,14 +26,30 @@ public class PlayerManager : MonoBehaviour
         Console.WriteLine("Character spawned");
         PlayerManager.isGameOver = false;
         this.player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        PlayerManager.totalXp = 0;
+        PlayerManager.goldCoins = 0;
     }
 
     private void Update()
     {
-        if (PlayerManager.isLvlUpActive)        
+        if (PlayerManager.isLvlUpActive)
+        {
+            Time.timeScale = 0;
             this.levelUpMenus[this.characterIndex].SetActive(true);        
+        }  
         else
-            this.levelUpMenus[this.characterIndex].SetActive(false);                
+            this.levelUpMenus[this.characterIndex].SetActive(false);
+
+        if (PlayerManager.isGameOver)
+        {
+            Time.timeScale = 0;
+            this.gameOverScreen.SetActive(true);
+        }
+    }
+
+    public void ContinueButton()
+    {
+        SceneManager.LoadScene("Title");
     }
 
     #region LevelUp Methods

@@ -12,8 +12,7 @@ public class RangeEnemy : Enemy
     public override void OnObjectSpawn()
     {
         base.OnObjectSpawn();
-        isInRange = false;
-        
+        isInRange = false;        
     }
 
     protected override void Update()
@@ -53,7 +52,7 @@ public class RangeEnemy : Enemy
         isInRange = false;
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    protected void OnTriggerEnter2D(Collider2D collision)
     {
         Player player = collision.GetComponent<Player>();
         if (player)

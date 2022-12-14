@@ -340,8 +340,16 @@ PrefabInstance:
       value: Adventurer
       objectReference: {fileID: 0}
     - target: {fileID: 6056532451781789975, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6056532451781789975, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
       propertyPath: levelUpMenu
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6056532451781789975, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
+      propertyPath: playerMaxHP
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6056532451781789975, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
       propertyPath: magnetEffect

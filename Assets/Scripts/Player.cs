@@ -22,8 +22,6 @@ public class Player : MonoBehaviour
     private float playerPower;
     bool isInvincible;
 
-    internal int goldCoins;
-
     internal int currentExp;
     internal int expToLevel = 5;
     internal int currentLevel;
@@ -41,8 +39,7 @@ public class Player : MonoBehaviour
 
         this.PlayerMaxHP += TitleManager.saveData.permHealthBoost;
         this.PlayerPower += TitleManager.saveData.permPowerBoost;
-
-        this.goldCoins = 0;
+        
         this.PlayerPower = 1;
         this.PlayerHP = this.PlayerMaxHP;
         this.isInvincible = false;
@@ -120,6 +117,7 @@ public class Player : MonoBehaviour
         {
             //source.Play();
             this.currentExp -= this.expToLevel;
+            PlayerManager.totalXp += this.expToLevel;
             this.currentLevel++;
             this.expToLevel *= 2;
 
@@ -153,8 +151,9 @@ public class Player : MonoBehaviour
             this.PlayerHP -= damage;
             if (this.PlayerHP <= 0)
             {
-                TitleManager.saveData.goldCoins += this.goldCoins;
-                SceneManager.LoadScene("Title");
+                TitleManager.saveData.goldCoins += PlayerManager.goldCoins;
+                PlayerManager.totalXp += this.currentExp;
+                PlayerManager.isGameOver = true;
             }
         }
     }

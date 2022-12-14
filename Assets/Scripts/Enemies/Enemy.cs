@@ -84,13 +84,18 @@ public class Enemy : MonoBehaviour, IPooledObject
     public void Damage(int damage)
     {
         this.enemyHP -= damage;
-        if (this.enemyHP <= 0)
+        if (IsDead())
         {
             source.Play();
             SpawnDrop();
             gameObject.SetActive(false);
 
         }
+    }
+
+    public virtual bool IsDead()
+    {
+        return this.enemyHP <= 0;
     }
 
     protected void SpawnDrop()

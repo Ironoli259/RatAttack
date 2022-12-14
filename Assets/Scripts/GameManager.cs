@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] TMP_Text timerText;    
     ObjectPooler objectPooler;
     Player player;
+    public static int[] enemiesKilled;
     
     int totalSeconds, seconds, minutes;
 
@@ -20,9 +21,10 @@ public class GameManager : MonoBehaviour
         {
             TitleManager.saveData = new SaveData();
         }
-        objectPooler = ObjectPooler.Instance;
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-        //StartCoroutine(SpawnEnemiesCoroutine());
+        this.objectPooler = ObjectPooler.Instance;
+        this.player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        GameManager.enemiesKilled = new int[7];
+        StartCoroutine(SpawnEnemiesCoroutine());
     }
 
     void Update()

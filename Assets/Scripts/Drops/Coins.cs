@@ -11,7 +11,7 @@ public class Coins : Drops
         Player player = collision.GetComponent<Player>();
         if (player)
         {
-            player.goldCoins += amountGold;
+            PlayerManager.goldCoins += amountGold;
             gameObject.SetActive(false);
         }
     }

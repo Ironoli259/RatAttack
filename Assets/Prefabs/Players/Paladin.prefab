@@ -107,7 +107,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 0
-  smitePrefab: {fileID: 9050169804840877037, guid: 6a1a3a69dedde3941b829833e231cdd6, type: 3}
 --- !u!1 &8652935198618104485
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,7 +152,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 0
-  hSlashPrefab: {fileID: 215908726912388126, guid: d887945f10cf53f4085d559bc97b155b, type: 3}
 --- !u!1001 &3312889644253454550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -276,7 +274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
-  playerMaxHP: 0
+  playerMaxHP: 6
   weapons:
   - {fileID: 3161778484082650228}
   - {fileID: 5774403919632422351}
@@ -284,9 +282,7 @@ MonoBehaviour:
   - {fileID: 1370006827503503731}
   - {fileID: 472598315561325335}
   - {fileID: 2655396619855257980}
-  levelUpMenu: {fileID: 0}
   magnetEffect: {fileID: 8260065337748036818, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
-  playerPower: 3
 --- !u!4 &8787824390744598982 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6056532451781789968, guid: a309eac8cf6119040bfbfafab753be10, type: 3}

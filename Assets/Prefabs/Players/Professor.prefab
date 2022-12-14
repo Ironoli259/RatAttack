@@ -424,11 +424,19 @@ PrefabInstance:
     - target: {fileID: 6056532451781789971, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a7326cff1d17dfe41a0972eda4970947, type: 2}
+      objectReference: {fileID: 2100000, guid: 7386fe6f08d14b1429ab2f1fac756ede, type: 2}
     - target: {fileID: 6056532451781789974, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
       propertyPath: m_Name
       value: Professor
       objectReference: {fileID: 0}
+    - target: {fileID: 6056532451781789975, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
+      propertyPath: speed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6056532451781789975, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
+      propertyPath: magnetEffect
+      value: 
+      objectReference: {fileID: 8260065337748036818, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
     - target: {fileID: 6056532451781789975, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
       propertyPath: weapons.Array.size
       value: 6
