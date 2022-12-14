@@ -32,7 +32,7 @@ public class Shield : BaseWeapon
             {
                 StartCoroutine(ShieldBrokenCoroutine());
             }
-            Destroy(arrow);
+            arrow.DestroyObj();
         }
     }
 

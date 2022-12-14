@@ -20,7 +20,7 @@ public class Crystal : Drops
         if (player)
         {
             player.AddExp();
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 

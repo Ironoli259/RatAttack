@@ -10,7 +10,7 @@ public class PowerUp : Drops
         if (player)
         {
             player.PlayerPower++;
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }

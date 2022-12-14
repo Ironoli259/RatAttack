@@ -23,6 +23,6 @@ public class Smite : MonoBehaviour, IPooledObject
 
     public void DestroyObj()
     {
-        Destroy(this.gameObject);
+        gameObject.SetActive(false);
     }
 }

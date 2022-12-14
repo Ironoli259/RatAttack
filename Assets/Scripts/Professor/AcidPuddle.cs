@@ -22,6 +22,6 @@ public class AcidPuddle : MonoBehaviour, IPooledObject
 
     void DestroyObj()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }

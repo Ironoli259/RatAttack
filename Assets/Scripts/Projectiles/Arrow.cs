@@ -6,7 +6,7 @@ public class Arrow : MonoBehaviour, IPooledObject
 {
     public void OnObjectSpawn()
     {
-        Destroy(gameObject, 3);
+        StartCoroutine(ArrowCoroutine());
     }
     
     void Update()
@@ -21,8 +21,19 @@ public class Arrow : MonoBehaviour, IPooledObject
         if (player)
         {
             player.OnDamage(1);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
 
+    }
+
+    IEnumerator ArrowCoroutine()
+    {
+        yield return new WaitForSeconds(3f);
+        this.DestroyObj();
+    }
+
+    public void DestroyObj()
+    {
+        gameObject.SetActive(false);
     }
 }

@@ -12,7 +12,7 @@ public class Coins : Drops
         if (player)
         {
             player.goldCoins += amountGold;
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }

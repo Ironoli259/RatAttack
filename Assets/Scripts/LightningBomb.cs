@@ -8,8 +8,8 @@ public class LightningBomb : MonoBehaviour, IPooledObject
     public void OnObjectSpawn()
     {        
         transform.localScale *=  1 + (TitleManager.saveData.permPowerBoost / 5);
-        //Destroy Bomb after 4 seconds
-        Destroy(gameObject, 4);
+        //Destroy Bomb after 4 seconds        
+        StartCoroutine(LightningCoroutine());
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -21,5 +21,11 @@ public class LightningBomb : MonoBehaviour, IPooledObject
         {
             enemy.Damage(1 + (int)player.PlayerPower);
         }
+    }
+
+    IEnumerator LightningCoroutine()
+    {
+        yield return new WaitForSeconds(4f);
+        gameObject.SetActive(false);
     }
 }

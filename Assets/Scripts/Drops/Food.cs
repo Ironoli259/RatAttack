@@ -12,7 +12,7 @@ public class Food : Drops
         if (player)
         {
             player.AddHealth(healthPercentage);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }

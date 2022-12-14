@@ -57,6 +57,6 @@ public class BossMeleeEnemy : MeleeEnemy
         {
             objectPooler.SpawnFromPool("RatZombie", transform.position, Quaternion.identity);
         }
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }

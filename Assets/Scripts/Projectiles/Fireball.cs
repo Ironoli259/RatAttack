@@ -26,7 +26,7 @@ public class Fireball : MonoBehaviour, IPooledObject
         if (enemy)
         {
             enemy.Damage((int)(1 + player.PlayerPower));
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 
@@ -39,6 +39,6 @@ public class Fireball : MonoBehaviour, IPooledObject
 
     public void DestroyObj()
     {
-        Destroy(this.gameObject);
+        gameObject.SetActive(false);
     }
 }

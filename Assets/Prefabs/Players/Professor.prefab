@@ -421,6 +421,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -190489168, guid: be9d49e7df00f8347ad61e773121863c, type: 3}
+    - target: {fileID: 6056532451781789971, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a7326cff1d17dfe41a0972eda4970947, type: 2}
     - target: {fileID: 6056532451781789974, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
       propertyPath: m_Name
       value: Professor

@@ -16,12 +16,10 @@ public class HammerHit : BaseWeapon
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
         Enemy enemy = collision.GetComponent<Enemy>();
         if (enemy)
         {
             enemy.Damage(level + (int)player.PlayerPower + TitleManager.saveData.permPowerBoost);
         }
-
     }
 }

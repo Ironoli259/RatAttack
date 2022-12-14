@@ -14,6 +14,7 @@ public class CharacterSelect : MonoBehaviour
             player.SetActive(false);
 
         characters[selectedCharacter].SetActive(true);
+        TitleManager.saveData.goldCoins += 3000;
     }
 
     public void ChangeNext()

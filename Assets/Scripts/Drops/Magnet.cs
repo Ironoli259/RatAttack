@@ -11,7 +11,7 @@ public class Magnet : Drops
         if (player)
         {
             player.StartMagnet();
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }

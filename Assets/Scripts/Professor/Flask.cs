@@ -25,7 +25,7 @@ public class Flask : MonoBehaviour, IPooledObject
         if (enemy)
         {
             objectPooler.SpawnFromPool(effectTag, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 
@@ -33,6 +33,6 @@ public class Flask : MonoBehaviour, IPooledObject
     {
         yield return new WaitForSeconds(1.5f);
         objectPooler.SpawnFromPool(effectTag, transform.position, Quaternion.identity);
-        Destroy(gameObject);
+        gameObject.SetActive(false); ;
     }
 }

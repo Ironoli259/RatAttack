@@ -88,7 +88,7 @@ public class Enemy : MonoBehaviour, IPooledObject
         {
             source.Play();
             SpawnDrop();
-            Destroy(gameObject);
+            gameObject.SetActive(false);
 
         }
     }

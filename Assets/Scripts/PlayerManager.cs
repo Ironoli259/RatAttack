@@ -140,7 +140,4 @@ public class PlayerManager : MonoBehaviour
         Time.timeScale = 1;
     }
     #endregion
-
-
-
 }
