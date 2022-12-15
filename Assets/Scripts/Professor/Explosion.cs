@@ -16,7 +16,7 @@ public class Explosion : MonoBehaviour, IPooledObject
         Enemy enemy = collision.GetComponent<Enemy>();
         if (enemy)
         {
-            enemy.Damage((int)(5 + player.PlayerPower));            
+            enemy.Damage((int)(3 + player.PlayerPower));            
         }
     }
 

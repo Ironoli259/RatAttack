@@ -42,7 +42,8 @@ public class Enemy : MonoBehaviour, IPooledObject
 
     protected virtual void Update()
     {        
-        this.direction = player.transform.position - transform.position;
+        if(this.enabled)
+            this.direction = player.transform.position - transform.position;
 
         switch (AIState)
         {
@@ -103,23 +104,23 @@ public class Enemy : MonoBehaviour, IPooledObject
         objectPooler.SpawnFromPool("Crystal", this.transform.position, Quaternion.identity);
         int spawnChance = Random.Range(0, 200);
 
-        if (spawnChance < 55)
+        if (spawnChance < 30)
             objectPooler.SpawnFromPool("Coin", this.transform.position, Quaternion.identity);
-        else if (spawnChance < 65)
+        else if (spawnChance < 40)
             objectPooler.SpawnFromPool("Coins", this.transform.position, Quaternion.identity);
-        else if (spawnChance < 69)
+        else if (spawnChance < 44)
             objectPooler.SpawnFromPool("Coins1", this.transform.position, Quaternion.identity);
-        else if (spawnChance < 70)
+        else if (spawnChance < 46)
             objectPooler.SpawnFromPool("TreasurePile", this.transform.position, Quaternion.identity);
-        else if (spawnChance < 85)
+        else if (spawnChance < 47)
             objectPooler.SpawnFromPool("Cookie", this.transform.position, Quaternion.identity);
-        else if (spawnChance < 92)
+        else if (spawnChance < 57)
             objectPooler.SpawnFromPool("ChickenLeg", this.transform.position, Quaternion.identity);
-        else if (spawnChance < 95)
+        else if (spawnChance < 62)
             objectPooler.SpawnFromPool("Chicken", this.transform.position, Quaternion.identity);
-        else if (spawnChance < 100)
+        else if (spawnChance < 63)
             objectPooler.SpawnFromPool("PowerUp", this.transform.position, Quaternion.identity);
-        else if (spawnChance < 105)
+        else if (spawnChance < 73)
             objectPooler.SpawnFromPool("Magnet", this.transform.position, Quaternion.identity);
     }
 }

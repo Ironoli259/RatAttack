@@ -91,7 +91,8 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.5
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2016351860463947585, guid: cc7f126c0d47791488d512e9893fd175, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cc7f126c0d47791488d512e9893fd175, type: 3}
 --- !u!1 &1305586410403573703 stripped
 GameObject:
@@ -118,3 +119,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1537863876670171629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305586410403573703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a34fe005d784948b99c92f3b91b52a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  enemyHP: 5
+  enemyMaxHP: 5
+  damage: 2
+  attackRange: 0
+  attackWaitTimer: 1

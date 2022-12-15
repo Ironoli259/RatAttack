@@ -43,7 +43,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -282,7 +282,7 @@ MonoBehaviour:
   - {fileID: 1370006827503503731}
   - {fileID: 472598315561325335}
   - {fileID: 2655396619855257980}
-  magnetEffect: {fileID: 8260065337748036818, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+  magnetEffect: {fileID: 2511275962819654564}
 --- !u!4 &8787824390744598982 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6056532451781789968, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
@@ -440,6 +440,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 879aa58169facaf4893763972a88b5a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &5798522542858350454
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8787824390744598982}
+    m_Modifications:
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036818, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_Name
+      value: MagnetCollider
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+--- !u!1 &2511275962819654564 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8260065337748036818, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+  m_PrefabInstance: {fileID: 5798522542858350454}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9018940571794343069
 PrefabInstance:
   m_ObjectHideFlags: 0

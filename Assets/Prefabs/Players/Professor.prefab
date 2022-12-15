@@ -354,6 +354,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7ac940878f4bc243abb5c00e6870943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &5071699859417045958
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4042626762903828860}
+    m_Modifications:
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036817, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260065337748036818, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      propertyPath: m_Name
+      value: MagnetCollider
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+--- !u!1 &3802139313405069076 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8260065337748036818, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+  m_PrefabInstance: {fileID: 5071699859417045958}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7788812494105669740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -436,7 +498,7 @@ PrefabInstance:
     - target: {fileID: 6056532451781789975, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
       propertyPath: magnetEffect
       value: 
-      objectReference: {fileID: 8260065337748036818, guid: 015831c0e10ba5648abb84905342fc36, type: 3}
+      objectReference: {fileID: 3802139313405069076}
     - target: {fileID: 6056532451781789975, guid: a309eac8cf6119040bfbfafab753be10, type: 3}
       propertyPath: weapons.Array.size
       value: 6

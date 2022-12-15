@@ -6,7 +6,7 @@ using UnityEngine.Rendering.Universal;
 
 public class PlayerCamera : MonoBehaviour
 {
-    [SerializeField] public GameObject target;
+    public GameObject target;
 
     Player player;
     Volume volume;
@@ -18,6 +18,7 @@ public class PlayerCamera : MonoBehaviour
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        target.transform.position = player.transform.position;
         volume = GetComponent<Volume>();
         volume.profile.TryGet(out chromaticAberration);
         volume.profile.TryGet(out vignette);

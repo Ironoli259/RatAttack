@@ -16,7 +16,7 @@ public class PoisonCloud : MonoBehaviour, IPooledObject
         Enemy enemy = collision.GetComponent<Enemy>();
         if (enemy)
         {
-            enemy.Damage((int)(1 + (player.PlayerPower / 2)));
+            enemy.Damage((int)(2 + (player.PlayerPower / 2)));
         }
     }
 

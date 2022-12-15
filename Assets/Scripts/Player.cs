@@ -169,13 +169,13 @@ public class Player : MonoBehaviour
 
     IEnumerator CameraShakeCoroutine()
     {
-        Camera.main.GetComponent<PlayerCamera>().target.transform.position = new Vector3(this.transform.position.x + 0.5f, this.transform.position.y, this.transform.position.z);
+        Camera.main.GetComponent<PlayerCamera>().target.transform.position = new Vector3(this.transform.position.x + 0.3f, this.transform.position.y, this.transform.position.z);
         yield return new WaitForSecondsRealtime(0.1f);
-        Camera.main.GetComponent<PlayerCamera>().target.transform.position = new Vector3(this.transform.position.x - 0.5f, this.transform.position.y, this.transform.position.z);
+        Camera.main.GetComponent<PlayerCamera>().target.transform.position = new Vector3(this.transform.position.x - 0.6f, this.transform.position.y, this.transform.position.z);
         yield return new WaitForSecondsRealtime(0.1f);
-        Camera.main.GetComponent<PlayerCamera>().target.transform.position = new Vector3(this.transform.position.x + 0.5f, this.transform.position.y, this.transform.position.z);
+        Camera.main.GetComponent<PlayerCamera>().target.transform.position = new Vector3(this.transform.position.x + 0.6f, this.transform.position.y, this.transform.position.z);
         yield return new WaitForSecondsRealtime(0.1f);
-        Camera.main.GetComponent<PlayerCamera>().target.transform.position = new Vector3(this.transform.position.x - 0.5f, this.transform.position.y, this.transform.position.z);
+        Camera.main.GetComponent<PlayerCamera>().target.transform.position = new Vector3(this.transform.position.x - 0.3f, this.transform.position.y, this.transform.position.z);
         yield return new WaitForSecondsRealtime(0.1f);
         Camera.main.GetComponent<PlayerCamera>().target.transform.position = this.transform.position;
     }
