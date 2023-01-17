@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  enemyHP: 5
+  enemyHP: 2
   enemyMaxHP: 5
   damage: 2
   attackRange: 0

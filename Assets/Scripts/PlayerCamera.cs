@@ -17,8 +17,7 @@ public class PlayerCamera : MonoBehaviour
 
     private void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-        target.transform.position = player.transform.position;
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();        
         volume = GetComponent<Volume>();
         volume.profile.TryGet(out chromaticAberration);
         volume.profile.TryGet(out vignette);
@@ -27,17 +26,19 @@ public class PlayerCamera : MonoBehaviour
     }
 
     void Update()
-    {
-        if(TitleManager.IsPostProcessActive)
-            vignette.intensity.Override(1 - player.GetHPRatio());
-
+    {        
         //Make camera follow the player
         if (player == null)
         {
+            player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+            target.transform.position = player.transform.position;
             return;
         }
 
+        if (TitleManager.IsPostProcessActive)
+            //vignette.intensity.Override(1 - player.GetHPRatio());
+
         transform.position = new Vector3(player.transform.position.x, player.transform.position.y, transform.position.z);
     }
-    
+
 }
