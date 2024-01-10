@@ -106,6 +106,8 @@ public class TitleManager : MonoBehaviour
     }
     public void AddHealth()
     {
+        if (TitleManager.saveData.goldCoins < upgradeCost)
+            return;
         TitleManager.saveData.permHealthBoost++;
         TitleManager.saveData.goldCoins -= upgradeCost;
         SetUpgradeStrings();
@@ -113,6 +115,8 @@ public class TitleManager : MonoBehaviour
 
     public void AddPower()
     {
+        if (TitleManager.saveData.goldCoins < upgradeCost)
+            return;
         TitleManager.saveData.permPowerBoost++;
         TitleManager.saveData.goldCoins -= upgradeCost;
         SetUpgradeStrings();

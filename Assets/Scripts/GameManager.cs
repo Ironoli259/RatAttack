@@ -11,7 +11,8 @@ public class GameManager : MonoBehaviour
     Player player;
     public static int[] enemiesKilled;
 
-    int totalSeconds, seconds, minutes;
+    private int startTime;
+    private int seconds;
 
     int spawnCounter = 1;
 
@@ -21,7 +22,8 @@ public class GameManager : MonoBehaviour
         {
             TitleManager.saveData = new SaveData();
         }
-        seconds = 0;
+        Time.timeScale = 1;
+        ResetTimer();
         this.objectPooler = ObjectPooler.Instance;
         this.player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         GameManager.enemiesKilled = new int[7];
@@ -30,7 +32,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        seconds = (int)Time.time;
+        seconds = (int)Time.time - startTime;
         timerText.text = seconds.ToString("00");
         Console.WriteLine("Testing");
     }
@@ -103,5 +105,11 @@ public class GameManager : MonoBehaviour
             spawnPosition += player.transform.position;
             objectPooler.SpawnFromPool(enemyTag, spawnPosition, Quaternion.identity);
         }
+    }
+
+    // Call this method to reset the timer
+    public void ResetTimer()
+    {
+        startTime = (int)Time.time;
     }
 }
